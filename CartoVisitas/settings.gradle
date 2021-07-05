@@ -1,0 +1,2 @@
+rootProject.name = "Cartão de Visitas"
+include ':app'
