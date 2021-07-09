@@ -9,4 +9,16 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="novo_cartao">Novo cartão</string>
+    <string name="nome">Nome</string>
+    <string name="empresa">Empresa</string>
+    <string name="telefone_contato">Telefone de Contato</string>
+    <string name="email">Email</string>
+    <string name="cor_fundo">Cor de Fundo</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="telefone">Telefone</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="nome_empresa">Nome da Empresa</string>
+    <string name="adicionar">Adicionar</string>
 </resources>
