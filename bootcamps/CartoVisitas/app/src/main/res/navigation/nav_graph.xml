@@ -7,16 +7,16 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.github.carvaldo.cartaovisitas.ui.FirstFragment"
+        android:name="com.github.carvaldo.cartaovisitas.ui.ListFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_list">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_lista_para_adicao"
+            app:destination="@id/add_fragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/add_fragment"
         android:name="com.github.carvaldo.cartaovisitas.ui.AddFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_add">

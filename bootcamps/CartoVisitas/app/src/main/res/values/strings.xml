@@ -17,8 +17,6 @@
     <string name="cor_fundo">Cor de Fundo</string>
     <string name="confirmar">Confirmar</string>
     <string name="telefone">Telefone</string>
-    <string name="nome">Nome</string>
-    <string name="email">Email</string>
     <string name="nome_empresa">Nome da Empresa</string>
     <string name="adicionar">Adicionar</string>
 </resources>

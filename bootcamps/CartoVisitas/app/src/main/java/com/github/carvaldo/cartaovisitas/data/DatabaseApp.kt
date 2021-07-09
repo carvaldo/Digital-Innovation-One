@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(version = 1, exportSchema = true,
-    entities = [])
+    entities = [Cartao::class])
 abstract class DatabaseApp: RoomDatabase() {
 
     companion object {
