@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey
 @Entity
 data class Cartao(
     @PrimaryKey(autoGenerate = true)
-    val id: Long,
-    var nome: String,
+    var id: Long? = null,
+    var nome: String? = null,
     var telefone: String? = null,
     var email: String? = null,
     var empresa: String? = null
