@@ -1,23 +1,39 @@
 package com.github.carvaldo.cartaovisitas.ui
 
+import android.app.Activity.MODE_PRIVATE
+import android.app.Activity.RESULT_OK
+import android.content.Context
+import android.content.Intent
+import android.graphics.Bitmap
+import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.NavDirections
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.github.carvaldo.cartaovisitas.R
 import com.github.carvaldo.cartaovisitas.databinding.FragmentAddBinding
-import com.github.carvaldo.cartaovisitas.viewmodel.MainViewModel
+import com.github.carvaldo.cartaovisitas.util.ProfileUtil
+import com.github.carvaldo.cartaovisitas.viewmodel.CartaoViewModel
+import com.google.android.material.snackbar.Snackbar
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import java.io.File
 
 /**
  * [Fragment] para adicionar um cartão de visitas.
  */
 class AddFragment : Fragment() {
     private lateinit var binding: FragmentAddBinding
-    private val viewModel by lazy { MainViewModel.getViewModelFrom(requireActivity(), this) }
+    private lateinit var pictureReceiver: ActivityResultLauncher<Intent>
+    private var photoFile: File? = null
+    private val viewModel by viewModels<CartaoViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -35,8 +51,67 @@ class AddFragment : Fragment() {
                 this.empresa = binding.empresaEdit.text.toString()
                 this.nome = binding.nomeEdit.text.toString()
                 this.telefone = binding.telefoneEdit.text.toString()
+                this.foto = photoFile?.absolutePath
             }
+            Snackbar.make(binding.root, getString(R.string.cartao_salvo), Snackbar.LENGTH_LONG).show()
             findNavController().popBackStack()
         }
+        binding.photoButton.setOnClickListener {
+            getPicture()
+        }
+    }
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        pictureReceiver = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            if (result.resultCode == RESULT_OK && result.data?.data != null) {
+                configurarFotoCartao(result.data!!.data!!)
+            }
+        }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        pictureReceiver.unregister()
+    }
+
+    /**
+     * Processar imagem e mostrar foto no cartão.
+     *
+     * @param data Uri da imagem a ser utilizada como foto do cartão.
+     */
+    private fun configurarFotoCartao(data: Uri) {
+        val inputStream = requireActivity().contentResolver.openInputStream(data)
+        lifecycleScope.launch(Dispatchers.Main) {
+            photoFile = File(requireActivity().getDir("photo_profile", MODE_PRIVATE), System.currentTimeMillis().toString() + ".jpg")
+            val imageWidth = binding.photoButton.measuredWidth
+            val imageHeight = binding.photoButton.measuredHeight
+            val thumbBitmap = ProfileUtil.gerarThumb(inputStream!!, photoFile!!, imageWidth, imageHeight, true)
+            binding.photoButton.setImageDrawable(makeDrawableThumb(thumbBitmap))
+        }
+    }
+
+
+    /**
+     * Gerar [RoundedBitmapDrawableFactory] para foto do cartão.
+     *
+     * @param bitmap Recurso de imagem.
+     * @return [RoundedBitmapDrawableFactory] Drawable gerado.
+     */
+    private fun makeDrawableThumb(bitmap: Bitmap) = RoundedBitmapDrawableFactory.create(resources, bitmap).apply {
+        setAntiAlias(true)
+        isCircular = true
+        setTargetDensity(resources.displayMetrics)
+    }
+
+
+    /**
+     * Solicitar ao usuário uma imagem através de uma ação do sistema.
+     *
+     */
+    private fun getPicture() {
+        val intent = Intent(Intent.ACTION_GET_CONTENT)
+        intent.type = "image/*"
+        pictureReceiver.launch(Intent.createChooser(intent, "Selecione uma imagem"))
     }
 }

@@ -25,6 +25,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/foto_view"
+                android:maxWidth="@dimen/car_list_item_photo_width"
+                android:maxHeight="@dimen/car_list_item_photo_height"
+                android:layout_width="@dimen/car_list_item_photo_width"
+                android:layout_height="@dimen/car_list_item_photo_height"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                android:background="@drawable/circular_shape"/>
+
             <TextView
                 android:id="@+id/nomeText"
                 android:layout_width="0dp"

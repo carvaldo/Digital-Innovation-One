@@ -16,16 +16,16 @@
         tools:listitem="@layout/card_cartao_visitas"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
-    <Button
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/adicionarButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_person_add_24"
         android:text="@string/adicionar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:useCompatPadding="true"
+        android:focusable="true"
+        app:fabSize="normal"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

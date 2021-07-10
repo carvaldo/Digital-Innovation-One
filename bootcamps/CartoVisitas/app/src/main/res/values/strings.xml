@@ -19,4 +19,6 @@
     <string name="telefone">Telefone</string>
     <string name="nome_empresa">Nome da Empresa</string>
     <string name="adicionar">Adicionar</string>
+    <string name="cartao_salvo">Cartão salvo</string>
+    <string name="foto_pessoal">foto pessoal</string>
 </resources>

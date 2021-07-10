@@ -1,3 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="car_list_item_photo_height">65dp</dimen>
+    <dimen name="car_list_item_photo_width">65dp</dimen>
 </resources>
