@@ -3,20 +3,19 @@ package com.github.carvaldo.cartaovisitas.ui
 import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
-import android.view.View
-import android.view.View.INVISIBLE
-import android.view.View.VISIBLE
 import android.view.ViewGroup
+import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 import androidx.lifecycle.LifecycleCoroutineScope
 import androidx.recyclerview.widget.RecyclerView
 import com.github.carvaldo.cartaovisitas.R
 import com.github.carvaldo.cartaovisitas.data.Cartao
 import com.github.carvaldo.cartaovisitas.databinding.CardCartaoVisitasBinding
-import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 /**
  * Adapter para listagem de cartões.
@@ -56,15 +55,18 @@ class CartaoAdapter(private val scope: LifecycleCoroutineScope, private val cart
              * a thumb gerada é armazenada no POJO durante seu ciclo de vida.
              */
             if (cartao.foto != null) {
-                scope.launch(Dispatchers.Main) {
+                scope.launch(Dispatchers.IO) {
                     if (cartao.fotoDrawable == null) {
-                        val drawable = withContext(Dispatchers.IO) {
-                            makeDrawableThumb(res, cartao.foto!!)
-                        }
+                        val drawable = makeDrawableThumb(res, cartao.foto!!)
                         cartao.fotoDrawable = drawable
                     }
-                    binding.fotoView.setImageDrawable(cartao.fotoDrawable)
+                    withContext(Dispatchers.Main) {
+                        binding.fotoView.setImageDrawable(cartao.fotoDrawable)
+                    }
                 }
+            } else {
+                binding.fotoView.setImageDrawable(ResourcesCompat
+                    .getDrawable(res, R.drawable.ic_baseline_person_24, null))
             }
             binding.root.setOnClickListener {
                 onItemClickListener?.invoke(adapterPosition, cartao)

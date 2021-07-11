@@ -8,11 +8,10 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -42,6 +41,7 @@ class EditFragment : BaseFragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentEditBinding.inflate(inflater, container, false)
+        setHasOptionsMenu(true)
         return binding.root
     }
 
@@ -62,6 +62,23 @@ class EditFragment : BaseFragment() {
     override fun onDestroy() {
         super.onDestroy()
         pictureReceiver.unregister()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.menu_edit, menu)
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.menu_item_excluir -> {
+                viewModel.excluir(viewModel.cartao.value!!)
+                Snackbar.make(binding.root, "Cartão excluído", Snackbar.LENGTH_LONG).show()
+                findNavController().navigateUp()
+                true
+            }
+            else -> false
+        }
     }
 
     /**

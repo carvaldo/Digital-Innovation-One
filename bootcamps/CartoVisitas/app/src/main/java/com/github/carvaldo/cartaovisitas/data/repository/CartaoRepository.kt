@@ -13,4 +13,6 @@ class CartaoRepository(private val databaseApp: DatabaseApp) {
     fun salvar(cartao: Cartao) = cartaoDao.salvar(cartao)
 
     fun listar() = cartaoDao.listar()
+
+    fun excluir(cartao: Cartao) = cartaoDao.remover(cartao)
 }

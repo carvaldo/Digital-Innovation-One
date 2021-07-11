@@ -22,4 +22,5 @@
     <string name="cartao_salvo">Cartão salvo</string>
     <string name="foto_pessoal">foto pessoal</string>
     <string name="editar_cartao">Editar cartão</string>
+    <string name="excluir">Excluir</string>
 </resources>
