@@ -23,6 +23,7 @@ import com.github.carvaldo.cartaovisitas.util.ProfileUtil
 import com.github.carvaldo.cartaovisitas.viewmodel.CartaoViewModel
 import com.google.android.material.snackbar.Snackbar
 import androidx.lifecycle.lifecycleScope
+import br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.File
@@ -41,6 +42,7 @@ class AddFragment : BaseFragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentAddBinding.inflate(inflater, container, false)
+        binding.telefoneEdit.addTextChangedListener(MascaraNumericaTextWatcher("(##) #####-####"))
         return binding.root
     }
 

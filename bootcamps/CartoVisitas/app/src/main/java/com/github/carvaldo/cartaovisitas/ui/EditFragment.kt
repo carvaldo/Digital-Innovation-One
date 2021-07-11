@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import br.com.concrete.canarinho.watcher.MascaraNumericaTextWatcher
 import com.github.carvaldo.cartaovisitas.R
 import com.github.carvaldo.cartaovisitas.databinding.FragmentEditBinding
 import com.github.carvaldo.cartaovisitas.util.ProfileUtil
@@ -42,6 +43,7 @@ class EditFragment : BaseFragment() {
     ): View {
         binding = FragmentEditBinding.inflate(inflater, container, false)
         setHasOptionsMenu(true)
+        binding.telefoneEdit.addTextChangedListener(MascaraNumericaTextWatcher("(##) #####-####"))
         return binding.root
     }
 
