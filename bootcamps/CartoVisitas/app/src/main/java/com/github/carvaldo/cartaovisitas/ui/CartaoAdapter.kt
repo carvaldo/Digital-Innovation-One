@@ -16,10 +16,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.github.carvaldo.cartaovisitas.R
 import com.github.carvaldo.cartaovisitas.data.Cartao
 import com.github.carvaldo.cartaovisitas.databinding.CardCartaoVisitasBinding
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.supervisorScope
+import kotlinx.coroutines.*
 
 /**
  * Adapter para listagem de cartões.
@@ -28,6 +25,12 @@ import kotlinx.coroutines.supervisorScope
  * @property cartoes Itens a ser listados
  */
 class CartaoAdapter(private val scope: LifecycleCoroutineScope, private val cartoes: List<Cartao>): RecyclerView.Adapter<CartaoAdapter.ViewHolder>() {
+    var onItemClickListener: ((position: Int, data: Cartao) -> Unit)? = null
+        set(value) {
+            field = value
+            notifyDataSetChanged()
+        }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
         ViewHolder(CardCartaoVisitasBinding.inflate(LayoutInflater.from(parent.context), parent, false))
 
@@ -55,10 +58,16 @@ class CartaoAdapter(private val scope: LifecycleCoroutineScope, private val cart
             if (cartao.foto != null) {
                 scope.launch(Dispatchers.Main) {
                     if (cartao.fotoDrawable == null) {
-                        cartao.fotoDrawable = makeDrawableThumb(res, cartao.foto!!)
+                        val drawable = withContext(Dispatchers.IO) {
+                            makeDrawableThumb(res, cartao.foto!!)
+                        }
+                        cartao.fotoDrawable = drawable
                     }
                     binding.fotoView.setImageDrawable(cartao.fotoDrawable)
                 }
+            }
+            binding.root.setOnClickListener {
+                onItemClickListener?.invoke(adapterPosition, cartao)
             }
         }
     }
@@ -73,10 +82,8 @@ class CartaoAdapter(private val scope: LifecycleCoroutineScope, private val cart
          */
         @JvmStatic private fun makeDrawableThumb(res: Resources, path: String): Drawable
         {
-            val bitmap = Bitmap.createScaledBitmap(BitmapFactory.decodeFile(path),
-                res.getDimensionPixelSize(R.dimen.car_list_item_photo_width),
-                res.getDimensionPixelSize(R.dimen.car_list_item_photo_height),
-                false)
+            val bitmap =
+                Bitmap.createScaledBitmap(BitmapFactory.decodeFile(path), res.getDimensionPixelSize(R.dimen.car_list_item_photo_width), res.getDimensionPixelSize(R.dimen.car_list_item_photo_height), false)
             return RoundedBitmapDrawableFactory.create(res, bitmap).apply {
                 setAntiAlias(true)
                 isCircular = true

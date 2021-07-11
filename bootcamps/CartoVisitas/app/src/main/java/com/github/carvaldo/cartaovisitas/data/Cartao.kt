@@ -4,6 +4,7 @@ import android.graphics.drawable.Drawable
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
+import java.io.Serializable
 
 @Entity
 data class Cartao(
@@ -16,4 +17,4 @@ data class Cartao(
     var foto: String? = null,
     @Ignore
     var fotoDrawable: Drawable? = null
-)
+): Serializable

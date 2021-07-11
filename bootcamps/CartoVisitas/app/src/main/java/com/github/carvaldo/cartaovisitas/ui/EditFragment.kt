@@ -5,6 +5,7 @@ import android.app.Activity.RESULT_OK
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,22 +16,23 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.github.carvaldo.cartaovisitas.R
-import com.github.carvaldo.cartaovisitas.databinding.FragmentAddBinding
+import com.github.carvaldo.cartaovisitas.databinding.FragmentEditBinding
 import com.github.carvaldo.cartaovisitas.util.ProfileUtil
 import com.github.carvaldo.cartaovisitas.viewmodel.CartaoViewModel
 import com.google.android.material.snackbar.Snackbar
-import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.io.File
 
 /**
  * [Fragment] para adicionar um cartão de visitas.
  */
-class AddFragment : BaseFragment() {
-    private lateinit var binding: FragmentAddBinding
+class EditFragment : BaseFragment() {
+    private lateinit var binding: FragmentEditBinding
     private lateinit var pictureReceiver: ActivityResultLauncher<Intent>
     private var photoFile: File? = null
     private val viewModel by viewModels<CartaoViewModel>()
@@ -39,31 +41,13 @@ class AddFragment : BaseFragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentAddBinding.inflate(inflater, container, false)
+        binding = FragmentEditBinding.inflate(inflater, container, false)
         return binding.root
     }
 
-    override fun registrarListeners() {
-        binding.confirmarButton.setOnClickListener {
-            viewModel.salvar {
-                this.email = binding.emailEdit.text.toString()
-                this.empresa = binding.empresaEdit.text.toString()
-                this.nome = binding.nomeEdit.text.toString()
-                this.telefone = binding.telefoneEdit.text.toString()
-                this.foto = photoFile?.absolutePath
-            }
-            Snackbar.make(binding.root, getString(R.string.cartao_salvo), Snackbar.LENGTH_LONG).show()
-            findNavController().navigateUp()
-        }
-        binding.photoButton.setOnClickListener {
-            getPicture()
-        }
-    }
-
-    override fun observar() {
-    }
-
-    override fun processarArgumentos() {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        processarArgumentos()
     }
 
     override fun onAttach(context: Context) {
@@ -92,21 +76,24 @@ class AddFragment : BaseFragment() {
             val imageWidth = binding.photoButton.measuredWidth
             val imageHeight = binding.photoButton.measuredHeight
             val thumbBitmap = ProfileUtil.gerarThumb(inputStream!!, photoFile!!, imageWidth, imageHeight, true)
-            binding.photoButton.setImageDrawable(makeDrawableThumb(thumbBitmap))
+            showThumb(thumbBitmap)
         }
     }
 
 
     /**
-     * Gerar [RoundedBitmapDrawableFactory] para foto do cartão.
+     * Mostrar foto do cartão.
      *
      * @param bitmap Recurso de imagem.
      * @return [RoundedBitmapDrawableFactory] Drawable gerado.
      */
-    private fun makeDrawableThumb(bitmap: Bitmap) = RoundedBitmapDrawableFactory.create(resources, bitmap).apply {
-        setAntiAlias(true)
-        isCircular = true
-        setTargetDensity(resources.displayMetrics)
+    private fun showThumb(bitmap: Bitmap) {
+        val drawable = RoundedBitmapDrawableFactory.create(resources, bitmap).apply {
+            setAntiAlias(true)
+            isCircular = true
+            setTargetDensity(resources.displayMetrics)
+        }
+        binding.photoButton.setImageDrawable(drawable)
     }
 
 
@@ -118,5 +105,51 @@ class AddFragment : BaseFragment() {
         val intent = Intent(Intent.ACTION_GET_CONTENT)
         intent.type = "image/*"
         pictureReceiver.launch(Intent.createChooser(intent, "Selecione uma imagem"))
+    }
+
+    override fun processarArgumentos() {
+        val result = EditFragmentArgs.fromBundle(requireArguments()).cartao
+        viewModel.cartao.postValue(result)
+    }
+
+    override fun observar() {
+        viewModel.cartao.observe(this) { cartao ->
+            binding.apply {
+                nomeEdit.setText(cartao.nome)
+                emailEdit.setText(cartao.email)
+                empresaEdit.setText(cartao.empresa)
+                telefoneEdit.setText(cartao.telefone)
+                if (cartao.foto != null) {
+                    lifecycleScope.launch(Dispatchers.Main) {
+                        val bitmap = withContext(Dispatchers.IO) {
+                                BitmapFactory.decodeFile(cartao.foto!!)
+                            }
+                        showThumb(bitmap)
+                    }
+                }
+            }
+        }
+    }
+
+    override fun registrarListeners() {
+        binding.confirmarButton.setOnClickListener {
+            viewModel.salvar {
+                this.id = viewModel.cartao.value?.id
+                this.email = binding.emailEdit.text.toString()
+                this.empresa = binding.empresaEdit.text.toString()
+                this.nome = binding.nomeEdit.text.toString()
+                this.telefone = binding.telefoneEdit.text.toString()
+                if (photoFile != null) {
+                    this.foto = photoFile?.absolutePath
+                } else {
+                    this.foto = viewModel.cartao.value?.foto
+                }
+            }
+            Snackbar.make(binding.root, getString(R.string.cartao_salvo), Snackbar.LENGTH_LONG).show()
+            findNavController().popBackStack()
+        }
+        binding.photoButton.setOnClickListener {
+            getPicture()
+        }
     }
 }

@@ -13,16 +13,35 @@
 
         <action
             android:id="@+id/action_lista_para_adicao"
-            app:destination="@id/add_fragment" />
+            app:destination="@id/add_fragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/FirstFragment" />
+        <action
+            android:id="@+id/first_to_edit"
+            app:destination="@id/editFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/FirstFragment" />
     </fragment>
     <fragment
         android:id="@+id/add_fragment"
         android:name="com.github.carvaldo.cartaovisitas.ui.AddFragment"
         android:label="@string/novo_cartao"
-        tools:layout="@layout/fragment_add">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+        tools:layout="@layout/fragment_add"/>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.github.carvaldo.cartaovisitas.ui.EditFragment"
+        android:label="@string/editar_cartao"
+        tools:layout="@layout/fragment_edit">
+        <argument
+            android:name="cartao"
+            app:argType="com.github.carvaldo.cartaovisitas.data.Cartao" />
     </fragment>
 </navigation>
