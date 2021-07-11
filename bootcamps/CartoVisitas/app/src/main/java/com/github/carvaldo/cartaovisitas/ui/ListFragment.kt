@@ -1,5 +1,6 @@
 package com.github.carvaldo.cartaovisitas.ui
 
+import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -9,6 +10,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.github.carvaldo.cartaovisitas.R
 import com.github.carvaldo.cartaovisitas.data.Cartao
 import com.github.carvaldo.cartaovisitas.databinding.FragmentListBinding
@@ -39,6 +42,14 @@ class ListFragment : BaseFragment() {
     }
 
     override fun processarArgumentos() {
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        when (newConfig.orientation) {
+            Configuration.ORIENTATION_LANDSCAPE -> binding.recyclerView.layoutManager = GridLayoutManager(requireActivity(), 2)
+            else -> binding.recyclerView.layoutManager = LinearLayoutManager(requireActivity())
+        }
     }
 
     private fun configurarLista(itens: List<Cartao>) {
