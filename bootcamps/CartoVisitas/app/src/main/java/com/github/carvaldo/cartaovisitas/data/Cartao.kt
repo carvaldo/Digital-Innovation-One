@@ -1,11 +1,15 @@
 package com.github.carvaldo.cartaovisitas.data
 
 import android.graphics.drawable.Drawable
+import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
+import kotlinx.parcelize.IgnoredOnParcel
 import java.io.Serializable
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 @Entity
 data class Cartao(
     @PrimaryKey(autoGenerate = true)
@@ -15,6 +19,8 @@ data class Cartao(
     var email: String? = null,
     var empresa: String? = null,
     var foto: String? = null,
+): Parcelable {
     @Ignore
+    @IgnoredOnParcel
     var fotoDrawable: Drawable? = null
-): Serializable
+}
