@@ -1,0 +1,42 @@
+{
+  "searchType": "Movie",
+  "expression": "academia",
+  "results": [
+    {
+      "id": "tt10762070",
+      "resultType": "Title",
+      "image": "https://imdb-api.com/images/original/MV5BNWU1NWE3ZDctN2QyNy00NjVlLWFhMzMtODY5ZGVlN2EzNjI2XkEyXkFqcGdeQXVyNDMzODEzOA@@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Academia",
+      "description": "(2019) (Short)"
+    },
+    {
+      "id": "tt0087928",
+      "resultType": "Title",
+      "image": "https://imdb-api.com/images/original/MV5BMjNiMWVhNjAtMzgyYS00NzRhLWJmNGUtNzdiOGFhMmY5NDUwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Police Academy",
+      "description": "(1984) aka \"Loca academia de policía\""
+    },
+    {
+      "id": "tt0089886",
+      "resultType": "Title",
+      "image": "https://imdb-api.com/images/original/MV5BNTQ5MzU3ODg0OF5BMl5BanBnXkFtZTgwODM0MzQxMDE@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Real Genius",
+      "description": "(1985) aka \"Academia de genios\""
+    },
+    {
+      "id": "tt1686821",
+      "resultType": "Title",
+      "image": "https://imdb-api.com/images/original/MV5BM2E1YzA0NTItNTNjYS00OGUxLTg4ZWUtYmYyNDQwMGViZjJmXkEyXkFqcGdeQXVyNzQ5MzY0NjM@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Vampire Academy",
+      "description": "(2014) aka \"Academia de vampiros\""
+    },
+    {
+      "id": "tt0128445",
+      "resultType": "Title",
+      "image": "https://imdb-api.com/images/original/MV5BMjE2OTc3OTk2M15BMl5BanBnXkFtZTgwMjg2NjIyMDE@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Rushmore",
+      "description": "(1998) aka \"Academia Rushmore\""
+    }
+  ],
+  "errorMessage": ""
+}
