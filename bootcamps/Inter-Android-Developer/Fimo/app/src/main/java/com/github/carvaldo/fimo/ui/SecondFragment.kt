@@ -1,41 +1,51 @@
 package com.github.carvaldo.fimo.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
-import com.github.carvaldo.fimo.R
+import androidx.fragment.app.Fragment
 import com.github.carvaldo.fimo.databinding.FragmentSecondBinding
+import com.github.carvaldo.fimo.datasource.remote.MovieDetail
+import com.github.carvaldo.fimo.datasource.remote.MovieDetailService
+import com.github.carvaldo.fimo.datasource.remote.ServiceGenerator
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
 class SecondFragment : Fragment() {
+    private lateinit var binding: FragmentSecondBinding
 
-    private var _binding: FragmentSecondBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?): View {
+        binding = FragmentSecondBinding.inflate(inflater, container, false)
+        load()
         return binding.root
-
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+    private fun load() {
+        ServiceGenerator.create<MovieDetailService>().search(SecondFragmentArgs.fromBundle(requireArguments()).id).enqueue(object :
+            Callback<MovieDetail> {
+            override fun onResponse(call: Call<MovieDetail>, response: Response<MovieDetail>) {
+                bindView(response.body()!!)
+            }
+
+            override fun onFailure(call: Call<MovieDetail>, t: Throwable) {
+                t.printStackTrace()
+            }
+
+        })
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    private fun bindView(movieDetail: MovieDetail) {
+        binding.titleText.text = movieDetail.title
+        binding.descriptionText.text = movieDetail.plotLocal
+        binding.companyText.text = movieDetail.companies
+        binding.genreText.text = movieDetail.genres
+        binding.ratingText.text = movieDetail.imDbRating
+        binding.releaseDateText.text = movieDetail.releaseDate
     }
 }
