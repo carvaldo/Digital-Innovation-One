@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.github.carvaldo.fimo.databinding.ChipItemPersonBinding
 import com.github.carvaldo.fimo.databinding.FragmentSecondBinding
@@ -53,7 +54,7 @@ class SecondFragment : Fragment() {
     }
 
     private fun bindView(movieDetail: MovieDetail) {
-        binding.titleText.text = movieDetail.title
+        (requireActivity() as AppCompatActivity).supportActionBar?.title = movieDetail.title
         binding.descriptionText.text = movieDetail.plotLocal
         binding.companyText.text = movieDetail.companies
         binding.genreText.text = movieDetail.genres
