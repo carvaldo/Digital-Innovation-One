@@ -47,7 +47,7 @@
             tools:text="@sample/result.json/results/title" />
 
         <TextView
-            android:id="@+id/descriptionText"
+            android:id="@+id/description_text"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"

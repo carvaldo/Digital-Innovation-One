@@ -1,5 +1,7 @@
 package com.github.carvaldo.fimo.datasource.remote
 
+import java.util.*
+
 data class MovieDetail(
 	val keywords: String? = null,
 	val year: String? = null,
@@ -29,7 +31,7 @@ data class MovieDetail(
 	val images: Any? = null,
 	val runtimeMins: String? = null,
 	val languages: String? = null,
-	val releaseDate: String? = null,
+	val releaseDate: Date? = null,
 	val similars: List<SimilarsItem?>? = null,
 	val posters: Posters? = null,
 	val errorMessage: String? = null,

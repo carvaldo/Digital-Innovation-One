@@ -1,7 +1,6 @@
 package com.github.carvaldo.fimo.datasource.remote
 
 import com.github.carvaldo.fimo.BuildConfig
-import com.google.gson.ExclusionStrategy
 import com.google.gson.GsonBuilder
 import com.localebro.okhttpprofiler.OkHttpProfilerInterceptor
 import okhttp3.OkHttpClient
@@ -26,7 +25,9 @@ class ServiceGenerator {
             //it.addConverterFactory(JacksonConverterFactory.create())
             it.addConverterFactory(
                 GsonConverterFactory.create(GsonBuilder()
-                .enableComplexMapKeySerialization().create()))
+                    .setDateFormat("yyyy/MM/dd")
+                .enableComplexMapKeySerialization().create())
+            )
             it.build()
         }
 
