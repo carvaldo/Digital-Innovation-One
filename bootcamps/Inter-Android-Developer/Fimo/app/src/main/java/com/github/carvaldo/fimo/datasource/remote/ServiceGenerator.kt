@@ -6,8 +6,12 @@ import com.localebro.okhttpprofiler.OkHttpProfilerInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-//import retrofit2.converter.jackson.JacksonConverterFactory
 
+
+/**
+ * Service generator
+ *
+ */
 class ServiceGenerator {
     companion object {
         const val API_KEY = "k_bljoq3nq"
@@ -22,7 +26,6 @@ class ServiceGenerator {
         var retrofit: Retrofit = Retrofit.Builder().let {
             it.baseUrl("https://imdb-api.com/pt-BR/API/")
             it.client(client)
-            //it.addConverterFactory(JacksonConverterFactory.create())
             it.addConverterFactory(
                 GsonConverterFactory.create(GsonBuilder()
                     .setDateFormat("yyyy/MM/dd")

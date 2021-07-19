@@ -2,6 +2,7 @@ package com.github.carvaldo.fimo.datasource.remote
 
 import java.util.*
 
+//TODO: Remover o que não é necessário.
 data class MovieDetail(
 	val keywords: String? = null,
 	val year: String? = null,

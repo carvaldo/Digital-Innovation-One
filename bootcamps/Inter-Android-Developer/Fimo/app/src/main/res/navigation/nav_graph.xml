@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.github.carvaldo.fimo.ui.SecondFragment"
+        android:name="com.github.carvaldo.fimo.ui.MoviePreviewFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
         <argument

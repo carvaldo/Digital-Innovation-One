@@ -1,11 +1,18 @@
 package com.github.carvaldo.fimo.datasource.remote
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 
+/**
+ * Movie API
+ *
+ * @property id
+ * @property resultType
+ * @property image
+ * @property title
+ * @property description
+ */
 data class Movie(
     val id: String,
-    val resultType: String, // TODO: Mapear para Sealed Class
+    val resultType: String, // TODO: Mapear para Enum?
     val image: String,
     val title: String,
     val description: String

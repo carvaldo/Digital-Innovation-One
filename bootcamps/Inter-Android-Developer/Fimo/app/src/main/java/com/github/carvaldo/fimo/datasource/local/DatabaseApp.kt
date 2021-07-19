@@ -1,14 +1,17 @@
-package com.github.carvaldo.cartaovisitas.data
+package com.github.carvaldo.fimo.datasource.local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.github.carvaldo.fimo.datasource.local.Result
+import androidx.room.TypeConverters
 import com.github.carvaldo.fimo.datasource.local.dao.MovieDao
+import com.github.carvaldo.fimo.datasource.local.dao.SearchedDao
+import com.github.carvaldo.fimo.datasource.local.dao.SearchedMoviedDao
 
 @Database(version = 1, exportSchema = false,
-    entities = [Result::class])
+    entities = [ResultMovie::class, Searched::class, SearchedResult::class])
+@TypeConverters(Converters::class)
 abstract class DatabaseApp: RoomDatabase() {
 
     companion object {
@@ -30,4 +33,6 @@ abstract class DatabaseApp: RoomDatabase() {
     }
 
     abstract fun getMovieDao(): MovieDao
+    abstract fun getSearchedDao(): SearchedDao
+    abstract fun getSearchedMoviedDao(): SearchedMoviedDao
 }

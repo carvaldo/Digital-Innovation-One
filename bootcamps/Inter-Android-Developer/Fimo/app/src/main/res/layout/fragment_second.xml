@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:scaleType="centerCrop"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@tools:sample/backgrounds/scenic"/>
 
     <View
         android:id="@+id/view"
@@ -20,21 +20,12 @@
         android:background="@drawable/shape_gradient_transparent_to_black"
         tools:visibility="visible" />
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:background="@drawable/shape_gradient_black_to_transparent"
-        android:layout_alignParentTop="true"
-        />
-
     <ScrollView
         android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -76,8 +67,6 @@
                     app:constraint_referenced_ids="director_subtitle,director_chip_group"
                     tools:layout_editor_absoluteY="663dp" />
 
-
-
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guideline2"
                     android:layout_width="wrap_content"
@@ -97,7 +86,7 @@
                     android:textStyle="bold"
                     app:drawableStartCompat="@drawable/ic_baseline_stars_36"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/description_text"
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:text="@sample/movie.json/ratings/imDb" />
 
                 <TextView
@@ -112,7 +101,7 @@
                     android:textStyle="bold"
                     app:drawableStartCompat="@drawable/outline_auto_awesome_36"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/description_text"
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:text="@sample/movie.json/releaseDate" />
 
                 <TextView
@@ -181,9 +170,7 @@
                     android:layout_marginEnd="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/actor_subtitle"
-                    app:layout_constraintTop_toTopOf="@+id/actor_subtitle">
-
-                </com.google.android.material.chip.ChipGroup>
+                    app:layout_constraintTop_toTopOf="@+id/actor_subtitle"/>
 
                 <TextView
                     android:id="@+id/genre_text"
@@ -208,10 +195,6 @@
                     tools:text="@sample/movie.json/companies" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
         </RelativeLayout>
-
-
     </ScrollView>
-
 </RelativeLayout>
