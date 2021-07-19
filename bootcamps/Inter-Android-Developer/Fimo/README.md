@@ -9,4 +9,4 @@ Projeto de desafio do Bootcamp Inter Android Developer, na plataforma [Digital I
     - [ ] Visualizar informações do filme desejado [Em progresso]
     - [ ] Disponibilizar autocomplemento de texto a partir de buscas anteriores
     - [ ] Buscar filmes relacionados a partir dos protagonistas ou diretores
-    - [ ] Armezar dados para possível uso offline
+    - [ ] Armezar dados para possível uso offline [Em progresso]
