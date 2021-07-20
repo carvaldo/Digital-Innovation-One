@@ -6,7 +6,6 @@ import com.github.carvaldo.fimo.datasource.local.ResultMovie
 import com.github.carvaldo.fimo.datasource.local.dao.MovieDao
 import com.github.carvaldo.fimo.datasource.remote.MovieService
 
-
 /**
  * Movie repository
  *
@@ -34,7 +33,7 @@ class MovieRepository(private val service: MovieService, private val movieDao: M
                         true -> { // Analisar tipo de resposta, processar e retornar para o requisitante.
                             with(response.body()!!) {
                                 return@with if (!this.errorMessage.isNullOrBlank()) { // API invalidou a solicitacao.
-                                    Data<List<ResultMovie>>(null, this.errorMessage)
+                                    Data<List<ResultMovie>>(null, this.errorMessage) // Retornar erro.
                                 } else { // Converter e armazenar dados localmente.
                                     val results = this.results.map {
                                         ResultMovie(
@@ -45,9 +44,10 @@ class MovieRepository(private val service: MovieService, private val movieDao: M
                                             description = it.description
                                         )
                                     }
+                                    // Registrar histórico da busca.
                                     val ids = movieDao.save(*results.toTypedArray())
                                     searchedRepository.saveSearchedMovie(query, ResultType.TITLE, ids)
-                                    Data(results, null)
+                                    Data(results, null) // Retornar dados processados.
                                 }
                             }
                         }

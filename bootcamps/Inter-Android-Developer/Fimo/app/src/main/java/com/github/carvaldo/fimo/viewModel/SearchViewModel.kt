@@ -1,6 +1,5 @@
 package com.github.carvaldo.fimo.viewModel
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -24,11 +23,4 @@ class SearchViewModel: ViewModel() {
             this@apply.postValue(searchRepository.searchAsync(query))
         }
     }
-
-    fun saveObservable(movie: ResultMovie): LiveData<List<Long>> = MutableLiveData<List<Long>>()
-        .also {
-            viewModelScope.launch(Dispatchers.IO) {
-                it.postValue(searchRepository.save(movie))
-            }
-        }
 }

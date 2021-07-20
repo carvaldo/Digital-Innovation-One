@@ -1,20 +1,24 @@
 package com.github.carvaldo.fimo.ui
 
+import android.app.SearchManager
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import android.widget.SearchView
+import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.github.carvaldo.fimo.R
 import com.github.carvaldo.fimo.databinding.FragmentFirstBinding
 import com.github.carvaldo.fimo.datasource.local.ResultMovie
 import com.github.carvaldo.fimo.viewModel.SearchViewModel
 
+private val TAG = FirstFragment::class.simpleName
+
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private lateinit var binding: FragmentFirstBinding
     private val adapter by lazy { SearchAdapter() }
@@ -27,23 +31,36 @@ class FirstFragment : Fragment() {
             findNavController().navigate(FirstFragmentDirections.actionFirstFragmentToSecondFragment(movie.remoteId!!))
         }
         binding.recyclerView.adapter = adapter
+        setHasOptionsMenu(true)
         return binding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        // TODO: Implementar barra de buscas.
-        viewModel.searchAsync("panico").observe(requireActivity()) {
-            if (activity != null) {
-                when {
-                    it.errorMessage != null -> {
-                        TODO("Mostrar mensagem de falha na solicitação.")
-                    }
-                    else -> {
-                        adapter.items = it.data
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.search, menu)
+        val searchManager = getSystemService(requireContext(), SearchManager::class.java)
+        (menu.findItem(R.id.search).actionView as SearchView).also {
+            it.setSearchableInfo(searchManager?.getSearchableInfo(requireActivity().componentName))
+            it.setOnQueryTextListener(this)
+        }
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onQueryTextSubmit(query: String?): Boolean {
+        // TODO: Mostrar loading.
+        query?.also {
+            viewModel.searchAsync(it).observe(this) { response ->
+                if (activity != null && !requireActivity().isFinishing) {
+                    when {
+                        response.errorMessage != null -> TODO("Mostrar mensagem de falha na solicitação.")
+                        else -> adapter.items = response.data
                     }
                 }
             }
         }
+        return true
+    }
+
+    override fun onQueryTextChange(newText: String?): Boolean {
+        return true
     }
 }

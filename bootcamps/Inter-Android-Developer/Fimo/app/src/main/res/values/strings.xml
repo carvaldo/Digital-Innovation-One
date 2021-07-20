@@ -14,4 +14,6 @@
     <string name="atores">Ator(es):</string>
     <string name="genere">Gênero:</string>
     <string name="companies">Produtoras:</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="procurar_filme">Procurar filme...</string>
 </resources>

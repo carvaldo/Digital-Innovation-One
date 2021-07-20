@@ -6,6 +6,7 @@ import com.localebro.okhttpprofiler.OkHttpProfilerInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
 
 
 /**
@@ -21,6 +22,8 @@ class ServiceGenerator {
                 if (BuildConfig.DEBUG) {
                     it.addInterceptor(OkHttpProfilerInterceptor())
                 }
+                it.connectTimeout(60, TimeUnit.SECONDS)
+                it.readTimeout(60, TimeUnit.SECONDS)
                 it.build()
             }
         var retrofit: Retrofit = Retrofit.Builder().let {
