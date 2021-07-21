@@ -6,15 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import com.github.carvaldo.fimo.databinding.ChipItemPersonBinding
 import com.github.carvaldo.fimo.databinding.FragmentSecondBinding
-import com.github.carvaldo.fimo.datasource.remote.MovieDetail
-import com.github.carvaldo.fimo.datasource.remote.MovieDetailService
-import com.github.carvaldo.fimo.datasource.remote.ServiceGenerator
+import com.github.carvaldo.fimo.datasource.local.entity.MovieDetail
+import com.github.carvaldo.fimo.viewModel.MovieViewModel
 import com.squareup.picasso.Picasso
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -24,6 +21,7 @@ import java.util.*
 class MoviePreviewFragment : Fragment() {
     private lateinit var binding: FragmentSecondBinding
     private val dateFormat by lazy { SimpleDateFormat("MM/yyyy", Locale("pt", "BR")) }
+    private val viewModel by viewModels<MovieViewModel>()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View {
@@ -33,22 +31,13 @@ class MoviePreviewFragment : Fragment() {
     }
 
     private fun loadData() {
-        ServiceGenerator.create<MovieDetailService>().search(MoviePreviewFragmentArgs.fromBundle(requireArguments()).id).enqueue(object :
-            Callback<MovieDetail> {
-            override fun onResponse(call: Call<MovieDetail>, response: Response<MovieDetail>) {
-                val body = response.body()!!
-                if (!body.errorMessage.isNullOrBlank()) {
-                    TODO("Feedback")
-                } else {
-                    bindView(response.body()!!)
-                }
+        viewModel.findMovieDetail(MoviePreviewFragmentArgs.fromBundle(requireArguments()).id).observe(requireActivity()) {
+            if (!it.errorMessage.isNullOrBlank()) {
+                TODO("Feedback")
+            } else if (it.data != null){
+                bindView(it.data)
             }
-
-            override fun onFailure(call: Call<MovieDetail>, t: Throwable) {
-                t.printStackTrace()
-            }
-
-        })
+        }
     }
 
     private fun bindView(movieDetail: MovieDetail) {
@@ -61,14 +50,14 @@ class MoviePreviewFragment : Fragment() {
         movieDetail.releaseDate?.also {
             binding.releaseDateText.text = dateFormat.format(it)
         }
-        movieDetail.starList?.forEach {
+        movieDetail.stars?.forEach {
             val itemBinding = ChipItemPersonBinding.inflate(layoutInflater, binding.root, false)
-            itemBinding.root.text = it!!.name
+            itemBinding.root.text = it.name
             binding.actorChipGroup.addView(itemBinding.root)
         }
-        movieDetail.directorList?.forEach {
+        movieDetail.directors?.forEach {
             val itemBinding = ChipItemPersonBinding.inflate(layoutInflater, binding.root, false)
-            itemBinding.root.text = it!!.name
+            itemBinding.root.text = it.name
             binding.directorChipGroup.addView(itemBinding.root)
         }
     }

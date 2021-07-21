@@ -1,8 +1,8 @@
 package com.github.carvaldo.fimo.datasource.repository
 
 import com.github.carvaldo.fimo.datasource.ResultType
-import com.github.carvaldo.fimo.datasource.local.Searched
-import com.github.carvaldo.fimo.datasource.local.SearchedResult
+import com.github.carvaldo.fimo.datasource.local.entity.Searched
+import com.github.carvaldo.fimo.datasource.local.entity.SearchedResult
 import com.github.carvaldo.fimo.datasource.local.dao.SearchedDao
 import com.github.carvaldo.fimo.datasource.local.dao.SearchedMoviedDao
 

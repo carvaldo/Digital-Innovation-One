@@ -2,7 +2,7 @@ package com.github.carvaldo.fimo.datasource.local.dao
 
 import androidx.room.*
 import com.github.carvaldo.fimo.datasource.ResultType
-import com.github.carvaldo.fimo.datasource.local.Searched
+import com.github.carvaldo.fimo.datasource.local.entity.Searched
 
 @Dao
 interface SearchedDao {

@@ -1,8 +1,7 @@
-package com.github.carvaldo.fimo.datasource.remote
+package com.github.carvaldo.fimo.datasource.remote.response
 
 import java.util.*
 
-//TODO: Remover o que não é necessário.
 data class MovieDetail(
 	val keywords: String? = null,
 	val year: String? = null,
@@ -12,7 +11,7 @@ data class MovieDetail(
 	val type: String? = null,
 	val tvEpisodeInfo: Any? = null,
 	val imDbRating: String? = null,
-	val trailer: Any? = null,
+	val trailer: String? = null,
 	val runtimeStr: String? = null,
 	val plotLocal: String? = null,
 	val companies: String? = null,
@@ -37,7 +36,7 @@ data class MovieDetail(
 	val posters: Posters? = null,
 	val errorMessage: String? = null,
 	val metacriticRating: String? = null,
-	val directorList: List<DirectorListItem?>? = null,
+	val directorList: List<Director>? = null,
 	val writers: String? = null,
 	val stars: String? = null,
 	val countries: String? = null,
@@ -47,7 +46,7 @@ data class MovieDetail(
 	val originalTitle: String? = null,
 	val awards: String? = null,
 	val tagline: String? = null,
-	val starList: List<StarListItem?>? = null,
+	val starList: List<Star>? = null,
 	val contentRating: String? = null,
 	val boxOffice: BoxOffice? = null,
 	val writerList: List<WriterListItem?>? = null

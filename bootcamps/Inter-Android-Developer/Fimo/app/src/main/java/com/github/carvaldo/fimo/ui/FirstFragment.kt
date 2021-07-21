@@ -10,7 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.github.carvaldo.fimo.R
 import com.github.carvaldo.fimo.databinding.FragmentFirstBinding
-import com.github.carvaldo.fimo.datasource.local.ResultMovie
+import com.github.carvaldo.fimo.datasource.local.entity.ResultMovie
 import com.github.carvaldo.fimo.viewModel.SearchViewModel
 
 private val TAG = FirstFragment::class.simpleName
@@ -32,6 +32,7 @@ class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
         }
         binding.recyclerView.adapter = adapter
         setHasOptionsMenu(true)
+        // TODO: Carregar última pesquisa.
         return binding.root
     }
 

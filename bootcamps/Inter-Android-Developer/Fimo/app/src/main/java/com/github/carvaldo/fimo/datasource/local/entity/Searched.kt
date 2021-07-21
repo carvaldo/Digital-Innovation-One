@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.datasource.local
+package com.github.carvaldo.fimo.datasource.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

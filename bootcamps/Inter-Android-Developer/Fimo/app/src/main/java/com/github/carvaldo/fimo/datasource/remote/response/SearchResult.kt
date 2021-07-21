@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.datasource.remote
+package com.github.carvaldo.fimo.datasource.remote.response
 
 data class SearchResult (
     val searchType: String,

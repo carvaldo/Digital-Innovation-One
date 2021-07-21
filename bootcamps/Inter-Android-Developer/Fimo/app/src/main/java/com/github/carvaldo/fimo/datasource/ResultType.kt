@@ -1,5 +1,7 @@
 package com.github.carvaldo.fimo.datasource
 
+// TODO: Analisar real uso do case NAME.
+
 enum class ResultType(val value: String) {
     TITLE("Title"), NAME("Name");
 

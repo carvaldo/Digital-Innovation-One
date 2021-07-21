@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.github.carvaldo.fimo.R
 import com.github.carvaldo.fimo.databinding.ListItemBinding
-import com.github.carvaldo.fimo.datasource.local.ResultMovie
+import com.github.carvaldo.fimo.datasource.local.entity.ResultMovie
 import com.squareup.picasso.Picasso
 // TODO: Utiliizar DiffUtil
 class SearchAdapter(items: List<ResultMovie>? = null): RecyclerView.Adapter<SearchAdapter.ViewHolder>() {
