@@ -1,6 +1,7 @@
 package com.github.carvaldo.fimo.ui
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,12 +10,16 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.github.carvaldo.fimo.databinding.ChipItemPersonBinding
 import com.github.carvaldo.fimo.databinding.FragmentSecondBinding
+import com.github.carvaldo.fimo.datasource.local.entity.Director
 import com.github.carvaldo.fimo.datasource.local.entity.MovieDetail
+import com.github.carvaldo.fimo.datasource.local.entity.Star
 import com.github.carvaldo.fimo.viewModel.MovieViewModel
 import com.squareup.picasso.Picasso
 import java.text.SimpleDateFormat
 import java.util.*
 
+private val TAG = MoviePreviewFragment::class.simpleName
+// TODO: Arrumar parse de datas
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
@@ -51,15 +56,21 @@ class MoviePreviewFragment : Fragment() {
         movieDetail.releaseDate?.also {
             binding.releaseDateText.text = dateFormat.format(it)
         }
-        movieDetail.stars?.forEach {
-            val itemBinding = ChipItemPersonBinding.inflate(layoutInflater, binding.root, false)
-            itemBinding.root.text = it.name
-            binding.actorChipGroup.addView(itemBinding.root)
-        }
-        movieDetail.directors?.forEach {
-            val itemBinding = ChipItemPersonBinding.inflate(layoutInflater, binding.root, false)
-            itemBinding.root.text = it.name
-            binding.directorChipGroup.addView(itemBinding.root)
-        }
+        movieDetail.stars?.forEach { bindChipView(it) }
+        movieDetail.directors?.forEach { bindChipView(it) }
+    }
+
+    private fun bindChipView(star: Star) {
+        val itemBinding = ChipItemPersonBinding.inflate(layoutInflater, binding.root, false)
+        itemBinding.root.text = star.name
+        itemBinding.root.setOnClickListener { Log.d(TAG, "bindChipView: $star") }
+        binding.actorChipGroup.addView(itemBinding.root)
+    }
+
+    private fun bindChipView(director: Director) {
+        val itemBinding = ChipItemPersonBinding.inflate(layoutInflater, binding.root, false)
+        itemBinding.root.text = director.name
+        itemBinding.root.setOnClickListener { Log.d(TAG, "bindChipView: $director") }
+        binding.directorChipGroup.addView(itemBinding.root)
     }
 }

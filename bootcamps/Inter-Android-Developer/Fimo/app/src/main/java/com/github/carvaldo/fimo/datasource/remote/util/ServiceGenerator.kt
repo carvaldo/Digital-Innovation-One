@@ -55,7 +55,7 @@ class ServiceGenerator {
         ): Date? {
             try {
                 if (!json?.asString.isNullOrBlank()) {
-                    return SimpleDateFormat("yyyy/MM/dd", Locale.US).parse(json!!.asString)
+                    return SimpleDateFormat("yyyy-MM-dd", Locale.US).parse(json!!.asString)
                 }
             } catch (e: ParseException) {
                 e.printStackTrace()
