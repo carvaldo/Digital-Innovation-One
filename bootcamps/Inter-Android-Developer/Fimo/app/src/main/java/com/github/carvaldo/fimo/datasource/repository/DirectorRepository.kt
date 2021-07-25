@@ -5,8 +5,11 @@ import com.github.carvaldo.fimo.datasource.local.entity.Director
 
 class DirectorRepository(private val database: DatabaseApp) {
     private val directorDao by lazy { database.getDirectorDao() }
+    private val directorMovieDao by lazy { database.getDirectorMovieDa() }
 
     fun save(directors: List<Director>?) {
         directors?.also { directorDao.save(it) }
     }
+
+    fun findFromMovie(movieRemoteId: String) = directorMovieDao.findFromMovie(movieRemoteId)
 }

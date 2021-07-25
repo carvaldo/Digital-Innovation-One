@@ -12,7 +12,7 @@ import com.github.carvaldo.fimo.datasource.local.util.Converters
 @Database(version = 2, exportSchema = true,
     entities = [
         ResultMovie::class, Searched::class, SearchedResult::class, Star::class,
-        Director::class, MovieDetail::class
+        Director::class, MovieDetail::class, StarMovie::class, DirectorMovie::class
     ]
 )
 @TypeConverters(Converters::class)
@@ -43,4 +43,6 @@ abstract class DatabaseApp: RoomDatabase() {
     abstract fun getSearchedMoviedDao(): SearchedMoviedDao
     abstract fun getDirectorDao(): DirectorDao
     abstract fun getStarDao(): StarDao
+    abstract fun getStarMovieDao(): StarMovieDao
+    abstract fun getDirectorMovieDa(): DirectorMovieDao
 }

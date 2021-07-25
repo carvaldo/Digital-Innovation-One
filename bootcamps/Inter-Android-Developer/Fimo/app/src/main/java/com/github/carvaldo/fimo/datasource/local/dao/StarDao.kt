@@ -1,9 +1,6 @@
 package com.github.carvaldo.fimo.datasource.local.dao
 
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
+import androidx.room.*
 import com.github.carvaldo.fimo.datasource.local.entity.Star
 
 @Dao
@@ -16,4 +13,7 @@ interface StarDao {
 
     @Delete
     fun delete(vararg star: Star)
+
+    @Query("SELECT * FROM star WHERE apiId IN (:apiId)")
+    fun find(vararg apiId: String): List<Star>
 }

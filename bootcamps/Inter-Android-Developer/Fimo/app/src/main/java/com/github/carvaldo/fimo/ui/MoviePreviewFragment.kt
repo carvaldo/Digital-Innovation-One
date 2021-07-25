@@ -24,20 +24,21 @@ class MoviePreviewFragment : Fragment() {
     private val viewModel by viewModels<MovieViewModel>()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?): View {
+                              savedInstanceState: Bundle?): View {
         binding = FragmentSecondBinding.inflate(inflater, container, false)
         loadData()
         return binding.root
     }
 
     private fun loadData() {
-        viewModel.findMovieDetail(MoviePreviewFragmentArgs.fromBundle(requireArguments()).id).observe(requireActivity()) {
-            if (!it.errorMessage.isNullOrBlank()) {
-                TODO("Feedback")
-            } else if (it.data != null){
-                bindView(it.data)
+        viewModel.findMovieDetail(MoviePreviewFragmentArgs.fromBundle(requireArguments()).id)
+            .observe(requireActivity()) {
+                if (!it.errorMessage.isNullOrBlank()) {
+                    TODO("Feedback")
+                } else if (it.data != null){
+                    bindView(it.data)
+                }
             }
-        }
     }
 
     private fun bindView(movieDetail: MovieDetail) {
