@@ -7,7 +7,7 @@ Projeto de desafio do Bootcamp Inter Android Developer, na plataforma [Digital I
 * ###### Funções:
     - [x] Pesquisar filmes;
     - [x] Visualizar informações do filme;
-    - [ ] Visualizar informações de atores e diretores;
+    - [x] Visualizar informações de atores e diretores;
     - [ ] Disponibilizar autocomplemento de texto a partir de buscas anteriores;
-    - [ ] Buscar filmes relacionados a partir dos protagonistas ou diretores;
+    - [x] Buscar filmes relacionados a partir dos protagonistas ou diretores;
     - [ ] Armazenar dados para possível uso offline [Em progresso]
