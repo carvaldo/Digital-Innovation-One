@@ -10,4 +10,7 @@ Projeto de desafio do Bootcamp Inter Android Developer, na plataforma [Digital I
     - [x] Visualizar informações de atores e diretores;
     - [ ] Disponibilizar autocomplemento de texto a partir de buscas anteriores;
     - [x] Buscar filmes relacionados a partir dos protagonistas ou diretores;
-    - [ ] Armazenar dados para possível uso offline [Em progresso]
+    - [ ] Armazenar dados para possível uso offline [Em progresso]:
+        - [x] Resultados de buscas por filmes;
+        - [x] Fichas de filmes ;
+        - [ ] Fichas de atores e diretores
