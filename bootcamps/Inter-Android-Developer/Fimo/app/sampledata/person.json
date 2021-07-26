@@ -1,0 +1,3863 @@
+{
+  "id": "nm0000136",
+  "name": "Johnny Depp",
+  "role": "Actor, Producer, Soundtrack",
+  "image": "https://imdb-api.com/images/original/MV5BMTM0ODU5Nzk2OV5BMl5BanBnXkFtZTcwMzI2ODgyNQ@@._V1_Ratio0.7003_AL_.jpg",
+  "summary": "Johnny Depp is perhaps one of the most versatile actors of his day and age in Hollywood. He was born John Christopher Depp II in Owensboro, Kentucky, on June 9, 1963, to Betty Sue (Wells), who worked as a waitress, and John Christopher Depp, a civil engineer. Depp was raised in Florida. He dropped out of school when he was 15, and fronted a series ...",
+  "birthDate": "1963-06-09",
+  "deathDate": null,
+  "awards": "Nominated for 3 Oscars. Another 78 wins & 149 nominations.",
+  "height": "5' 10\" (1.78 m)",
+  "knownFor": [
+    {
+      "id": "tt0408236",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "fullTitle": "Sweeney Todd: The Demon Barber of Fleet Street (2007)",
+      "year": "2007",
+      "role": "Sweeney Todd",
+      "image": "https://imdb-api.com/images/original/MV5BMTg3NjUxMzM5NV5BMl5BanBnXkFtZTcwMzQ1NjQzMw@@._V1_Ratio0.6852_AL_.jpg"
+    },
+    {
+      "id": "tt0325980",
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "fullTitle": "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
+      "year": "2003",
+      "role": "Jack Sparrow",
+      "image": "https://imdb-api.com/images/original/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_Ratio0.6852_AL_.jpg"
+    },
+    {
+      "id": "tt0449088",
+      "title": "Pirates of the Caribbean: At World's End",
+      "fullTitle": "Pirates of the Caribbean: At World's End (2007)",
+      "year": "2007",
+      "role": "Jack Sparrow",
+      "image": "https://imdb-api.com/images/original/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_Ratio0.6852_AL_.jpg"
+    },
+    {
+      "id": "tt0383574",
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "fullTitle": "Pirates of the Caribbean: Dead Man's Chest (2006)",
+      "year": "2006",
+      "role": "Jack Sparrow",
+      "image": "https://imdb-api.com/images/original/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_Ratio0.6852_AL_.jpg"
+    }
+  ],
+  "castMovies": [
+    {
+      "id": "tt12874990",
+      "role": "Actor",
+      "title": "Puffins",
+      "year": "",
+      "description": "(TV Mini-Series) (filming) Johnny Puff"
+    },
+    {
+      "id": "tt9179096",
+      "role": "Actor",
+      "title": "Minamata",
+      "year": "2020",
+      "description": "W. Eugene Smith"
+    },
+    {
+      "id": "tt6149154",
+      "role": "Actor",
+      "title": "Waiting for the Barbarians",
+      "year": "2019",
+      "description": "Colonel Joll"
+    },
+    {
+      "id": "tt2677722",
+      "role": "Actor",
+      "title": "City of Lies",
+      "year": "2018",
+      "description": "Russell Poole"
+    },
+    {
+      "id": "tt4123430",
+      "role": "Actor",
+      "title": "Fantastic Beasts: The Crimes of Grindelwald",
+      "year": "2018",
+      "description": "Grindelwald"
+    },
+    {
+      "id": "tt6865690",
+      "role": "Actor",
+      "title": "The Professor",
+      "year": "2018",
+      "description": "Richard"
+    },
+    {
+      "id": "tt1273221",
+      "role": "Actor",
+      "title": "London Fields",
+      "year": "2018",
+      "description": "Chick Purchase (uncredited)"
+    },
+    {
+      "id": "tt8925680",
+      "role": "Actor",
+      "title": "Dior: Sauvage - Legend of the Magic Hour",
+      "year": "2018",
+      "description": "(Video short) Man"
+    },
+    {
+      "id": "tt2296777",
+      "role": "Actor",
+      "title": "Sherlock Gnomes",
+      "year": "2018",
+      "description": "Sherlock Gnomes (voice)"
+    },
+    {
+      "id": "tt3402236",
+      "role": "Actor",
+      "title": "Murder on the Orient Express",
+      "year": "2017",
+      "description": "Edward Ratchett"
+    },
+    {
+      "id": "tt7492974",
+      "role": "Actor",
+      "title": "Marilyn Manson: Say10",
+      "year": "2017",
+      "description": "(Video short) Abel"
+    },
+    {
+      "id": "tt1790809",
+      "role": "Actor",
+      "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+      "year": "2017",
+      "description": "Captain Jack Sparrow"
+    },
+    {
+      "id": "tt6244528",
+      "role": "Actor",
+      "title": "The Black Ghiandola",
+      "year": "2017",
+      "description": "(Short) Nuclear Med Tech"
+    },
+    {
+      "id": "tt3183660",
+      "role": "Actor",
+      "title": "Fantastic Beasts and Where to Find Them",
+      "year": "2016",
+      "description": "Grindelwald"
+    },
+    {
+      "id": "tt2567026",
+      "role": "Actor",
+      "title": "Alice Through the Looking Glass",
+      "year": "2016",
+      "description": "Hatter Tarrant Hightopp"
+    },
+    {
+      "id": "tt5456120",
+      "role": "Actor",
+      "title": "Donald Trump's The Art of the Deal: The Movie",
+      "year": "2016",
+      "description": "(TV Movie) Donald J. Trump"
+    },
+    {
+      "id": "tt3838992",
+      "role": "Actor",
+      "title": "Yoga Hosers",
+      "year": "2016",
+      "description": "Guy Lapointe"
+    },
+    {
+      "id": "tt1355683",
+      "role": "Actor",
+      "title": "Black Mass",
+      "year": "2015",
+      "description": "James 'Whitey' Bulger"
+    },
+    {
+      "id": "tt8925618",
+      "role": "Actor",
+      "title": "Dior: Sauvage",
+      "year": "2015",
+      "description": "(Video short) Man"
+    },
+    {
+      "id": "tt3045616",
+      "role": "Actor",
+      "title": "Mortdecai",
+      "year": "2015",
+      "description": "Mortdecai"
+    },
+    {
+      "id": "tt2180411",
+      "role": "Actor",
+      "title": "Into the Woods",
+      "year": "2014",
+      "description": "Wolf"
+    },
+    {
+      "id": "tt3099498",
+      "role": "Actor",
+      "title": "Tusk",
+      "year": "2014/I",
+      "description": "Guy Lapointe (as Guy Lapointe)"
+    },
+    {
+      "id": "tt2209764",
+      "role": "Actor",
+      "title": "Transcendence",
+      "year": "2014/I",
+      "description": "Will Caster"
+    },
+    {
+      "id": "tt1885299",
+      "role": "Actor",
+      "title": "Lucky Them",
+      "year": "2013",
+      "description": "Matthew Smith"
+    },
+    {
+      "id": "tt1210819",
+      "role": "Actor",
+      "title": "The Lone Ranger",
+      "year": "2013",
+      "description": "Tonto"
+    },
+    {
+      "id": "tt0182576",
+      "role": "Actor",
+      "title": "Family Guy",
+      "year": "2012",
+      "description": "(TV Series) Edward Scissorhands - Lois Comes Out of Her Shell (2012) ... Edward Scissorhands (voice)"
+    },
+    {
+      "id": "tt1077368",
+      "role": "Actor",
+      "title": "Dark Shadows",
+      "year": "2012",
+      "description": "Barnabas Collins"
+    },
+    {
+      "id": "tt1232829",
+      "role": "Actor",
+      "title": "21 Jump Street",
+      "year": "2012",
+      "description": "Officer Tom Hanson (uncredited)"
+    },
+    {
+      "id": "tt1641247",
+      "role": "Actor",
+      "title": "Life's Too Short",
+      "year": "2011",
+      "description": "(TV Series) Johnny Depp - Episode #1.2 (2011) ... Johnny Depp"
+    },
+    {
+      "id": "tt0810913",
+      "role": "Actor",
+      "title": "Jack and Jill",
+      "year": "2011/I",
+      "description": "Johnny Depp (uncredited)"
+    },
+    {
+      "id": "tt0376136",
+      "role": "Actor",
+      "title": "The Rum Diary",
+      "year": "2011",
+      "description": "Kemp"
+    },
+    {
+      "id": "tt1843198",
+      "role": "Actor",
+      "title": "Lego Pirates of the Caribbean: The Video Game",
+      "year": "2011",
+      "description": "(Video Game) Jack Sparrow (voice)"
+    },
+    {
+      "id": "tt1298650",
+      "role": "Actor",
+      "title": "Pirates of the Caribbean: On Stranger Tides",
+      "year": "2011",
+      "description": "Jack Sparrow"
+    },
+    {
+      "id": "tt1192628",
+      "role": "Actor",
+      "title": "Rango",
+      "year": "2011",
+      "description": "Rango / Lars (voice)"
+    },
+    {
+      "id": "tt1243957",
+      "role": "Actor",
+      "title": "The Tourist",
+      "year": "2010/I",
+      "description": "Frank Tupelo"
+    },
+    {
+      "id": "tt1014759",
+      "role": "Actor",
+      "title": "Alice in Wonderland",
+      "year": "2010/I",
+      "description": "Mad Hatter"
+    },
+    {
+      "id": "tt1152836",
+      "role": "Actor",
+      "title": "Public Enemies",
+      "year": "2009",
+      "description": "John Dillinger"
+    },
+    {
+      "id": "tt1054606",
+      "role": "Actor",
+      "title": "The Imaginarium of Doctor Parnassus",
+      "year": "2009",
+      "description": "Imaginarium Tony 1"
+    },
+    {
+      "id": "tt0206512",
+      "role": "Actor",
+      "title": "SpongeBob SquarePants",
+      "year": "2009",
+      "description": "(TV Series) Jack Kahuna Laguna - SpongeBob SquarePants vs. The Big One (2009) ... Jack Kahuna Laguna (voice)"
+    },
+    {
+      "id": "tt0408236",
+      "role": "Actor",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "year": "2007",
+      "description": "Sweeney Todd"
+    },
+    {
+      "id": "tt0449088",
+      "role": "Actor",
+      "title": "Pirates of the Caribbean: At World's End",
+      "year": "2007",
+      "description": "Jack Sparrow"
+    },
+    {
+      "id": "tt0383574",
+      "role": "Actor",
+      "title": "Pirates of the Caribbean: Dead Man's Chest",
+      "year": "2006",
+      "description": "Jack Sparrow"
+    },
+    {
+      "id": "tt0815220",
+      "role": "Actor",
+      "title": "Pirates of the Caribbean: The Legend of Jack Sparrow",
+      "year": "2006",
+      "description": "(Video Game) Jack Sparrow (voice)"
+    },
+    {
+      "id": "tt0121164",
+      "role": "Actor",
+      "title": "Corpse Bride",
+      "year": "2005",
+      "description": "Victor Van Dort (voice)"
+    },
+    {
+      "id": "tt0367594",
+      "role": "Actor",
+      "title": "Charlie and the Chocolate Factory",
+      "year": "2005",
+      "description": "Willy Wonka"
+    },
+    {
+      "id": "tt0375920",
+      "role": "Actor",
+      "title": "The Libertine",
+      "year": "2004",
+      "description": "Rochester"
+    },
+    {
+      "id": "tt0308644",
+      "role": "Actor",
+      "title": "Finding Neverland",
+      "year": "2004",
+      "description": "Sir James Matthew Barrie"
+    },
+    {
+      "id": "tt0381270",
+      "role": "Actor",
+      "title": "Happily Ever After",
+      "year": "2004",
+      "description": "L'inconnu"
+    },
+    {
+      "id": "tt0118375",
+      "role": "Actor",
+      "title": "King of the Hill",
+      "year": "2004",
+      "description": "(TV Series) Yogi Victor - Hank's Back (2004) ... Yogi Victor (voice)"
+    },
+    {
+      "id": "tt0363988",
+      "role": "Actor",
+      "title": "Secret Window",
+      "year": "2004",
+      "description": "Mort Rainey"
+    },
+    {
+      "id": "tt0285823",
+      "role": "Actor",
+      "title": "Once Upon a Time in Mexico",
+      "year": "2003",
+      "description": "Sands"
+    },
+    {
+      "id": "tt0325980",
+      "role": "Actor",
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": "2003",
+      "description": "Jack Sparrow"
+    },
+    {
+      "id": "tt0120681",
+      "role": "Actor",
+      "title": "From Hell",
+      "year": "2001",
+      "description": "Inspector Frederick Abberline"
+    },
+    {
+      "id": "tt0221027",
+      "role": "Actor",
+      "title": "Blow",
+      "year": "2001",
+      "description": "George Jung"
+    },
+    {
+      "id": "tt0108771",
+      "role": "Actor",
+      "title": "The Fast Show",
+      "year": "2000",
+      "description": "(TV Series) Customer in suit store - The Last Fast Show Ever - Part 1 (2000) ... Customer in suit store"
+    },
+    {
+      "id": "tt0241303",
+      "role": "Actor",
+      "title": "Chocolat",
+      "year": "2000",
+      "description": "Roux"
+    },
+    {
+      "id": "tt0247196",
+      "role": "Actor",
+      "title": "Before Night Falls",
+      "year": "2000",
+      "description": "Bon Bon / Lieutenant Victor"
+    },
+    {
+      "id": "tt0206917",
+      "role": "Actor",
+      "title": "The Man Who Cried",
+      "year": "2000",
+      "description": "Cesar"
+    },
+    {
+      "id": "tt0162661",
+      "role": "Actor",
+      "title": "Sleepy Hollow",
+      "year": "1999",
+      "description": "Ichabod Crane"
+    },
+    {
+      "id": "tt0138304",
+      "role": "Actor",
+      "title": "The Astronaut's Wife",
+      "year": "1999",
+      "description": "Commander Spencer Armacost"
+    },
+    {
+      "id": "tt0142688",
+      "role": "Actor",
+      "title": "The Ninth Gate",
+      "year": "1999",
+      "description": "Dean Corso"
+    },
+    {
+      "id": "tt0108981",
+      "role": "Actor",
+      "title": "The Vicar of Dibley",
+      "year": "1999",
+      "description": "(TV Series) Johnny Depp - Comic Relief Special 1999 - Celebrity Party (1999) ... Johnny Depp"
+    },
+    {
+      "id": "tt0119565",
+      "role": "Actor",
+      "title": "L.A. Without a Map",
+      "year": "1998",
+      "description": "Johnny Depp / William Blake (uncredited)"
+    },
+    {
+      "id": "tt0120669",
+      "role": "Actor",
+      "title": "Fear and Loathing in Las Vegas",
+      "year": "1998",
+      "description": "Raoul Duke"
+    },
+    {
+      "id": "tt0115818",
+      "role": "Actor",
+      "title": "Cannes Man",
+      "year": "1997",
+      "description": "Johnny Depp"
+    },
+    {
+      "id": "tt0118768",
+      "role": "Actor",
+      "title": "The Brave",
+      "year": "1997",
+      "description": "Raphael"
+    },
+    {
+      "id": "tt0119008",
+      "role": "Actor",
+      "title": "Donnie Brasco",
+      "year": "1997",
+      "description": "Donnie"
+    },
+    {
+      "id": "tt8391714",
+      "role": "Actor",
+      "title": "Divine Rapture",
+      "year": "1995",
+      "description": "(Short) Journalist"
+    },
+    {
+      "id": "tt0113972",
+      "role": "Actor",
+      "title": "Nick of Time",
+      "year": "1995",
+      "description": "Gene Watson"
+    },
+    {
+      "id": "tt6010812",
+      "role": "Actor",
+      "title": "The Smokin' Mojo Filters: Come Together",
+      "year": "1995",
+      "description": "(Video short) Johnny Depp"
+    },
+    {
+      "id": "tt0112817",
+      "role": "Actor",
+      "title": "Dead Man",
+      "year": "1995",
+      "description": "William Blake"
+    },
+    {
+      "id": "tt8403886",
+      "role": "Actor",
+      "title": "Shane MacGowand and the Popes: That Woman's Got Me Drinking",
+      "year": "1994",
+      "description": "(Video short) Man"
+    },
+    {
+      "id": "tt0112883",
+      "role": "Actor",
+      "title": "Don Juan DeMarco",
+      "year": "1994",
+      "description": "Don Juan DeMarco"
+    },
+    {
+      "id": "tt0109707",
+      "role": "Actor",
+      "title": "Ed Wood",
+      "year": "1994",
+      "description": "Ed Wood"
+    },
+    {
+      "id": "tt0108550",
+      "role": "Actor",
+      "title": "What's Eating Gilbert Grape",
+      "year": "1993",
+      "description": "Gilbert Grape"
+    },
+    {
+      "id": "tt0106387",
+      "role": "Actor",
+      "title": "Benny & Joon",
+      "year": "1993",
+      "description": "Sam"
+    },
+    {
+      "id": "tt8416482",
+      "role": "Actor",
+      "title": "The Lemonheads: It's a Shame About Ray",
+      "year": "1993",
+      "description": "(Video short) Man"
+    },
+    {
+      "id": "tt0106307",
+      "role": "Actor",
+      "title": "Arizona Dream",
+      "year": "1993",
+      "description": "Axel Blackmar"
+    },
+    {
+      "id": "tt0101917",
+      "role": "Actor",
+      "title": "Freddy's Dead: The Final Nightmare",
+      "year": "1991",
+      "description": "Guy on TV (as Oprah Noodlemantra)"
+    },
+    {
+      "id": "tt5292294",
+      "role": "Actor",
+      "title": "Tom Petty and the Heartbreakers: Into the Great Wide Open",
+      "year": "1991",
+      "description": "(Video short) Eddie Rebel"
+    },
+    {
+      "id": "tt0099487",
+      "role": "Actor",
+      "title": "Edward Scissorhands",
+      "year": "1990",
+      "description": "Edward Scissorhands"
+    },
+    {
+      "id": "tt0092312",
+      "role": "Actor",
+      "title": "21 Jump Street",
+      "year": "1987-1990",
+      "description": "(TV Series) Officer Tom Hanson - Back to School (1990) ... Officer Tom Hanson (credit only) - Tunnel of Love (1990) ... Officer Tom Hanson (credit only) - Blackout (1990) ... Officer Tom Hanson - Everyday Is Christmas (1990) ... Officer Tom Hanson (credit only) - Rounding Third (1990) ... Officer Tom Hanson (credit only) Show all 82 episodes"
+    },
+    {
+      "id": "tt0099329",
+      "role": "Actor",
+      "title": "Cry-Baby",
+      "year": "1990",
+      "description": "Cry-Baby"
+    },
+    {
+      "id": "tt3494988",
+      "role": "Actor",
+      "title": "R.P.G. II",
+      "year": "1988",
+      "description": "(Short) Vince Dooler"
+    },
+    {
+      "id": "tt0085032",
+      "role": "Actor",
+      "title": "Hotel",
+      "year": "1987",
+      "description": "(TV Series) Rob Cameron - Unfinished Business (1987) ... Rob Cameron"
+    },
+    {
+      "id": "tt3494986",
+      "role": "Actor",
+      "title": "R.P.G.",
+      "year": "1986",
+      "description": "(Short) Vinnie Dooler"
+    },
+    {
+      "id": "tt0091763",
+      "role": "Actor",
+      "title": "Platoon",
+      "year": "1986",
+      "description": "Lerner"
+    },
+    {
+      "id": "tt0091972",
+      "role": "Actor",
+      "title": "Slow Burn",
+      "year": "1986",
+      "description": "(TV Movie) Donnie Fleischer"
+    },
+    {
+      "id": "tt3494942",
+      "role": "Actor",
+      "title": "Dummies",
+      "year": "1985",
+      "description": "(Short) Pete"
+    },
+    {
+      "id": "tt0088549",
+      "role": "Actor",
+      "title": "Lady Blue",
+      "year": "1985",
+      "description": "(TV Series) Lionel Viland - Beasts of Prey (1985) ... Lionel Viland"
+    },
+    {
+      "id": "tt0089839",
+      "role": "Actor",
+      "title": "Private Resort",
+      "year": "1985",
+      "description": "Jack"
+    },
+    {
+      "id": "tt12733608",
+      "role": "Actor",
+      "title": "A Nightmare on Elm Street: Alternate Endings - Scary Ending",
+      "year": "1984",
+      "description": "(Video short) Glen Lantz"
+    },
+    {
+      "id": "tt0087800",
+      "role": "Actor",
+      "title": "A Nightmare on Elm Street",
+      "year": "1984",
+      "description": "Glen Lantz"
+    },
+    {
+      "id": "tt4846242",
+      "role": "Producer",
+      "title": "Muscle Shoals",
+      "year": "",
+      "description": "(TV Series) (executive producer) (announced)"
+    },
+    {
+      "id": "tt11778272",
+      "role": "Producer",
+      "title": "Crock of Gold: A Few Rounds with Shane MacGowan",
+      "year": "2020",
+      "description": "(Documentary) (producer)"
+    },
+    {
+      "id": "tt9179096",
+      "role": "Producer",
+      "title": "Minamata",
+      "year": "2020",
+      "description": "(producer)"
+    },
+    {
+      "id": "tt2677722",
+      "role": "Producer",
+      "title": "City of Lies",
+      "year": "2018",
+      "description": "(executive producer)"
+    },
+    {
+      "id": "tt6678722",
+      "role": "Producer",
+      "title": "Doug Stanhope: The Comedians' Comedian's Comedians",
+      "year": "2017",
+      "description": "(TV Special) (executive producer)"
+    },
+    {
+      "id": "tt3045616",
+      "role": "Producer",
+      "title": "Mortdecai",
+      "year": "2015",
+      "description": "(producer)"
+    },
+    {
+      "id": "tt3605292",
+      "role": "Producer",
+      "title": "LaDonna Harris: Indian 101",
+      "year": "2014",
+      "description": "(Documentary) (executive producer)"
+    },
+    {
+      "id": "tt1210819",
+      "role": "Producer",
+      "title": "The Lone Ranger",
+      "year": "2013",
+      "description": "(executive producer)"
+    },
+    {
+      "id": "tt1077368",
+      "role": "Producer",
+      "title": "Dark Shadows",
+      "year": "2012",
+      "description": "(producer)"
+    },
+    {
+      "id": "tt0376136",
+      "role": "Producer",
+      "title": "The Rum Diary",
+      "year": "2011",
+      "description": "(producer - produced by)"
+    },
+    {
+      "id": "tt0970179",
+      "role": "Producer",
+      "title": "Hugo",
+      "year": "2011",
+      "description": "(producer)"
+    },
+    {
+      "id": "tt7415686",
+      "role": "Soundtrack",
+      "title": "The Kill Count",
+      "year": "2020",
+      "description": "(TV Series) (performer - 1 episode) - Sweeney Todd: The Demon Barber of Fleet Street (2007) (2020) ... (performer: \"No Place Like London\", \"My Friends\", \"Pirelli's Miracle Elixir\", \"Pretty Women\", \"Epiphany\", \"A Little Priest\", \"The Judge's Return\")"
+    },
+    {
+      "id": "tt7002460",
+      "role": "Soundtrack",
+      "title": "Glastonbury 2017",
+      "year": "2017",
+      "description": "(TV Mini-Series) (performer - 2 episodes) - Day 1, Part 2 (2017) ... (performer: \"Sunday Morning Coming Down\") - Kris Kristofferson and Royal Blood (2017) ... (performer: \"Sunday Mornin' Comin' Down\", \"The Silver Tongued Devil and I\" - uncredited)"
+    },
+    {
+      "id": "tt3498954",
+      "role": "Soundtrack",
+      "title": "Everything Wrong with...",
+      "year": "2015",
+      "description": "(TV Series documentary) (performer - 1 episode) - Everything Wrong with Into the Woods in Fairy Tale Minutes (2015) ... (performer: \"Hello, Little Girl\")"
+    },
+    {
+      "id": "tt2180411",
+      "role": "Soundtrack",
+      "title": "Into the Woods",
+      "year": "2014",
+      "description": "(performer: \"Hello, Little Girl\")"
+    },
+    {
+      "id": "tt1210819",
+      "role": "Soundtrack",
+      "title": "The Lone Ranger",
+      "year": "2013",
+      "description": "(performer: \"Contest\")"
+    },
+    {
+      "id": "tt2402919",
+      "role": "Soundtrack",
+      "title": "2012 MTV Movie Awards",
+      "year": "2012",
+      "description": "(TV Special) (performer: \"Gold on the Ceiling\", \"Lonely Boy\")"
+    },
+    {
+      "id": "tt1077368",
+      "role": "Soundtrack",
+      "title": "Dark Shadows",
+      "year": "2012",
+      "description": "(performer: \"The Joker\")"
+    },
+    {
+      "id": "tt2130321",
+      "role": "Soundtrack",
+      "title": "West of Memphis",
+      "year": "2012",
+      "description": "(Documentary) (performer: \"Little Lion Man\", \"Damien Echols Death Row Letter Year 16 [Score]\")"
+    },
+    {
+      "id": "tt0376136",
+      "role": "Soundtrack",
+      "title": "The Rum Diary",
+      "year": "2011",
+      "description": "(performer: \"Kemp In The Village\", \"The Mermaid Song (Instrumental)\") / (writer: \"Kemp In The Village\")"
+    },
+    {
+      "id": "tt1635327",
+      "role": "Soundtrack",
+      "title": "Nostalgia Critic",
+      "year": "2010",
+      "description": "(TV Series) (performer - 1 episode) - Top 11 Villain Songs (2010) ... (performer: \"Pretty Women\" - uncredited)"
+    },
+    {
+      "id": "tt0408236",
+      "role": "Soundtrack",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "year": "2007",
+      "description": "(performer: \"No Place Like London\", \"My Friends\", \"Pirelli's Miracle Elixir\", \"Pretty Women\", \"Epiphany\", \"A Little Priest\", \"Johanna (Act II)\", \"By The Sea\", \"The Judge's Return\", \"Final Scene (Part 1)\", \"Final Scene (Part 2)\")"
+    },
+    {
+      "id": "tt0285823",
+      "role": "Soundtrack",
+      "title": "Once Upon a Time in Mexico",
+      "year": "2003",
+      "description": "(producer: \"Sands Theme\") / (writer: \"Sands Theme\")"
+    },
+    {
+      "id": "tt0325980",
+      "role": "Soundtrack",
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": "2003",
+      "description": "(performer: \"Yo Ho (A Pirate's Life for Me)\")"
+    },
+    {
+      "id": "tt0241303",
+      "role": "Soundtrack",
+      "title": "Chocolat",
+      "year": "2000",
+      "description": "(\"Minor Swing/They're Red Hot/Caravan\")"
+    },
+    {
+      "id": "tt1595655",
+      "role": "Director",
+      "title": "Untitled Keith Richards Documentary",
+      "year": "",
+      "description": "(Documentary) (announced)"
+    },
+    {
+      "id": "tt8045334",
+      "role": "Director",
+      "title": "Unloveable",
+      "year": "2009",
+      "description": ""
+    },
+    {
+      "id": "tt10998154",
+      "role": "Director",
+      "title": "Vanessa Paradis: Il y a",
+      "year": "2009",
+      "description": "(Video short)"
+    },
+    {
+      "id": "tt8416526",
+      "role": "Director",
+      "title": "Vanessa Paradis: L'Incendie",
+      "year": "2008",
+      "description": "(Video short)"
+    },
+    {
+      "id": "tt8408070",
+      "role": "Director",
+      "title": "Vanessa Paradis: Pourtant",
+      "year": "2001",
+      "description": "(Video short) (as Richard Mudd)"
+    },
+    {
+      "id": "tt8408056",
+      "role": "Director",
+      "title": "Vanessa Paradis: Que fait la vie?",
+      "year": "2001",
+      "description": "(Video short) (as Richard Mudd)"
+    },
+    {
+      "id": "tt0118768",
+      "role": "Director",
+      "title": "The Brave",
+      "year": "1997",
+      "description": ""
+    },
+    {
+      "id": "tt8403886",
+      "role": "Director",
+      "title": "Shane MacGowand and the Popes: That Woman's Got Me Drinking",
+      "year": "1994",
+      "description": "(Video short)"
+    },
+    {
+      "id": "tt8391658",
+      "role": "Director",
+      "title": "Banter",
+      "year": "1994",
+      "description": "(Short)"
+    },
+    {
+      "id": "tt0811090",
+      "role": "Director",
+      "title": "Stuff",
+      "year": "1993",
+      "description": "(TV Short) (as J. Depp)"
+    },
+    {
+      "id": "tt8391510",
+      "role": "Director",
+      "title": "The Every Cake, Neil",
+      "year": "1988",
+      "description": "(Short)"
+    },
+    {
+      "id": "tt8045334",
+      "role": "Writer",
+      "title": "Unloveable",
+      "year": "2009",
+      "description": ""
+    },
+    {
+      "id": "tt0118768",
+      "role": "Writer",
+      "title": "The Brave",
+      "year": "1997",
+      "description": "(screenplay)"
+    },
+    {
+      "id": "tt8391510",
+      "role": "Writer",
+      "title": "The Every Cake, Neil",
+      "year": "1988",
+      "description": "(Short) (co-writer)"
+    },
+    {
+      "id": "tt3685922",
+      "role": "Music department",
+      "title": "Lost Songs: The Basement Tapes Continued",
+      "year": "2014",
+      "description": "(Documentary) (musician: Guitar)"
+    },
+    {
+      "id": "tt6523312",
+      "role": "Thanks",
+      "title": "The Sunset Jam",
+      "year": "2017",
+      "description": "(Video) (special thanks)"
+    },
+    {
+      "id": "tt3519126",
+      "role": "Thanks",
+      "title": "Captain Jokes Parrot's Disaster of the Caribbean",
+      "year": "2017",
+      "description": "(TV Movie) (grateful acknowledgment)"
+    },
+    {
+      "id": "tt5524548",
+      "role": "Thanks",
+      "title": "7 Days,7 Girls",
+      "year": "2017",
+      "description": "(very special thanks)"
+    },
+    {
+      "id": "tt6987380",
+      "role": "Thanks",
+      "title": "That's Life!! Kilorenzos Smith in Talks...",
+      "year": "2013",
+      "description": "(TV Series documentary) (inspiration - 1 episode) - No More Funny Show! (2013) ... (inspiration)"
+    },
+    {
+      "id": "tt2310814",
+      "role": "Thanks",
+      "title": "Don't Say No Until I Finish Talking: The Story of Richard D. Zanuck",
+      "year": "2013",
+      "description": "(Documentary) (special thanks)"
+    },
+    {
+      "id": "tt2918386",
+      "role": "Thanks",
+      "title": "Funny Show Part Two: The Video - Movie",
+      "year": "2012",
+      "description": "(Video) (inspiration)"
+    },
+    {
+      "id": "tt0337692",
+      "role": "Thanks",
+      "title": "On the Road",
+      "year": "2012",
+      "description": "(thanks)"
+    },
+    {
+      "id": "tt2028530",
+      "role": "Thanks",
+      "title": "Paradise Lost 3: Purgatory",
+      "year": "2011",
+      "description": "(Documentary) (special thanks)"
+    },
+    {
+      "id": "tt1709193",
+      "role": "Thanks",
+      "title": "Norte a sur: Una ruta, 5 experiencias",
+      "year": "2010",
+      "description": "(TV Series) (dedicatee - 10 episodes) - Ushuaia, Argentina (2010) ... (dedicatee) - Buenos Aires, Argentina (2010) ... (dedicatee) - Chile (2010) ... (dedicatee) - Peru (2010) ... (dedicatee) - Colombia (2010) ... (dedicatee) Show all 10 episodes"
+    },
+    {
+      "id": "tt1732568",
+      "role": "Thanks",
+      "title": "Before Breakfast",
+      "year": "2010/I",
+      "description": "(Short) (special thanks)"
+    },
+    {
+      "id": "tt2095802",
+      "role": "Thanks",
+      "title": "The Rooneys",
+      "year": "2010",
+      "description": "(TV Movie) (special thanks)"
+    },
+    {
+      "id": "tt1230214",
+      "role": "Thanks",
+      "title": "Stuntmen",
+      "year": "2009",
+      "description": "(special thanks)"
+    },
+    {
+      "id": "tt1282092",
+      "role": "Thanks",
+      "title": "Taste of Flesh",
+      "year": "2008",
+      "description": "(Video) (very special thanks)"
+    },
+    {
+      "id": "tt0472063",
+      "role": "Thanks",
+      "title": "Charlie and the Chocolate Factory",
+      "year": "2005",
+      "description": "(Video Game) (extra special thanks)"
+    },
+    {
+      "id": "tt0308514",
+      "role": "Thanks",
+      "title": "Lost in La Mancha",
+      "year": "2002",
+      "description": "(Documentary) (special thanks)"
+    },
+    {
+      "id": "tt0988042",
+      "role": "Thanks",
+      "title": "One Taste Is Never Enough... The Pleasures of 'Chocolat'",
+      "year": "2000",
+      "description": "(TV Movie documentary) (special thanks)"
+    },
+    {
+      "id": "tt0119565",
+      "role": "Thanks",
+      "title": "L.A. Without a Map",
+      "year": "1998",
+      "description": "(special thanks)"
+    },
+    {
+      "id": "tt5713610",
+      "role": "Self",
+      "title": "Scab Vendor: The Life and Times of Jonathan Shaw",
+      "year": "",
+      "description": "(Documentary) (post-production) Self"
+    },
+    {
+      "id": "tt2183739",
+      "role": "Self",
+      "title": "Sky News Today",
+      "year": "2020",
+      "description": "(TV Series) Self / Self - Actor - Episode dated 2 November 2020 (2020) ... Self - Episode dated 21 July 2020 (2020) ... Self - Actor - Episode dated 16 July 2020 (2020) ... Self - Episode dated 15 July 2020 (2020) ... Self - Episode dated 13 July 2020 (2020) ... Self Show all 7 episodes"
+    },
+    {
+      "id": "tt11958920",
+      "role": "Self",
+      "title": "Sky News with Sarah Hewson",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode dated 2 November 2020 (2020) ... Self"
+    },
+    {
+      "id": "tt11778272",
+      "role": "Self",
+      "title": "Crock of Gold: A Few Rounds with Shane MacGowan",
+      "year": "2020",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt2079265",
+      "role": "Self",
+      "title": "Sky Midnight News",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode dated 29 July 2020 (2020) ... Self (uncredited)"
+    },
+    {
+      "id": "tt1461349",
+      "role": "Self",
+      "title": "Sky World News",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode dated 29 July 2020 (2020) ... Self"
+    },
+    {
+      "id": "tt12774252",
+      "role": "Self",
+      "title": "5 News at 5",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode dated 28 July 2020 (2020) ... Self (uncredited) - Episode dated 23 July 2020 (2020) ... Self - Episode dated 21 July 2020 (2020) ... Self - Episode dated 15 July 2020 (2020) ... Self - Episode dated 9 July 2020 (2020) ... Self Show all 7 episodes"
+    },
+    {
+      "id": "tt12683572",
+      "role": "Self",
+      "title": "Sky News with Adam Boulton",
+      "year": "2020",
+      "description": "(TV Series) Self - Actor - Episode dated 21 July 2020 (2020) ... Self - Actor"
+    },
+    {
+      "id": "tt9098028",
+      "role": "Self",
+      "title": "The News Hour with Mark Austin",
+      "year": "2020",
+      "description": "(TV Series) Self - Actor - Episode dated 21 July 2020 (2020) ... Self - Actor"
+    },
+    {
+      "id": "tt6570890",
+      "role": "Self",
+      "title": "Sky News Tonight",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode dated 17 July 2020 (2020) ... Self - Episode dated 15 July 2020 (2020) ... Self - Episode dated 13 July 2020 (2020) ... Self - Episode dated 8 July 2020 (2020) ... Self - Episode dated 7 July 2020 (2020) ... Self"
+    },
+    {
+      "id": "tt11427372",
+      "role": "Self",
+      "title": "Hollywood's Stories",
+      "year": "2020",
+      "description": "(TV Series documentary) Self - Johnny Depp's Money Mess (2020) ... Self"
+    },
+    {
+      "id": "tt0081857",
+      "role": "Self",
+      "title": "Entertainment Tonight",
+      "year": "2007-2019",
+      "description": "(TV Series) Self / Self - Into the Woods - Talk Show Titans Week - Day 5 (2019) ... Self - Episode #37.47 (2017) ... Self - Episode #37.40 (2017) ... Self - Episode #36.215 (2017) ... Self - Episode #36.208 (2017) ... Self Show all 28 episodes"
+    },
+    {
+      "id": "tt8884452",
+      "role": "Self",
+      "title": "Nice Girls Don't Stay for Breakfast",
+      "year": "2018",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt6111980",
+      "role": "Self",
+      "title": "Platoon: Brothers in Arms",
+      "year": "2018",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt6495432",
+      "role": "Self",
+      "title": "Classic Rock Awards",
+      "year": "2017",
+      "description": "(TV Special documentary) Self"
+    },
+    {
+      "id": "tt7634200",
+      "role": "Self",
+      "title": "Marilyn Manson: Kill4Me",
+      "year": "2017",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt3503424",
+      "role": "Self",
+      "title": "Celebrity Page",
+      "year": "2016-2017",
+      "description": "(TV Series) Self - Episode #3.48 (2017) ... Self - Episode #2.185 (2017) ... Self - Episode dated 5 January 2016 (2016) ... Self"
+    },
+    {
+      "id": "tt7604980",
+      "role": "Self",
+      "title": "Rolling Stone: Stories from the Edge",
+      "year": "2017",
+      "description": "(Documentary) Hunter S. Thompson (voice)"
+    },
+    {
+      "id": "tt3644198",
+      "role": "Self",
+      "title": "Good Morning Britain",
+      "year": "2017",
+      "description": "(TV Series) Self - Guest - Episode dated 3 November 2017 (2017) ... Self - Guest"
+    },
+    {
+      "id": "tt0924651",
+      "role": "Self",
+      "title": "The Graham Norton Show",
+      "year": "2011-2017",
+      "description": "(TV Series) Self - Guest - Sir Kenneth Branagh/Dame Judi Dench/Johnny Depp/Michelle Pfeiffer/Josh Gad/St. Vincent (2017) ... Self - Guest - Johnny Depp/Jennifer Lawrence/James McAvoy/Jack Whitehall/will.i.am (2016) ... Self - Guest - Johnny Depp/Benedict Cumberbatch/James McAvoy/Daniel Radcliffe/The Corrs (2015) ... Self - Guest - Johnny Depp/Ricky Gervais/Carey Mulligan/Ed Byrne/Snow Patrol (2011) ... Self - Guest"
+    },
+    {
+      "id": "tt7493536",
+      "role": "Self",
+      "title": "Dead Men Tell More Tales: The Making of a New Adventure",
+      "year": "2017",
+      "description": "(Video documentary) Self"
+    },
+    {
+      "id": "tt7002460",
+      "role": "Self",
+      "title": "Glastonbury 2017",
+      "year": "2017",
+      "description": "(TV Mini-Series) Self - Guitarist - Day 1, Part 2 (2017) ... Self - Guitarist (uncredited) - Kris Kristofferson and Royal Blood (2017) ... Self - Guitarist (uncredited)"
+    },
+    {
+      "id": "tt0247094",
+      "role": "Self",
+      "title": "Extra with Billy Bush",
+      "year": "2016-2017",
+      "description": "(TV Series) Self - Episode #23.232 (2017) ... Self - Episode #23.229 (2017) ... Self - Episode #23.221 (2017) ... Self - Episode #22.190 (2016) ... Self - Episode #22.187 (2016) ... Self Show all 6 episodes"
+    },
+    {
+      "id": "tt0430836",
+      "role": "Self",
+      "title": "The Insider",
+      "year": "2014-2017",
+      "description": "(TV Series) Self / Self - Into the Woods - Episode #13.215 (2017) ... Self - Episode dated 25 November 2014 (2014) ... Self - Into the Woods"
+    },
+    {
+      "id": "tt0320037",
+      "role": "Self",
+      "title": "Jimmy Kimmel Live!",
+      "year": "2012-2017",
+      "description": "(TV Series) Self - Guest - Johnny Depp/Science Bob/Linkin Park/Ann Wilson (2017) ... Self - Guest - Johnny Depp/Pink (2016) ... Self - Guest - Johnny Depp/Kathryn Hahn/Mutemath (2015) ... Self - Guest - Johnny Depp/Marion Cotillard/Kandace Springs (2015) ... Self - Guest - Johnny Depp/Jessica Pare/Chuck E. Weiss (2014) ... Self - Guest Show all 7 episodes"
+    },
+    {
+      "id": "tt0379623",
+      "role": "Self",
+      "title": "The Ellen DeGeneres Show",
+      "year": "2012-2017",
+      "description": "(TV Series) Self - Guest - Johnny Depp/Niall Horan (2017) ... Self - Guest - Johnny Depp/Sia/Stephen 'tWitch' Boss (2016) ... Self - Guest - Johnny Depp, Gwyneth Paltrow & Paul Bettany/Sam Hunt (2015) ... Self - Guest - Johnny Depp/Paul Bettany/Rebecca Hall/Miranda Lambert (2014) ... Self - Guest - Episode dated 8 May 2012 (2012) ... Self - Guest"
+    },
+    {
+      "id": "tt6265614",
+      "role": "Self",
+      "title": "David Blaine: Beyond Magic",
+      "year": "2016",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt6492702",
+      "role": "Self",
+      "title": "Hope and Healing Award Concert",
+      "year": "2016",
+      "description": "Self"
+    },
+    {
+      "id": "tt6137546",
+      "role": "Self",
+      "title": "Tales of the Wild",
+      "year": "2016",
+      "description": "(TV Movie documentary) Narrator"
+    },
+    {
+      "id": "tt0167515",
+      "role": "Self",
+      "title": "Access Hollywood",
+      "year": "2016",
+      "description": "(TV Series) Self - Episode dated 24 May 2016 (2016) ... Self"
+    },
+    {
+      "id": "tt5510824",
+      "role": "Self",
+      "title": "Black Mass: Deepest Cover, Darkest Crime",
+      "year": "2016",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5510828",
+      "role": "Self",
+      "title": "Johnny Depp: Becoming Whitey Bulger",
+      "year": "2016",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt4346344",
+      "role": "Self",
+      "title": "E! Live from the Red Carpet",
+      "year": "2008-2016",
+      "description": "(TV Series) Self - The 2016 Grammy Awards (2016) ... Self (as The Hollywood Vampires) - The 2008 Academy Awards (2008) ... Self"
+    },
+    {
+      "id": "tt5344290",
+      "role": "Self",
+      "title": "The 42nd Annual People's Choice Awards",
+      "year": "2016",
+      "description": "(TV Special) Self - Winner & Nominee"
+    },
+    {
+      "id": "tt0408409",
+      "role": "Self",
+      "title": "Overhaulin'",
+      "year": "2015",
+      "description": "(TV Series documentary) Self - In Too Depp (2015) ... Self"
+    },
+    {
+      "id": "tt2056217",
+      "role": "Self",
+      "title": "Rock in Rio",
+      "year": "2015",
+      "description": "(TV Series) Self - Performer - Episode #6.4 (2015) ... Self - Performer"
+    },
+    {
+      "id": "tt5034438",
+      "role": "Self",
+      "title": "LiveXLive Presents Rock in Rio",
+      "year": "2015",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0044298",
+      "role": "Self",
+      "title": "Today",
+      "year": "1993-2015",
+      "description": "(TV Series) Self - Guest - Episode dated 18 September 2015 (2015) ... Self - Guest - Episode dated 4 April 2014 (2014) ... Self - Guest - Episode dated 19 July 2005 (2005) ... Self - Guest - Episode dated 11 July 2005 (2005) ... Self - Guest - Episode dated 5 April 1995 (1995) ... Self - Guest Show all 6 episodes"
+    },
+    {
+      "id": "tt4307392",
+      "role": "Self",
+      "title": "BBC News 8pm Summary",
+      "year": "2015",
+      "description": "(TV Series short) Self - Episode dated 14 May 2015 (2015) ... Self"
+    },
+    {
+      "id": "tt3856870",
+      "role": "Self",
+      "title": "Paul McCartney: Early Days",
+      "year": "2014",
+      "description": "(Video short) Self (uncredited)"
+    },
+    {
+      "id": "tt3685922",
+      "role": "Self",
+      "title": "Lost Songs: The Basement Tapes Continued",
+      "year": "2014",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt4196864",
+      "role": "Self",
+      "title": "Hollywood Film Awards",
+      "year": "2014",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt5482396",
+      "role": "Self",
+      "title": "Transcendence: A Singular Vision",
+      "year": "2014",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5482408",
+      "role": "Self",
+      "title": "Transcendence: Guarding the Threat",
+      "year": "2014",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5482384",
+      "role": "Self",
+      "title": "What Is 'Transcendence'?",
+      "year": "2014",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt3675472",
+      "role": "Self",
+      "title": "Don Rickles: One Night Only",
+      "year": "2014",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0911896",
+      "role": "Self",
+      "title": "Made in Hollywood",
+      "year": "2010-2014",
+      "description": "(TV Series) Self - Episode #9.26 (2014) ... Self - Episode #8.33 (2013) ... Self - Episode dated 24 June 2013 (2013) ... Self - Episode #7.5 (2011) ... Self - Episode #6.27 (2011) ... Self Show all 8 episodes"
+    },
+    {
+      "id": "tt1434322",
+      "role": "Self",
+      "title": "Up Close with Carrie Keagan",
+      "year": "2014",
+      "description": "(TV Series) Self - Guest - Episode dated 17 April 2014 (2014) ... Self - Guest"
+    },
+    {
+      "id": "tt3578774",
+      "role": "Self",
+      "title": "2014 MTV Movie Awards",
+      "year": "2014",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt0106053",
+      "role": "Self",
+      "title": "Late Show with David Letterman",
+      "year": "1999-2014",
+      "description": "(TV Series) Self - Guest - Johnny Depp/Joseph Arthur (2014) ... Self - Guest - Johnny Depp/Marc Maron/Dawes (2013) ... Self - Guest - Episode #20.95 (2013) ... Self - Guest - Episode #19.31 (2011) ... Self - Guest - Episode #18.51 (2010) ... Self - Guest Show all 10 episodes"
+    },
+    {
+      "id": "tt0266134",
+      "role": "Self",
+      "title": "E! News",
+      "year": "2014",
+      "description": "(TV Series) Self - Episode dated 31 March 2014 (2014) ... Self"
+    },
+    {
+      "id": "tt3534542",
+      "role": "Self",
+      "title": "The Night That Changed America: A Grammy Salute to the Beatles",
+      "year": "2014",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt3262722",
+      "role": "Self",
+      "title": "71st Golden Globe Awards",
+      "year": "2014",
+      "description": "(TV Special) Self - Presenter (uncredited)"
+    },
+    {
+      "id": "tt5310856",
+      "role": "Self",
+      "title": "Riding the Rails of 'The Lone Ranger'",
+      "year": "2013",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5310860",
+      "role": "Self",
+      "title": "The Lone Ranger: Becoming a Cowboy",
+      "year": "2013",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt3308178",
+      "role": "Self",
+      "title": "The American Cinematheque Tribute to Jerry Bruckheimer",
+      "year": "2013",
+      "description": "(TV Special) Self - Taped Message"
+    },
+    {
+      "id": "tt3503498",
+      "role": "Self",
+      "title": "Paul McCartney: Queenie Eye",
+      "year": "2013",
+      "description": "(Video short) Self (uncredited)"
+    },
+    {
+      "id": "tt3110888",
+      "role": "Self",
+      "title": "Vivir de cine",
+      "year": "2013",
+      "description": "(TV Series) Self - Episode #1.41 (2013) ... Self"
+    },
+    {
+      "id": "tt0355143",
+      "role": "Self",
+      "title": "Taff",
+      "year": "2006-2013",
+      "description": "(TV Series) Self - Episode dated 12 August 2013 (2013) ... Self - Episode dated 18 April 2013 (2013) ... Self - Episode dated 21 February 2011 (2011) ... Self - Episode dated 29 December 2006 (2006) ... Self"
+    },
+    {
+      "id": "tt1695352",
+      "role": "Self",
+      "title": "Daybreak",
+      "year": "2011-2013",
+      "description": "(TV Series) Self - Episode dated 5 August 2013 (2013) ... Self - Episode dated 8 November 2011 (2011) ... Self"
+    },
+    {
+      "id": "tt2576350",
+      "role": "Self",
+      "title": "Celebrity Style Story",
+      "year": "2013",
+      "description": "(TV Series) Self - Johnny Depp (2013) ... Self"
+    },
+    {
+      "id": "tt0270116",
+      "role": "Self",
+      "title": "Charlie Rose",
+      "year": "1998-2013",
+      "description": "(TV Series) Self - Guest - Episode dated 2 July 2013 (2013) ... Self - Guest - Episode dated 15 November 1999 (1999) ... Self - Guest - Episode dated 11 May 1998 (1998) ... Self - Guest"
+    },
+    {
+      "id": "tt0165001",
+      "role": "Self",
+      "title": "CBS News Sunday Morning",
+      "year": "2013",
+      "description": "(TV Series) Self - Guest - Episode dated 30 June 2013 (2013) ... Self - Guest"
+    },
+    {
+      "id": "tt5611414",
+      "role": "Self",
+      "title": "Red Carpet Report",
+      "year": "2013",
+      "description": "(TV Series short) Self - Lone Ranger Premiere (2013) ... Self"
+    },
+    {
+      "id": "tt3012870",
+      "role": "Self",
+      "title": "The Lone Ranger: Unmasked",
+      "year": "2013",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt2310814",
+      "role": "Self",
+      "title": "Don't Say No Until I Finish Talking: The Story of Richard D. Zanuck",
+      "year": "2013",
+      "description": "(Documentary) Self - Interviewee"
+    },
+    {
+      "id": "tt3168806",
+      "role": "Self",
+      "title": "AMC Lone Ranger Q & A",
+      "year": "2013",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt2627702",
+      "role": "Self",
+      "title": "The 55th Annual Grammy Awards",
+      "year": "2013",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt2112152",
+      "role": "Self",
+      "title": "For No Good Reason",
+      "year": "2012",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt3984388",
+      "role": "Self",
+      "title": "Close Up",
+      "year": "2012",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0817377",
+      "role": "Self",
+      "title": "Arts in Context",
+      "year": "2012",
+      "description": "(TV Series documentary) Self - Bill Carter & the Blame (2012) ... Self"
+    },
+    {
+      "id": "tt2363030",
+      "role": "Self",
+      "title": "CINEMAsuisse: Marc Forster",
+      "year": "2012",
+      "description": "(Short) Self"
+    },
+    {
+      "id": "tt2402919",
+      "role": "Self",
+      "title": "2012 MTV Movie Awards",
+      "year": "2012",
+      "description": "(TV Special) Self - Performer & Generation Award Recipient"
+    },
+    {
+      "id": "tt2168874",
+      "role": "Self",
+      "title": "Paul McCartney: My Valentine",
+      "year": "2012",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt1612376",
+      "role": "Self",
+      "title": "Janela Indiscreta",
+      "year": "2010-2012",
+      "description": "(TV Series) Self - Episode #1.116 (2012) ... Self - Episode #1.1 (2010) ... Self"
+    },
+    {
+      "id": "tt2338173",
+      "role": "Self",
+      "title": "Radioman",
+      "year": "2012",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt2388671",
+      "role": "Self",
+      "title": "Golden Gods Awards",
+      "year": "2012",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt2199495",
+      "role": "Self",
+      "title": "Nickelodeon Kids' Choice Awards 2012",
+      "year": "2012",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt1238850",
+      "role": "Self",
+      "title": "48 Hours: Hard Evidence",
+      "year": "2012",
+      "description": "(TV Series) Self - The West Memphis 3: Free (2012) ... Self"
+    },
+    {
+      "id": "tt1542485",
+      "role": "Self",
+      "title": "Sunset Strip",
+      "year": "2012",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt2130321",
+      "role": "Self",
+      "title": "West of Memphis",
+      "year": "2012",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt2125640",
+      "role": "Self",
+      "title": "The 69th Annual Golden Globe Awards",
+      "year": "2012",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt1937286",
+      "role": "Self",
+      "title": "Pirates of the Caribbean: On Stranger Tides 35mm 3D Special",
+      "year": "2011",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0480279",
+      "role": "Self",
+      "title": "20 heures le journal",
+      "year": "1999-2011",
+      "description": "(TV Series) Self - Episode dated 25 November 2011 (2011) ... Self - Episode dated 7 March 1999 (1999) ... Self"
+    },
+    {
+      "id": "tt0426701",
+      "role": "Self",
+      "title": "Le grand journal de Canal+",
+      "year": "2011",
+      "description": "(TV Series documentary) Self - Episode dated 24 November 2011 (2011) ... Self"
+    },
+    {
+      "id": "tt2123324",
+      "role": "Self",
+      "title": "The Making of Life's Too Short",
+      "year": "2011",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt5960858",
+      "role": "Self",
+      "title": "Johnny Vs. Geoffrey",
+      "year": "2011",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5960826",
+      "role": "Self",
+      "title": "Legends of on Stranger Tides",
+      "year": "2011",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt7442304",
+      "role": "Self",
+      "title": "Real Creatures of Dirt",
+      "year": "2011",
+      "description": "(Documentary short) Self / Rango / Lars"
+    },
+    {
+      "id": "tt0498878",
+      "role": "Self",
+      "title": "Attack of the Show!",
+      "year": "2011",
+      "description": "(TV Series) Self - Guest - Episode dated 19 May 2011 (2011) ... Self - Guest"
+    },
+    {
+      "id": "tt0111920",
+      "role": "Self",
+      "title": "Cinema 3",
+      "year": "1994-2011",
+      "description": "(TV Series) Self - Interviewee - Episode dated 19 May 2011 (2011) ... Self - Interviewee - Episode dated 17 April 2010 (2010) ... Self - Interviewee - Episode dated 9 February 2008 (2008) ... Self - Interviewee - Episode dated 18 October 1996 (1996) ... Self - Interviewee - Episode dated 28 January 1994 (1994) ... Self - Interviewee"
+    },
+    {
+      "id": "tt0262152",
+      "role": "Self",
+      "title": "Breakfast",
+      "year": "2011",
+      "description": "(TV Series) Self - Guest - Episode dated 18 May 2011 (2011) ... Self - Guest"
+    },
+    {
+      "id": "tt6581590",
+      "role": "Self",
+      "title": "Cannes Film Festival",
+      "year": "2010-2011",
+      "description": "(TV Series) Self - Cannes Film Festival 2011 (2011) ... Self - Cannes Film Festival 2010 (2010) ... Self"
+    },
+    {
+      "id": "tt0090493",
+      "role": "Self",
+      "title": "The Oprah Winfrey Show",
+      "year": "2004-2011",
+      "description": "(TV Series) Self - Guest - All New! Oprah Presents the Last-Ever Harpo Hookups (2011) ... Self - Guest - Episode dated 2 November 2004 (2004) ... Self - Guest"
+    },
+    {
+      "id": "tt1492627",
+      "role": "Self",
+      "title": "True Crime with Aphrodite Jones",
+      "year": "2011",
+      "description": "(TV Series documentary) Self - West Memphis Three (2011) ... Self"
+    },
+    {
+      "id": "tt1928311",
+      "role": "Self",
+      "title": "Unite for Japan",
+      "year": "2011",
+      "description": "(Short) Self"
+    },
+    {
+      "id": "tt1839570",
+      "role": "Self",
+      "title": "Nickelodeon's Kids Choice Awards 2011",
+      "year": "2011",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt5480192",
+      "role": "Self",
+      "title": "The Tourist: Action in Venice",
+      "year": "2011",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5480186",
+      "role": "Self",
+      "title": "The Tourist: A Gala Affair",
+      "year": "2011",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5480182",
+      "role": "Self",
+      "title": "The Tourist: Canal Chats",
+      "year": "2011",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt5480236",
+      "role": "Self",
+      "title": "Tourist Destination: Travel the Canals of Venice",
+      "year": "2011",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt1480165",
+      "role": "Self",
+      "title": "The 7PM Project",
+      "year": "2010-2011",
+      "description": "(TV Series) Self - Episode #1.404 (2011) ... Self - Episode #1.157 (2010) ... Self"
+    },
+    {
+      "id": "tt1489335",
+      "role": "Self",
+      "title": "ES.TV HD",
+      "year": "2011",
+      "description": "(TV Series) Self - Guest - Episode dated 3 March 2011 (2011) ... Self - Guest"
+    },
+    {
+      "id": "tt0498024",
+      "role": "Self",
+      "title": "CMT Insider",
+      "year": "2011",
+      "description": "(TV Series) Self - Episode dated 19 February 2011 (2011) ... Self"
+    },
+    {
+      "id": "tt1810776",
+      "role": "Self",
+      "title": "The 68th Annual Golden Globe Awards",
+      "year": "2011",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt1807026",
+      "role": "Self",
+      "title": "The 37th Annual People's Choice Awards",
+      "year": "2011",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt2132638",
+      "role": "Self",
+      "title": "Close Up",
+      "year": "2011",
+      "description": "(TV Series) Self - Interviewee - Johnny Depp (2011) ... Self - Interviewee"
+    },
+    {
+      "id": "tt1207692",
+      "role": "Self",
+      "title": "In Search of Ted Demme",
+      "year": "2010",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt1706585",
+      "role": "Self",
+      "title": "Alice in Wonderland: Finding Alice",
+      "year": "2010",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1670623",
+      "role": "Self",
+      "title": "Alice in Wonderland: The Mad Hatter",
+      "year": "2010",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1638951",
+      "role": "Self",
+      "title": "Channel 4's Comedy Gala",
+      "year": "2010",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0320016",
+      "role": "Self",
+      "title": "Go' aften Danmark",
+      "year": "2010",
+      "description": "(TV Series) Self - Episode dated 2 March 2010 (2010) ... Self"
+    },
+    {
+      "id": "tt0222560",
+      "role": "Self",
+      "title": "GMTV",
+      "year": "2005-2010",
+      "description": "(TV Series) Self - Episode dated 1 March 2010 (2010) ... Self - Episode dated 11 November 2005 (2005) ... Self"
+    },
+    {
+      "id": "tt0299302",
+      "role": "Self",
+      "title": "Friday Night with Jonathan Ross",
+      "year": "2010",
+      "description": "(TV Series) Self - Guest - Episode #18.7 (2010) ... Self - Guest"
+    },
+    {
+      "id": "tt1016283",
+      "role": "Self",
+      "title": "Xposé",
+      "year": "2009-2010",
+      "description": "(TV Series) Self - Episode #4.116 (2010) ... Self - Episode #4.115 (2010) ... Self - Episode #3.203 (2009) ... Self - Episode #3.200 (2009) ... Self"
+    },
+    {
+      "id": "tt1572505",
+      "role": "Self",
+      "title": "The 36th Annual People's Choice Awards",
+      "year": "2010",
+      "description": "(TV Special documentary) Self - Winner"
+    },
+    {
+      "id": "tt1505844",
+      "role": "Self",
+      "title": "Criminal Technology",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1505885",
+      "role": "Self",
+      "title": "Larger Than Life Adversaries",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1505896",
+      "role": "Self",
+      "title": "Michael Mann: Making 'Public Enemies'",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1505905",
+      "role": "Self",
+      "title": "On Dillinger's Trail",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1621428",
+      "role": "Self",
+      "title": "Public Enemies: Blu-ray Historical Interactive Timeline",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1624399",
+      "role": "Self",
+      "title": "Public Enemies: Blu-ray Picture in Picture",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1505932",
+      "role": "Self",
+      "title": "The Last of the Legendary Outlaws",
+      "year": "2009",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1528228",
+      "role": "Self",
+      "title": "Scream Awards 2009",
+      "year": "2009",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0343294",
+      "role": "Self",
+      "title": "Punkt 12",
+      "year": "2009",
+      "description": "(TV Series) Self - Episode dated 30 June 2009 (2009) ... Self"
+    },
+    {
+      "id": "tt0318220",
+      "role": "Self",
+      "title": "HBO First Look",
+      "year": "2001-2009",
+      "description": "(TV Series documentary short) Self - Making 'Public Enemies' (2009) ... Self - Sweeney Todd: The Demon Barber of Fleet Street (2008) ... Self - Tim Burton's Corpse Bride (2005) ... Self - Charlie and the Chocolate Factory (2005) ... Self - Once Upon a Time in Mexico (2003) ... Self Show all 6 episodes"
+    },
+    {
+      "id": "tt0800968",
+      "role": "Self",
+      "title": "20 to 1",
+      "year": "2009",
+      "description": "(TV Series documentary) Self - Hollywood's Hot List (2009) ... Self"
+    },
+    {
+      "id": "tt1333667",
+      "role": "Self",
+      "title": "When You're Strange",
+      "year": "2009",
+      "description": "(Documentary) Narrator (voice)"
+    },
+    {
+      "id": "tt1222814",
+      "role": "Self",
+      "title": "Golden Globe Awards",
+      "year": "2009",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt1332554",
+      "role": "Self",
+      "title": "Marc Forster - Der Weg zu 007",
+      "year": "2008",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt1659209",
+      "role": "Self",
+      "title": "National Movie Awards",
+      "year": "2008",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt1230105",
+      "role": "Self",
+      "title": "2008 MTV Movie Awards",
+      "year": "2008",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt0805978",
+      "role": "Self",
+      "title": "This American Life",
+      "year": "2008",
+      "description": "(TV Series documentary) - Escape (2008) ... (voice)"
+    },
+    {
+      "id": "tt1207745",
+      "role": "Self",
+      "title": "Rock and a Hard Place: Another Night at the Agora",
+      "year": "2008",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt1103965",
+      "role": "Self",
+      "title": "The 80th Annual Academy Awards",
+      "year": "2008",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0077082",
+      "role": "Self",
+      "title": "The South Bank Show",
+      "year": "2008",
+      "description": "(TV Series documentary) Self - Tim Burton (2008) ... Self"
+    },
+    {
+      "id": "tt0192897",
+      "role": "Self",
+      "title": "Film 2018",
+      "year": "2004-2008",
+      "description": "(TV Series) Self - Episode dated 22 January 2008 (2008) ... Self - Episode dated 23 October 2006 (2006) ... Self - Episode dated 29 December 2005 (2005) ... Self - Episode dated 17 October 2005 (2005) ... Self - Episode dated 25 October 2004 (2004) ... Self"
+    },
+    {
+      "id": "tt0479468",
+      "role": "Self",
+      "title": "Gonzo",
+      "year": "2008",
+      "description": "(Documentary) Self - Narrator"
+    },
+    {
+      "id": "tt0181261",
+      "role": "Self",
+      "title": "This Morning",
+      "year": "2008",
+      "description": "(TV Series) Self - Guest - Episode dated 18 January 2008 (2008) ... Self - Guest"
+    },
+    {
+      "id": "tt1181338",
+      "role": "Self",
+      "title": "Golden Globes Announcement Special",
+      "year": "2008",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt1098241",
+      "role": "Self",
+      "title": "Extérieur jour",
+      "year": "2008",
+      "description": "(TV Series) Self - Episode dated 9 January 2008 (2008) ... Self"
+    },
+    {
+      "id": "tt0881044",
+      "role": "Self",
+      "title": "Broadway Beat",
+      "year": "2008",
+      "description": "(TV Series) Self - The Homecoming Opening/Sweeney Todd from Stage to Screen (2008) ... Self"
+    },
+    {
+      "id": "tt5958028",
+      "role": "Self",
+      "title": "Keith and the Captain: On Set with Johnny and the Rock Legend",
+      "year": "2007",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5958190",
+      "role": "Self",
+      "title": "The Tale of the Many Jacks",
+      "year": "2007",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt3195412",
+      "role": "Self",
+      "title": "Bloopers of the Caribbean",
+      "year": "2007",
+      "description": "(Video short) Self - Jack Sparrow (uncredited)"
+    },
+    {
+      "id": "tt3507008",
+      "role": "Self",
+      "title": "Pirates of the Caribbean: At World's End Movie Special",
+      "year": "2007",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0965382",
+      "role": "Self",
+      "title": "Tom Petty and the Heartbreakers: Runnin' Down a Dream",
+      "year": "2007",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0315677",
+      "role": "Self",
+      "title": "HypaSpace",
+      "year": "2007",
+      "description": "(TV Series documentary) Self - Episode #6.104 (2007) ... Self"
+    },
+    {
+      "id": "tt1053871",
+      "role": "Self",
+      "title": "A Journey Behind the Scenes of 'Pirates of the Caribbean: At World's End'",
+      "year": "2007",
+      "description": "(TV Short) Self"
+    },
+    {
+      "id": "tt0072506",
+      "role": "Self",
+      "title": "Good Morning America",
+      "year": "1990-2007",
+      "description": "(TV Series) Self - Guest - Episode dated 8 May 2007 (2007) ... Self - Guest - Episode dated 3 April 1990 (1990) ... Self - Guest"
+    },
+    {
+      "id": "tt1023144",
+      "role": "Self",
+      "title": "Brando",
+      "year": "2007",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0800099",
+      "role": "Self",
+      "title": "Joe Strummer: The Future Is Unwritten",
+      "year": "2007",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0963737",
+      "role": "Self",
+      "title": "The 33rd Annual People's Choice Awards",
+      "year": "2007",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt4530638",
+      "role": "Self",
+      "title": "Johnny Cash: God's Gonna Cut You Down",
+      "year": "2006",
+      "description": "(Video short) Self (uncredited)"
+    },
+    {
+      "id": "tt1434433",
+      "role": "Self",
+      "title": "Making Puppets Tick",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1110065",
+      "role": "Self",
+      "title": "Tim Burton: Dark vs. Light",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1147659",
+      "role": "Self",
+      "title": "Voices from the Underworld",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5956456",
+      "role": "Self",
+      "title": "According to Plan: The Making of 'Pirates of the Caribbean: Dead Man's Chest'",
+      "year": "2006",
+      "description": "(Video documentary) Self"
+    },
+    {
+      "id": "tt5956676",
+      "role": "Self",
+      "title": "Captain Jack: From Head to Toe",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5957412",
+      "role": "Self",
+      "title": "Creating the Kraken",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5957492",
+      "role": "Self",
+      "title": "Dead Man Tell New Tales: Re-Imagineering the Attraction",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5957612",
+      "role": "Self",
+      "title": "Fly on the Set: The Bone Cage",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5957772",
+      "role": "Self",
+      "title": "Inside Dead Man's Chest",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5957686",
+      "role": "Self",
+      "title": "Pirates on Location: Cannibal Island & Tortuga Bar Brawl",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt3186906",
+      "role": "Self",
+      "title": "Bloopers of the Caribbean",
+      "year": "2006",
+      "description": "(Video short) Self (uncredited)"
+    },
+    {
+      "id": "tt0775438",
+      "role": "Self",
+      "title": "Buy the Ticket, Take the Ride: Hunter S. Thompson on Film",
+      "year": "2006",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0925656",
+      "role": "Self",
+      "title": "Space Top 10 Countdown",
+      "year": "2006",
+      "description": "(TV Series) Self - Anti-Heroes (2006) ... Self"
+    },
+    {
+      "id": "tt0850343",
+      "role": "Self",
+      "title": "The Teen Choice Awards 2006",
+      "year": "2006",
+      "description": "(TV Special) Self - Winner & Accepting Award"
+    },
+    {
+      "id": "tt0840321",
+      "role": "Self",
+      "title": "Forbes Celebrity 100: Who Made Bank?",
+      "year": "2006",
+      "description": "(TV Movie) Self"
+    },
+    {
+      "id": "tt0857391",
+      "role": "Self",
+      "title": "Pirates of the Caribbean: Secrets of Dead Man's Chest",
+      "year": "2006",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0832287",
+      "role": "Self",
+      "title": "Capturing 'The Libertine'",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0412796",
+      "role": "Self",
+      "title": "When the Road Bends... Tales of a Gypsy Caravan",
+      "year": "2006",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0424942",
+      "role": "Self",
+      "title": "Deep Sea",
+      "year": "2006",
+      "description": "(Documentary short) Narration (voice)"
+    },
+    {
+      "id": "tt0989662",
+      "role": "Self",
+      "title": "Inside the Two Worlds of 'The Corpse Bride'",
+      "year": "2006",
+      "description": "(Video documentary short) Self (voice, uncredited)"
+    },
+    {
+      "id": "tt1071200",
+      "role": "Self",
+      "title": "The Animators: The Breath of Life",
+      "year": "2006",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0770708",
+      "role": "Self",
+      "title": "The 63rd Annual Golden Globe Awards 2006",
+      "year": "2006",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0770705",
+      "role": "Self",
+      "title": "The 32nd Annual People's Choice Awards",
+      "year": "2006",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt1018695",
+      "role": "Self",
+      "title": "Charlie and the Chocolate Factory: Designer Chocolate",
+      "year": "2005",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt1018696",
+      "role": "Self",
+      "title": "Charlie and the Chocolate Factory: Different Faces, Different Flavors",
+      "year": "2005",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0463399",
+      "role": "Self",
+      "title": "E! True Hollywood Story",
+      "year": "2005",
+      "description": "(TV Series documentary) Self - Johnny Depp (2005) ... Self"
+    },
+    {
+      "id": "tt0421288",
+      "role": "Self",
+      "title": "At the Movies",
+      "year": "2005",
+      "description": "(TV Series) Self - Episode #2.41 (2005) ... Self"
+    },
+    {
+      "id": "tt0463397",
+      "role": "Self",
+      "title": "Corazón de...",
+      "year": "2005",
+      "description": "(TV Series) Self - Episode dated 14 November 2005 (2005) ... Self - Episode dated 12 September 2005 (2005) ... Self"
+    },
+    {
+      "id": "tt0805183",
+      "role": "Self",
+      "title": "Attack of the Squirrels!",
+      "year": "2005",
+      "description": "(Video documentary short) Willy Wonka"
+    },
+    {
+      "id": "tt0488075",
+      "role": "Self",
+      "title": "3rd Irish Film and Television Awards",
+      "year": "2005",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0475467",
+      "role": "Self",
+      "title": "El Magacine",
+      "year": "2005",
+      "description": "(TV Series) Self - Episode dated 28 October 2005 (2005) ... Self - Episode dated 16 September 2005 (2005) ... Self"
+    },
+    {
+      "id": "tt0778564",
+      "role": "Self",
+      "title": "Planet Voice",
+      "year": "2005",
+      "description": "(TV Series) Self - På den røde løber med Planet Voice (2005) ... Self"
+    },
+    {
+      "id": "tt0207934",
+      "role": "Self",
+      "title": "Getaway",
+      "year": "2005",
+      "description": "(TV Series documentary) Self - Episode #14.29 (2005) ... Self"
+    },
+    {
+      "id": "tt0261489",
+      "role": "Self",
+      "title": "Rove Live",
+      "year": "2005",
+      "description": "(TV Series) Self - Episode #6.29 (2005) ... Self"
+    },
+    {
+      "id": "tt0479212",
+      "role": "Self",
+      "title": "The Wonderful World of Roald Dahl",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0386910",
+      "role": "Self",
+      "title": "Ahora",
+      "year": "2005",
+      "description": "(TV Series) Self - Episode dated 23 July 2005 (2005) ... Self"
+    },
+    {
+      "id": "tt0807837",
+      "role": "Self",
+      "title": "Becoming Oompa-Loompa",
+      "year": "2005",
+      "description": "(Video documentary short) Willy Wonka"
+    },
+    {
+      "id": "tt0471537",
+      "role": "Self",
+      "title": "10 Most Excellent Things: Charlie and the Chocolate Factory",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0987922",
+      "role": "Self",
+      "title": "The Making of 'Charlie and the Chocolate Factory'",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0103569",
+      "role": "Self",
+      "title": "The Tonight Show with Jay Leno",
+      "year": "1995-2005",
+      "description": "(TV Series) Self - Guest - Episode #13.123 (2005) ... Self - Guest - Episode #11.113 (2003) ... Self - Guest - Episode #7.198 (1999) ... Self - Guest - Episode #4.51 (1995) ... Self - Guest - Episode #3.299 (1995) ... Self - Guest"
+    },
+    {
+      "id": "tt0471008",
+      "role": "Self",
+      "title": "It Came from... Baltimore!!",
+      "year": "2005",
+      "description": "(Video documentary) Self"
+    },
+    {
+      "id": "tt0459659",
+      "role": "Self",
+      "title": "Nickelodeon Kids' Choice Awards '05",
+      "year": "2005",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0471703",
+      "role": "Self",
+      "title": "'Finding Neverland': The Making of",
+      "year": "2005",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt0471701",
+      "role": "Self",
+      "title": "Finding Neverland: On the Red Carpet",
+      "year": "2005",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt0471702",
+      "role": "Self",
+      "title": "The Magic of 'Finding Neverland'",
+      "year": "2005",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt0429487",
+      "role": "Self",
+      "title": "The 77th Annual Academy Awards",
+      "year": "2005",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0910565",
+      "role": "Self",
+      "title": "Marc Forster - Von Davos nach Hollywood",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0445913",
+      "role": "Self",
+      "title": "11th Annual Screen Actors Guild Awards",
+      "year": "2005",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0429486",
+      "role": "Self",
+      "title": "The 62nd Annual Golden Globe Awards 2005",
+      "year": "2005",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0445772",
+      "role": "Self",
+      "title": "Tsunami Aid: A Concert of Hope",
+      "year": "2005",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0445914",
+      "role": "Self",
+      "title": "The 31st Annual People's Choice Awards",
+      "year": "2005",
+      "description": "(TV Special) Self - Winner & Nominee"
+    },
+    {
+      "id": "tt0442675",
+      "role": "Self",
+      "title": "Happy Birthday, Peter Pan",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0444651",
+      "role": "Self",
+      "title": "Just the Facts",
+      "year": "2004",
+      "description": "(TV Movie documentary) Self - Actor"
+    },
+    {
+      "id": "tt0309196",
+      "role": "Self",
+      "title": "Phua Chu Kang",
+      "year": "2004",
+      "description": "(TV Series) Self - Episode #7.4 (2004) ... Self"
+    },
+    {
+      "id": "tt0471926",
+      "role": "Self",
+      "title": "Spirit of the Ride",
+      "year": "2004",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5955402",
+      "role": "Self",
+      "title": "The Lost Disc: Becoming Barbossa",
+      "year": "2004",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5955388",
+      "role": "Self",
+      "title": "The Lost Disc: Becoming Captain Jack",
+      "year": "2004",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt5955464",
+      "role": "Self",
+      "title": "The Lost Disc: The Monkey's Name Is Jack",
+      "year": "2004",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0424422",
+      "role": "Self",
+      "title": "Secret Window: A Look Through It",
+      "year": "2004",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0424423",
+      "role": "Self",
+      "title": "Secret Window: From Book to Film",
+      "year": "2004",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0391311",
+      "role": "Self",
+      "title": "The Buried Secret of M. Night Shyamalan",
+      "year": "2004",
+      "description": "(TV Movie documentary) Johnny Depp"
+    },
+    {
+      "id": "tt0375285",
+      "role": "Self",
+      "title": "Comme au cinéma",
+      "year": "2004",
+      "description": "(TV Series documentary) Self - Episode dated 22 June 2004 (2004) ... Self"
+    },
+    {
+      "id": "tt0415469",
+      "role": "Self",
+      "title": "2004 MTV Movie Awards",
+      "year": "2004",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt0299374",
+      "role": "Self",
+      "title": "Richard & Judy",
+      "year": "2004",
+      "description": "(TV Series) Self - Guest - Episode dated 22 April 2004 (2004) ... Self - Guest"
+    },
+    {
+      "id": "tt0397182",
+      "role": "Self",
+      "title": "On-Air with Ryan Seacrest",
+      "year": "2004",
+      "description": "(TV Series) Self - Guest - Episode dated 1 March 2004 (2004) ... Self - Guest"
+    },
+    {
+      "id": "tt0381851",
+      "role": "Self",
+      "title": "The 76th Annual Academy Awards",
+      "year": "2004",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0403828",
+      "role": "Self",
+      "title": "10th Annual Screen Actors Guild Awards",
+      "year": "2004",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt0395093",
+      "role": "Self",
+      "title": "The 61st Annual Golden Globe Awards 2004",
+      "year": "2004",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0398693",
+      "role": "Self",
+      "title": "The Anti-Hero's Journey",
+      "year": "2004",
+      "description": "(Video documentary short) Self / Sands"
+    },
+    {
+      "id": "tt0399108",
+      "role": "Self",
+      "title": "The Good, the Bad & the Bloody: Inside KNB EFX",
+      "year": "2004",
+      "description": "(Video documentary short) Self / Sands"
+    },
+    {
+      "id": "tt0471657",
+      "role": "Self",
+      "title": "Diary of a Producer",
+      "year": "2003",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt0395141",
+      "role": "Self",
+      "title": "An Epic at Sea: The Making of 'Pirates of the Caribbean: The Curse of the Black Pearl'",
+      "year": "2003",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0403981",
+      "role": "Self",
+      "title": "Diary of a Pirate",
+      "year": "2003",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt3232570",
+      "role": "Self",
+      "title": "Blooper Reel",
+      "year": "2003",
+      "description": "(Video short) Self (uncredited)"
+    },
+    {
+      "id": "tt0278859",
+      "role": "Self",
+      "title": "God kveld Norge",
+      "year": "2003",
+      "description": "(TV Series) Self - Episode dated 13 September 2003 (2003) ... Self"
+    },
+    {
+      "id": "tt0379730",
+      "role": "Self",
+      "title": "Charlie: The Life and Art of Charles Chaplin",
+      "year": "2003",
+      "description": "(Documentary) Self - Actor"
+    },
+    {
+      "id": "tt0357350",
+      "role": "Self",
+      "title": "4Pop",
+      "year": "2003",
+      "description": "(TV Series documentary) Self - Maailman paras suomalainen musiikkivideo (2003) ... Self"
+    },
+    {
+      "id": "tt0368475",
+      "role": "Self",
+      "title": "The Brendan Leonard Show",
+      "year": "2003",
+      "description": "(TV Series) Self - Pirates (2003) ... Self"
+    },
+    {
+      "id": "tt0367565",
+      "role": "Self",
+      "title": "Breakfast with Hunter",
+      "year": "2003",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0124932",
+      "role": "Self",
+      "title": "20/20",
+      "year": "2003",
+      "description": "(TV Series documentary) Self - Actor (segment \"Johnny Depp: The Ultimate Outsider\") - Virginity Restored/Johnny Depp: The Ultimate Outsider/Unprepared for Terrorism (2003) ... Self - Actor (segment \"Johnny Depp: The Ultimate Outsider\")"
+    },
+    {
+      "id": "tt0401492",
+      "role": "Self",
+      "title": "Hunter Goes to Hollywood",
+      "year": "2003",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0395334",
+      "role": "Self",
+      "title": "Cartaz Cultural",
+      "year": "2003",
+      "description": "(TV Series) Self (2008)"
+    },
+    {
+      "id": "tt0288347",
+      "role": "Self",
+      "title": "Bravo Profiles",
+      "year": "2003",
+      "description": "(TV Series documentary) Self - Johnny Depp (2003) ... Self"
+    },
+    {
+      "id": "tt0329922",
+      "role": "Self",
+      "title": "Secrets of Superstar Fitness",
+      "year": "2002",
+      "description": "(TV Series) Self"
+    },
+    {
+      "id": "tt0169455",
+      "role": "Self",
+      "title": "Inside the Actors Studio",
+      "year": "2002",
+      "description": "(TV Series) Self - Guest - Episode #8.19 (2002) ... Self - Guest"
+    },
+    {
+      "id": "tt0321150",
+      "role": "Self",
+      "title": "All the Love You Cannes!",
+      "year": "2002",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt5271140",
+      "role": "Self",
+      "title": "Jack the Ripper: 6 Degrees of Separation",
+      "year": "2002",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0820011",
+      "role": "Self",
+      "title": "Star Boulevard",
+      "year": "2002",
+      "description": "(TV Series documentary short) Self - Episode dated 29 April 2002 (2002) ... Self"
+    },
+    {
+      "id": "tt1003255",
+      "role": "Self",
+      "title": "The 2002 World Music Awards",
+      "year": "2002",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0308514",
+      "role": "Self",
+      "title": "Lost in La Mancha",
+      "year": "2002",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0368363",
+      "role": "Self",
+      "title": "A Tour of the Inferno: Revisiting 'Platoon'",
+      "year": "2001",
+      "description": "(Video documentary) Self"
+    },
+    {
+      "id": "tt0363188",
+      "role": "Self",
+      "title": "A View from Hell",
+      "year": "2001",
+      "description": "(TV Short documentary) Self"
+    },
+    {
+      "id": "tt0302066",
+      "role": "Self",
+      "title": "+ de cinéma",
+      "year": "2001",
+      "description": "(TV Series documentary short) Self - Episode dated 19 September 2001 (2001) ... Self"
+    },
+    {
+      "id": "tt0311821",
+      "role": "Self",
+      "title": "Sleepy Hollow: Behind the Legend",
+      "year": "2001",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0988042",
+      "role": "Self",
+      "title": "One Taste Is Never Enough... The Pleasures of 'Chocolat'",
+      "year": "2000",
+      "description": "(TV Movie documentary) Self / Roux"
+    },
+    {
+      "id": "tt0115338",
+      "role": "Self",
+      "title": "The Rosie O'Donnell Show",
+      "year": "1997-2000",
+      "description": "(TV Series) Self - Guest - Episode dated 15 December 2000 (2000) ... Self - Guest - Episode dated 19 November 1999 (1999) ... Self - Guest - Episode dated 24 February 1997 (1997) ... Self - Guest"
+    },
+    {
+      "id": "tt0273276",
+      "role": "Self",
+      "title": "In Bad Taste",
+      "year": "2000",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0410273",
+      "role": "Self",
+      "title": "Lowell Blues: The Words of Jack Kerouac",
+      "year": "2000",
+      "description": "(Documentary short) Reader"
+    },
+    {
+      "id": "tt0483221",
+      "role": "Self",
+      "title": "Mundo VIP",
+      "year": "2000",
+      "description": "(TV Series) Self - Show nº196 (2000) ... Self"
+    },
+    {
+      "id": "tt0214158",
+      "role": "Self",
+      "title": "The Stars of 'Star Wars': Interviews from the Cast",
+      "year": "1999",
+      "description": "(Video documentary) Self"
+    },
+    {
+      "id": "tt0294207",
+      "role": "Self",
+      "title": "Top Secret",
+      "year": "1999",
+      "description": "(TV Series documentary) Self - Narrator - The Mossad ... Self - Narrator - Scotland Yard ... Self - Narrator"
+    },
+    {
+      "id": "tt0312928",
+      "role": "Self",
+      "title": "1999 MTV Video Music Awards",
+      "year": "1999",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt0274439",
+      "role": "Self",
+      "title": "Comic Relief: The Record Breaker",
+      "year": "1999",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0341901",
+      "role": "Self",
+      "title": "La nuit des Césars",
+      "year": "1999",
+      "description": "(TV Series documentary) Self - César d'honneur - 24ème nuit des Césars (1999) ... Self - César d'honneur"
+    },
+    {
+      "id": "tt0181833",
+      "role": "Self",
+      "title": "The Source: The Story of the Beats and the Beat Generation",
+      "year": "1999",
+      "description": "(Documentary) Jack Kerouac"
+    },
+    {
+      "id": "tt0879855",
+      "role": "Self",
+      "title": "Spotlight on Location: Fear and Loathing in Las Vegas",
+      "year": "1998",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0383755",
+      "role": "Self",
+      "title": "Club Disney",
+      "year": "1998",
+      "description": "(TV Series) Self - Episode dated 27 September 1998 (1998) ... Self"
+    },
+    {
+      "id": "tt0266045",
+      "role": "Self",
+      "title": "Where It's At: The Rolling Stone State of the Union",
+      "year": "1998",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt5247868",
+      "role": "Self",
+      "title": "The Making of 'Donnie Brasco'",
+      "year": "1997",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt0326300",
+      "role": "Self",
+      "title": "Town Meeting with Diane Sawyer: Celebrities vs. the Press",
+      "year": "1997",
+      "description": "(TV Special documentary) Self"
+    },
+    {
+      "id": "tt1024974",
+      "role": "Self",
+      "title": "Ciné6",
+      "year": "1997",
+      "description": "(TV Series) Self - Episode dated 10 May 1997 (1997) ... Self"
+    },
+    {
+      "id": "tt1263775",
+      "role": "Self",
+      "title": "Gran premio internazionale della TV",
+      "year": "1997",
+      "description": "(TV Series) Self - Winner - 14th Edition (1997) ... Self - Winner"
+    },
+    {
+      "id": "tt0114453",
+      "role": "Self",
+      "title": "Sinatra: 80 Years My Way",
+      "year": "1995",
+      "description": "(TV Special documentary) Self"
+    },
+    {
+      "id": "tt0185822",
+      "role": "Self",
+      "title": "Showbiz Today",
+      "year": "1995",
+      "description": "(TV Series) Self - Episode dated 23 November 1995 (1995) ... Self - Episode dated 5 April 1995 (1995) ... Self"
+    },
+    {
+      "id": "tt1432940",
+      "role": "Self",
+      "title": "Help! War Child",
+      "year": "1995",
+      "description": "(TV Movie) Self"
+    },
+    {
+      "id": "tt0120986",
+      "role": "Self",
+      "title": "Maury",
+      "year": "1995",
+      "description": "(TV Series) Self - Guest - Episode dated 18 May 1995 (1995) ... Self - Guest"
+    },
+    {
+      "id": "tt0235948",
+      "role": "Self",
+      "title": "United States of Poetry",
+      "year": "1995",
+      "description": "(TV Mini-Series documentary) Self"
+    },
+    {
+      "id": "tt0482447",
+      "role": "Self",
+      "title": "The 52nd Annual Golden Globe Awards",
+      "year": "1995",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0174397",
+      "role": "Self",
+      "title": "Hey Hey It's Saturday",
+      "year": "1994",
+      "description": "(TV Series) Self - Episode #23.12 (1994) ... Self"
+    },
+    {
+      "id": "tt0318251",
+      "role": "Self",
+      "title": "Troldspejlet",
+      "year": "1994",
+      "description": "(TV Series) Self / Gilbert Grape - Episode dated 9 April 1994 (1994) ... Self / Gilbert Grape"
+    },
+    {
+      "id": "tt0295842",
+      "role": "Self",
+      "title": "The 66th Annual Academy Awards",
+      "year": "1994",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt0355070",
+      "role": "Self",
+      "title": "CBS This Morning",
+      "year": "1993",
+      "description": "(TV Series) Self - Guest - Episode dated 20 December 1993 (1993) ... Self - Guest"
+    },
+    {
+      "id": "tt11574716",
+      "role": "Self",
+      "title": "7th Annual Independent Spirit Awards",
+      "year": "1992",
+      "description": "(TV Special) Self - Presenter"
+    },
+    {
+      "id": "tt0319542",
+      "role": "Self",
+      "title": "Idols",
+      "year": "1991",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0881176",
+      "role": "Self",
+      "title": "The 48th Annual Golden Globe Awards 1991",
+      "year": "1991",
+      "description": "(TV Special) Self - Nominee"
+    },
+    {
+      "id": "tt0790684",
+      "role": "Self",
+      "title": "In the Director's Chair: The Man Who Invented Edward Scissorhands",
+      "year": "1990",
+      "description": "(TV Movie) Self"
+    },
+    {
+      "id": "tt2660972",
+      "role": "Self",
+      "title": "The Making of 'Cry Baby'",
+      "year": "1990",
+      "description": "(Documentary short) Cry Baby"
+    },
+    {
+      "id": "tt2224471",
+      "role": "Self",
+      "title": "The 1990 Annual ShoWest Awards",
+      "year": "1990",
+      "description": "(TV Special) Self - Winner"
+    },
+    {
+      "id": "tt1455246",
+      "role": "Self",
+      "title": "The 41st Annual Primetime Emmy Awards",
+      "year": "1989",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt13891626",
+      "role": "Archive footage",
+      "title": "Hollywood Celebrity",
+      "year": "",
+      "description": "(Documentary) (filming) Self"
+    },
+    {
+      "id": "tt1461349",
+      "role": "Archive footage",
+      "title": "Sky World News",
+      "year": "2020-2021",
+      "description": "(TV Series) Self - Episode dated 26 March 2021 (2021) ... Self - Episode dated 13 December 2020 (2020) ... Self (uncredited)"
+    },
+    {
+      "id": "tt0363373",
+      "role": "Archive footage",
+      "title": "Sky News at 10",
+      "year": "2020-2021",
+      "description": "(TV Series) Self - Episode dated 25 March 2021 (2021) ... Self - Episode dated 12 December 2020 (2020) ... Self (uncredited)"
+    },
+    {
+      "id": "tt6570890",
+      "role": "Archive footage",
+      "title": "Sky News Tonight",
+      "year": "2021",
+      "description": "(TV Series) Self - Episode dated 25 March 2021 (2021) ... Self"
+    },
+    {
+      "id": "tt11958920",
+      "role": "Archive footage",
+      "title": "Sky News with Sarah Hewson",
+      "year": "2021",
+      "description": "(TV Series) Self - Episode dated 18 March 2021 (2021) ... Self (uncredited)"
+    },
+    {
+      "id": "tt9098028",
+      "role": "Archive footage",
+      "title": "The News Hour with Mark Austin",
+      "year": "2021",
+      "description": "(TV Series) Self - Episode dated 18 March 2021 (2021) ... Self (uncredited)"
+    },
+    {
+      "id": "tt0081857",
+      "role": "Archive footage",
+      "title": "Entertainment Tonight",
+      "year": "2008-2021",
+      "description": "(TV Series) Self - Episode #40.156 (2021) ... Self - Episode #40.154 (2021) ... Self - ET's Wonder Woman 1984 Blowout! (2020) ... Self - Episode #39.276 (2020) ... Self - Catching Up with Kevin Hart! (2020) ... Self Show all 52 episodes"
+    },
+    {
+      "id": "tt13268306",
+      "role": "Archive footage",
+      "title": "Tatum Report",
+      "year": "2021",
+      "description": "(TV Series) Self - The Case For Impeaching Democrats (2021) ... Self - Celeb Dem Hypocrites Trying To Overturn 2016 Electoral College Vote (2021) ... Self - Don Lemon Says Trump Supporters Are Of The Klan, Biden Already Losing Control Of Democrats (2021) ... Self"
+    },
+    {
+      "id": "tt13878028",
+      "role": "Archive footage",
+      "title": "Diamond and Silk Crystal Clear",
+      "year": "2021",
+      "description": "(TV Series) Self - Episode dated 13 February 2021 (2021) ... Self"
+    },
+    {
+      "id": "tt2070564",
+      "role": "Archive footage",
+      "title": "WatchMojo",
+      "year": "2020-2021",
+      "description": "(TV Series) Self - Top 10 Worst Celebrity Apologies Ever (2021) ... Self - Top 20 Celebrities Who Ruined Their Careers In 2020 (2020) ... Self"
+    },
+    {
+      "id": "tt13645914",
+      "role": "Archive footage",
+      "title": "Drew Hernandez Live",
+      "year": "2021",
+      "description": "(TV Series) Self - Don Lemon Says Trump Supporters Are Of The Klan, Biden Already Losing Control Of Democrats (2021) ... Self"
+    },
+    {
+      "id": "tt2079265",
+      "role": "Archive footage",
+      "title": "Sky Midnight News",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode dated 13 December 2020 (2020) ... Self (uncredited)"
+    },
+    {
+      "id": "tt13557346",
+      "role": "Archive footage",
+      "title": "Jean Rochefort - Mit Witz und Eleganz",
+      "year": "2020",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt11827352",
+      "role": "Archive footage",
+      "title": "TheQuartering",
+      "year": "2020",
+      "description": "(TV Series) Self - Johnny Depp FIRED From Fantastic Beast 3! Outrageous & JK Rowling Abandoned Him (2020) ... Self"
+    },
+    {
+      "id": "tt8925242",
+      "role": "Archive footage",
+      "title": "Jeremy Vine",
+      "year": "2020",
+      "description": "(TV Series) Self - Episode #3.219 (2020) ... Self - Episode #3.218 (2020) ... Self - Episode #3.145 (2020) ... Self - Episode #3.144 (2020) ... Self - Episode #3.135 (2020) ... Self"
+    },
+    {
+      "id": "tt11465472",
+      "role": "Archive footage",
+      "title": "Josiah Rises",
+      "year": "2020",
+      "description": "(TV Series) Self - It Was Democrats & Hollywood Who Pushed For Riots! Biden LIED About Trump! (2020) ... Self"
+    },
+    {
+      "id": "tt11827302",
+      "role": "Archive footage",
+      "title": "Entertainment Hacker",
+      "year": "2020",
+      "description": "(TV Series) Self - Johnny Depp's Lawyer Drops Massive BOMB On Amber And Whitney Heard! (2020) ... Self - Joe Rogan Called Out Amber Heard 4 Years Ago And NAILED IT! (2020) ... Self"
+    },
+    {
+      "id": "tt11121398",
+      "role": "Archive footage",
+      "title": "Squanderers",
+      "year": "2020",
+      "description": "(Short) Self"
+    },
+    {
+      "id": "tt3644198",
+      "role": "Archive footage",
+      "title": "Good Morning Britain",
+      "year": "2016-2020",
+      "description": "(TV Series) Self - Episode dated 23 July 2020 (2020) ... Self - Episode dated 22 July 2020 (2020) ... Self - Episode dated 21 July 2020 (2020) ... Self - Episode dated 20 July 2020 (2020) ... Self - Episode dated 7 July 2020 (2020) ... Self (uncredited) Show all 10 episodes"
+    },
+    {
+      "id": "tt12299410",
+      "role": "Archive footage",
+      "title": "DefunctTV",
+      "year": "2020",
+      "description": "(TV Series) Mad Hatter - The History of Adventures in Wonderland (2020) ... Mad Hatter"
+    },
+    {
+      "id": "tt11427372",
+      "role": "Archive footage",
+      "title": "Hollywood's Stories",
+      "year": "2020",
+      "description": "(TV Series documentary) - Heath Ledger Dark Fate for a Young Star (2020)"
+    },
+    {
+      "id": "tt11964078",
+      "role": "Archive footage",
+      "title": "Sport Relief 2020",
+      "year": "2020",
+      "description": "(TV Special) Self (uncredited)"
+    },
+    {
+      "id": "tt10804950",
+      "role": "Archive footage",
+      "title": "Geeks + Gamers",
+      "year": "2020",
+      "description": "(TV Series) Self - Amber Heard Admits to Abuse in Leaked Audio - Maybe Don't Believe All Women (2020) ... Self"
+    },
+    {
+      "id": "tt7415686",
+      "role": "Archive footage",
+      "title": "The Kill Count",
+      "year": "2020",
+      "description": "(TV Series) Self - Sweeney Todd: The Demon Barber of Fleet Street (2007) (2020) ... Self"
+    },
+    {
+      "id": "tt11635416",
+      "role": "Archive footage",
+      "title": "Les Chroniques du Mea",
+      "year": "2019",
+      "description": "(TV Series) Self - Mars Attacks (1995) (2019) ... Self"
+    },
+    {
+      "id": "tt10468676",
+      "role": "Archive footage",
+      "title": "The Movies",
+      "year": "2019",
+      "description": "(TV Series documentary) Edward Scissorhands / Ed Wood - The Nineties (2019) ... Edward Scissorhands / Ed Wood"
+    },
+    {
+      "id": "tt0166442",
+      "role": "Archive footage",
+      "title": "Inside Edition",
+      "year": "2014-2019",
+      "description": "(TV Series documentary) Self - Deborah Norville Is Back After Cancer Surgery (2019) ... Self - Episode #26.46 (2014) ... Self"
+    },
+    {
+      "id": "tt9662640",
+      "role": "Archive footage",
+      "title": "Groeten uit 19XX",
+      "year": "2019",
+      "description": "(TV Series) Self - 1991 (2019) ... Self"
+    },
+    {
+      "id": "tt9361052",
+      "role": "Archive footage",
+      "title": "D'Astrain No Cinema - Christmas Special",
+      "year": "2018",
+      "description": "(Video short) Self"
+    },
+    {
+      "id": "tt3503424",
+      "role": "Archive footage",
+      "title": "Celebrity Page",
+      "year": "2017-2018",
+      "description": "(TV Series) Self - Episode #3.179 (2018) ... Self - Episode #3.114 (2018) ... Self - Episode #2.178 (2017) ... Self"
+    },
+    {
+      "id": "tt11431748",
+      "role": "Archive footage",
+      "title": "Demented Pictures",
+      "year": "2018",
+      "description": "(TV Series documentary) Self - Everything You Ever Wanted To Know About A Nightmare On Elm Street (2018) ... Self"
+    },
+    {
+      "id": "tt0924651",
+      "role": "Archive footage",
+      "title": "The Graham Norton Show",
+      "year": "2011-2018",
+      "description": "(TV Series) Self - Graham Norton's Good Guest Guide (2018) ... Self - Compilation (2011) ... Self"
+    },
+    {
+      "id": "tt8219204",
+      "role": "Archive footage",
+      "title": "Six Sides of Katharine Hepburn",
+      "year": "2018",
+      "description": "(Documentary short) Self"
+    },
+    {
+      "id": "tt7808628",
+      "role": "Archive footage",
+      "title": "Hell's Club Part 2. Another Night",
+      "year": "2017",
+      "description": "(Video short) Clients"
+    },
+    {
+      "id": "tt0247094",
+      "role": "Archive footage",
+      "title": "Extra with Billy Bush",
+      "year": "2010-2017",
+      "description": "(TV Series) Self / Self - Into the Woods - Episode #24.72 (2017) ... Self - Episode #23.251 (2017) ... Self - Episode #23.220 (2017) ... Self - Episode #23.186 (2017) ... Self - Episode #22.204 (2016) ... Self Show all 21 episodes"
+    },
+    {
+      "id": "tt7374726",
+      "role": "Archive footage",
+      "title": "Cashed Out Casino",
+      "year": "2017",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0959790",
+      "role": "Archive footage",
+      "title": "ITV Lunchtime News",
+      "year": "2017",
+      "description": "(TV Series) Self - Actor - Episode dated 23 June 2017 (2017) ... Self - Actor"
+    },
+    {
+      "id": "tt0430836",
+      "role": "Archive footage",
+      "title": "The Insider",
+      "year": "2016-2017",
+      "description": "(TV Series) Self - Heyy (2017) ... Self - Episode #12.230 (2016) ... Self"
+    },
+    {
+      "id": "tt5623078",
+      "role": "Archive footage",
+      "title": "Non mais t'as vu ce que t'écoutes",
+      "year": "2017",
+      "description": "(TV Series) Self - Jul - Wesh alors (critique) (2017) ... Self"
+    },
+    {
+      "id": "tt6301138",
+      "role": "Archive footage",
+      "title": "Johnny Depp - Das Jahr der Entscheidung",
+      "year": "2016",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt11635304",
+      "role": "Archive footage",
+      "title": "L'antre du Mea",
+      "year": "2016",
+      "description": "(TV Series documentary) Self - Les Jeux Rocketeer (2016) ... Self"
+    },
+    {
+      "id": "tt7626088",
+      "role": "Archive footage",
+      "title": "Unknown Movies",
+      "year": "2013-2016",
+      "description": "(TV Series) Self - Alice (2016) ... Self - The Brave (2013) ... Self"
+    },
+    {
+      "id": "tt5885382",
+      "role": "Archive footage",
+      "title": "L'IA et Mathieu",
+      "year": "2016",
+      "description": "(TV Mini-Series) Self - Légalisation, hyporcrisie française (2016) ... Self"
+    },
+    {
+      "id": "tt4823212",
+      "role": "Archive footage",
+      "title": "The Drunken Peasants",
+      "year": "2016",
+      "description": "(TV Series) Self - Josh Feuerstein's Vagina Mind - TJ Taps Out! - Bitch Boy Slap Fight Debate! (2016) ... Self"
+    },
+    {
+      "id": "tt4537842",
+      "role": "Archive footage",
+      "title": "A Very Murray Christmas",
+      "year": "2015",
+      "description": "(TV Special) Self (uncredited)"
+    },
+    {
+      "id": "tt4416750",
+      "role": "Archive footage",
+      "title": "Welcome to the Basement",
+      "year": "2015",
+      "description": "(TV Series) Glen Lantz - Day of the Dead (2015) ... Glen Lantz"
+    },
+    {
+      "id": "tt4771588",
+      "role": "Archive footage",
+      "title": "The 90s: Ten Years That Changed the World",
+      "year": "2015",
+      "description": "(TV Movie documentary) Self (uncredited)"
+    },
+    {
+      "id": "tt3317522",
+      "role": "Archive footage",
+      "title": "The Nightmare",
+      "year": "2015/II",
+      "description": "(Documentary) Glen Lantz (uncredited)"
+    },
+    {
+      "id": "tt0315727",
+      "role": "Archive footage",
+      "title": "The Wright Stuff",
+      "year": "2015",
+      "description": "(TV Series) Self - Episode #20.16 (2015) ... Self"
+    },
+    {
+      "id": "tt0355143",
+      "role": "Archive footage",
+      "title": "Taff",
+      "year": "2006-2015",
+      "description": "(TV Series) Self - Episode dated 22 January 2015 (2015) ... Self - Episode dated 11 February 2013 (2013) ... Self - Episode dated 11 January 2006 (2006) ... Self"
+    },
+    {
+      "id": "tt3608248",
+      "role": "Archive footage",
+      "title": "Tie Gang",
+      "year": "2014",
+      "description": "(TV Series) Glen Lantz - A Nightmare on Chris B Street (2014) ... Glen Lantz"
+    },
+    {
+      "id": "tt6987380",
+      "role": "Archive footage",
+      "title": "That's Life!! Kilorenzos Smith in Talks...",
+      "year": "2014",
+      "description": "(TV Series documentary) Self - 2nd Indie Fest of YouTube Videos 2014 (2014) ... Self"
+    },
+    {
+      "id": "tt1635327",
+      "role": "Archive footage",
+      "title": "Nostalgia Critic",
+      "year": "2014",
+      "description": "(TV Series) Mad Hatter - Disney Afternoon (2014) ... Mad Hatter"
+    },
+    {
+      "id": "tt8169444",
+      "role": "Archive footage",
+      "title": "Montreux Comedy",
+      "year": "2013",
+      "description": "(TV Series) Self - Inside Montreux Comedy: Saison 2 - Episode 1 (2013) ... Self"
+    },
+    {
+      "id": "tt6217376",
+      "role": "Archive footage",
+      "title": "Le Fossoyeur de Films",
+      "year": "2013",
+      "description": "(TV Mini-Series documentary) - Top 10 des films cultes jamais réalisés (2013)"
+    },
+    {
+      "id": "tt2841688",
+      "role": "Archive footage",
+      "title": "Movie Guide",
+      "year": "2013",
+      "description": "(TV Series) Tonto - Movie Guide: Part 10 (2013) ... Tonto"
+    },
+    {
+      "id": "tt9725138",
+      "role": "Archive footage",
+      "title": "Johnny Depp - Idol, Rebell und Superstar",
+      "year": "2012",
+      "description": "(TV Movie) Self"
+    },
+    {
+      "id": "tt2241422",
+      "role": "Archive footage",
+      "title": "Too Young to Die",
+      "year": "2012",
+      "description": "(TV Series documentary) Imaginarium Tony 1 - Heath Ledger: Liebling der Götter (2012) ... Imaginarium Tony 1 (uncredited)"
+    },
+    {
+      "id": "tt2243299",
+      "role": "Archive footage",
+      "title": "Final Cut: Ladies and Gentlemen",
+      "year": "2012",
+      "description": ""
+    },
+    {
+      "id": "tt2200957",
+      "role": "Archive footage",
+      "title": "1st AACTA Awards",
+      "year": "2012",
+      "description": "(TV Special) Self - Producer"
+    },
+    {
+      "id": "tt3134078",
+      "role": "Archive footage",
+      "title": "The Decade You Were Born: The 1980's",
+      "year": "2011",
+      "description": "Self (uncredited)"
+    },
+    {
+      "id": "tt0343316",
+      "role": "Archive footage",
+      "title": "Today",
+      "year": "2011",
+      "description": "(TV Series) Self - Guest - Episode dated 20 December 2011 (2011) ... Self - Guest"
+    },
+    {
+      "id": "tt1743990",
+      "role": "Archive footage",
+      "title": "Cinemassacre's Monster Madness",
+      "year": "2007-2011",
+      "description": "(TV Series documentary) Glen Lantz / Guy on TV - Freddy's Dead: The Final Nightmare (2011) ... Guy on TV - A Nightmare on Elm Street (2011) ... Glen Lantz - A Nightmare on Elm Street (2007) ... Glen Lantz"
+    },
+    {
+      "id": "tt2092452",
+      "role": "Archive footage",
+      "title": "Pirates of the Caribbean: Tales of the Code: Wedlocked",
+      "year": "2011",
+      "description": "(Short) Captain Jack Sparrow"
+    },
+    {
+      "id": "tt2028530",
+      "role": "Archive footage",
+      "title": "Paradise Lost 3: Purgatory",
+      "year": "2011",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt1417592",
+      "role": "Archive footage",
+      "title": "Pearl Jam Twenty",
+      "year": "2011",
+      "description": "(Documentary) Self (uncredited)"
+    },
+    {
+      "id": "tt1566050",
+      "role": "Archive footage",
+      "title": "5 Second Movies",
+      "year": "2008-2010",
+      "description": "(TV Series short) Captain Jack Sparrow / Sweeney Todd - Sweeney Todd Part 2 (2010) ... Sweeney Todd - Pirates of the Caribbean 1 (2010) ... Captain Jack Sparrow - Pirates of the Caribbean 2 (2008) ... Captain Jack Sparrow - Pirates of the Caribbean (2008) ... Captain Jack Sparrow"
+    },
+    {
+      "id": "tt1651079",
+      "role": "Archive footage",
+      "title": "Gilles Jacob: CIitizen Cannes",
+      "year": "2010",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt1510985",
+      "role": "Archive footage",
+      "title": "Never Sleep Again: The Elm Street Legacy",
+      "year": "2010",
+      "description": "(Video documentary) Self"
+    },
+    {
+      "id": "tt1509653",
+      "role": "Archive footage",
+      "title": "Live from Studio Five",
+      "year": "2010",
+      "description": "(TV Series) Self - Episode #1.129 (2010) ... Self"
+    },
+    {
+      "id": "tt0318251",
+      "role": "Archive footage",
+      "title": "Troldspejlet",
+      "year": "2010",
+      "description": "(TV Series) Self / Mad Hatter - Episode #43.8 (2010) ... Self / Mad Hatter (uncredited)"
+    },
+    {
+      "id": "tt9283916",
+      "role": "Archive footage",
+      "title": "Ballybrando",
+      "year": "2009",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0930831",
+      "role": "Archive footage",
+      "title": "Gomorron",
+      "year": "2009",
+      "description": "(TV Series) Self - Episode dated 26 July 2009 (2009) ... Self"
+    },
+    {
+      "id": "tt1508270",
+      "role": "Archive footage",
+      "title": "España, plató de cine",
+      "year": "2009",
+      "description": "(TV Movie documentary) Dean Corso (uncredited)"
+    },
+    {
+      "id": "tt0092322",
+      "role": "Archive footage",
+      "title": "Biography",
+      "year": "2000-2008",
+      "description": "(TV Series documentary) Self / Mort Rainey - Winona Ryder (2008) ... Self - Johnny Depp: Under His Skin (2004) ... Self - Stephen King: Fear, Fame and Fortune (2000) ... Mort Rainey"
+    },
+    {
+      "id": "tt1535978",
+      "role": "Archive footage",
+      "title": "Los 10 magníficos",
+      "year": "2008",
+      "description": "(TV Series documentary) Self - Jim Jarmusch (2008) ... Self (uncredited)"
+    },
+    {
+      "id": "tt0463399",
+      "role": "Archive footage",
+      "title": "E! True Hollywood Story",
+      "year": "2002-2008",
+      "description": "(TV Series documentary) Self - Pussycat Dolls (2008) ... Self - Winona Ryder (2002) ... Self"
+    },
+    {
+      "id": "tt2034782",
+      "role": "Archive footage",
+      "title": "Spisok korabley",
+      "year": "2008",
+      "description": "(Documentary)"
+    },
+    {
+      "id": "tt1183149",
+      "role": "Archive footage",
+      "title": "Oscar, que empiece el espectáculo",
+      "year": "2008",
+      "description": "(TV Movie documentary) Jack Sparrow / Sweeney Todd (uncredited)"
+    },
+    {
+      "id": "tt0284767",
+      "role": "Archive footage",
+      "title": "The Factor",
+      "year": "2008",
+      "description": "(TV Series) Sweeney Todd / Self - 'Patriot' (segment \"Pinheads & Patriots\") - Episode dated 23 January 2008 (2008) ... Sweeney Todd - Episode dated 16 January 2008 (2008) ... Self - 'Patriot' (segment \"Pinheads & Patriots\")"
+    },
+    {
+      "id": "tt1223210",
+      "role": "Archive footage",
+      "title": "50 Greatest Comedy Catchphrases",
+      "year": "2008",
+      "description": "(TV Movie documentary) Self (uncredited)"
+    },
+    {
+      "id": "tt0383126",
+      "role": "Archive footage",
+      "title": "MythBusters",
+      "year": "2007",
+      "description": "(TV Series documentary) Captain Jack Sparrow - Pirates 2! (2007) ... Captain Jack Sparrow"
+    },
+    {
+      "id": "tt1099506",
+      "role": "Archive footage",
+      "title": "Krügers Woche",
+      "year": "2007",
+      "description": "(TV Series) Captain Jack Sparrow - Episode #1.6 (2007) ... Captain Jack Sparrow (uncredited) - Episode #1.5 (2007) ... Captain Jack Sparrow (uncredited) - Episode #1.3 (2007) ... Captain Jack Sparrow (uncredited)"
+    },
+    {
+      "id": "tt0984201",
+      "role": "Archive footage",
+      "title": "An Island's Legacy: Preparing for TT",
+      "year": "2007",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt1066444",
+      "role": "Archive footage",
+      "title": "Horâ wo 666 bai tanoshiku miru hô'hô",
+      "year": "2007",
+      "description": "(TV Special short) Self"
+    },
+    {
+      "id": "tt0778564",
+      "role": "Archive footage",
+      "title": "Planet Voice",
+      "year": "2007",
+      "description": "(TV Series) Jack Sparrow - Pirates of the Caribbean Premiere (2007) ... Jack Sparrow"
+    },
+    {
+      "id": "tt0480279",
+      "role": "Archive footage",
+      "title": "20 heures le journal",
+      "year": "2007",
+      "description": "(TV Series) Self - Episode dated 20 May 2007 (2007) ... Self"
+    },
+    {
+      "id": "tt0969243",
+      "role": "Archive footage",
+      "title": "Cómo conseguir un papel en Hollywood",
+      "year": "2007",
+      "description": "(TV Movie documentary) George Jung / Jack Sparrow"
+    },
+    {
+      "id": "tt0489062",
+      "role": "Archive footage",
+      "title": "Going to Pieces: The Rise and Fall of the Slasher Film",
+      "year": "2006",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0463397",
+      "role": "Archive footage",
+      "title": "Corazón de...",
+      "year": "2005-2006",
+      "description": "(TV Series) Self - Episode dated 11 January 2006 (2006) ... Self - Episode dated 19 September 2005 (2005) ... Self"
+    },
+    {
+      "id": "tt0385435",
+      "role": "Archive footage",
+      "title": "Love Chain",
+      "year": "2005",
+      "description": "(TV Series) Self - Winona Ryder (2005) ... Self"
+    },
+    {
+      "id": "tt0490768",
+      "role": "Archive footage",
+      "title": "101 Sexiest Celebrity Bodies",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self - Place #88"
+    },
+    {
+      "id": "tt0475467",
+      "role": "Archive footage",
+      "title": "El Magacine",
+      "year": "2005",
+      "description": "(TV Series) Self - Episode dated 23 September 2005 (2005) ... Self"
+    },
+    {
+      "id": "tt0470644",
+      "role": "Archive footage",
+      "title": "Cinema mil",
+      "year": "2005",
+      "description": "(TV Series documentary) Self - Episode #1.2 (2005) ... Self"
+    },
+    {
+      "id": "tt0471538",
+      "role": "Archive footage",
+      "title": "101 Most Starlicious Makeovers",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self - #24"
+    },
+    {
+      "id": "tt0450204",
+      "role": "Archive footage",
+      "title": "101 Juiciest Hollywood Hookups",
+      "year": "2005",
+      "description": "(TV Mini-Series documentary) Self"
+    },
+    {
+      "id": "tt0465314",
+      "role": "Archive footage",
+      "title": "The 100 Hottest Hotties",
+      "year": "2005",
+      "description": "(TV Mini-Series documentary) Self"
+    },
+    {
+      "id": "tt0450234",
+      "role": "Archive footage",
+      "title": "50 Steamiest Southern Stars",
+      "year": "2005",
+      "description": "(TV Movie documentary) Self"
+    },
+    {
+      "id": "tt0476003",
+      "role": "Archive footage",
+      "title": "Race to the Red Carpet",
+      "year": "2005",
+      "description": "(TV Special) Self"
+    },
+    {
+      "id": "tt0402720",
+      "role": "Archive footage",
+      "title": "101 Biggest Celebrity Oops",
+      "year": "2004",
+      "description": "(TV Special documentary) Self - #26: Things They Shouldn't Have Said / Self - #99: Johnny Depp and the Winona Tattoo"
+    },
+    {
+      "id": "tt0471545",
+      "role": "Archive footage",
+      "title": "50 Greatest Teen Idols",
+      "year": "2003",
+      "description": "(TV Movie documentary) Self - #30"
+    },
+    {
+      "id": "tt0372345",
+      "role": "Archive footage",
+      "title": "Inventing Grace, Touching Glory",
+      "year": "2003",
+      "description": "(Documentary) Self"
+    },
+    {
+      "id": "tt0403738",
+      "role": "Archive footage",
+      "title": "Celebrities Uncensored",
+      "year": "2003",
+      "description": "(TV Series) Self - Episode #1.1 (2003) ... Self"
+    },
+    {
+      "id": "tt0435174",
+      "role": "Archive footage",
+      "title": "Making Bela",
+      "year": "2002",
+      "description": "(Video documentary short) Self / Edward D. Wood Jr."
+    },
+    {
+      "id": "tt0437424",
+      "role": "Archive footage",
+      "title": "Pie Plates Over Hollywood",
+      "year": "2002",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0488301",
+      "role": "Archive footage",
+      "title": "Histoires de festival",
+      "year": "2002",
+      "description": "(TV Movie) Self"
+    },
+    {
+      "id": "tt0417347",
+      "role": "Archive footage",
+      "title": "Music Behind the Scenes",
+      "year": "2001",
+      "description": "(TV Mini-Series documentary) Self"
+    },
+    {
+      "id": "tt0362751",
+      "role": "Archive footage",
+      "title": "If I Should Fall from Grace: The Shane MacGowan Story",
+      "year": "2001",
+      "description": "(Documentary) Self (music video: \"That Woman's Got Me Drinking\")"
+    },
+    {
+      "id": "tt0879233",
+      "role": "Archive footage",
+      "title": "Donnie Brasco: Out of the Shadows",
+      "year": "2000",
+      "description": "(Video documentary short) Self"
+    },
+    {
+      "id": "tt0224861",
+      "role": "Archive footage",
+      "title": "The Directors",
+      "year": "1999-2000",
+      "description": "(TV Series documentary) Raoul Duke / Edward Scissorhands / Ed Wood / ... - The Films of Terry Gilliam (2000) ... Raoul Duke (uncredited) - The Films of Tim Burton (1999) ... Edward Scissorhands / Ed Wood / Ichabod Crane"
+    },
+    {
+      "id": "tt7496912",
+      "role": "Archive footage",
+      "title": "Neil Young: Dead Man",
+      "year": "1996",
+      "description": "(Video short) Johnny Depp"
+    },
+    {
+      "id": "tt0250049",
+      "role": "Archive footage",
+      "title": "Tom Petty and the Heartbreakers: Playback",
+      "year": "1995",
+      "description": "(Video documentary) Eddie"
+    }
+  ],
+  "errorMessage": ""
+}

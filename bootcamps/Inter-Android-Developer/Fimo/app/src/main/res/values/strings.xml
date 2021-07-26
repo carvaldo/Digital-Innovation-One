@@ -16,4 +16,6 @@
     <string name="companies">Produtoras:</string>
     <string name="pesquisar">Pesquisar</string>
     <string name="procurar_filme">Procurar filme...</string>
+    <string name="filmes">Filmes</string>
+    <string name="perfil">Perfil</string>
 </resources>

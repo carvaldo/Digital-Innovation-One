@@ -9,10 +9,10 @@ import com.github.carvaldo.fimo.datasource.local.dao.*
 import com.github.carvaldo.fimo.datasource.local.entity.*
 import com.github.carvaldo.fimo.datasource.local.util.Converters
 
-@Database(version = 2, exportSchema = true,
+@Database(version = 3, exportSchema = true,
     entities = [
-        ResultMovie::class, Searched::class, SearchedResult::class, Star::class,
-        Director::class, MovieDetail::class, StarMovie::class, DirectorMovie::class
+        ResultMovie::class, Searched::class, SearchedResult::class, Star::class, Person::class,
+        Director::class, MovieDetail::class, StarMovie::class, DirectorMovie::class, CastMovie::class
     ]
 )
 @TypeConverters(Converters::class)
@@ -45,4 +45,6 @@ abstract class DatabaseApp: RoomDatabase() {
     abstract fun getStarDao(): StarDao
     abstract fun getStarMovieDao(): StarMovieDao
     abstract fun getDirectorMovieDa(): DirectorMovieDao
+    abstract fun getCastDao(): CastDao
+    abstract fun getPersonDao(): PersonDao
 }
