@@ -14,4 +14,5 @@ Projeto de desafio do Bootcamp Inter Android Developer, na plataforma [Digital I
         - [x] Resultados de buscas por filmes;
         - [x] Fichas de filmes ;
         - [ ] Fichas de atores e diretores.
-    - [ ] Criar ImageView customizada para fazer o carregamento das imagens.
+    - [ ] Criar ImageView customizada para fazer o carregamento das imagens;
+    - [ ] Implementar cadastro de chave de IMDB API.
