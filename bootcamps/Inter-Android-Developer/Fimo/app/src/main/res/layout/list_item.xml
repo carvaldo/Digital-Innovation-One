@@ -21,13 +21,12 @@
         android:hapticFeedbackEnabled="true"
         android:layoutDirection="locale">
 
-        <ImageView
+        <com.github.carvaldo.doak.imageview.DOakImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="105dp"
             android:contentDescription="@string/poster"
-            android:minWidth="90dp"
-            android:minHeight="115dp"
+            android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_image_not_supported_24" />

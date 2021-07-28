@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -14,7 +15,6 @@ import com.github.carvaldo.fimo.datasource.local.entity.Director
 import com.github.carvaldo.fimo.datasource.local.entity.MovieDetail
 import com.github.carvaldo.fimo.datasource.local.entity.Star
 import com.github.carvaldo.fimo.viewModel.MovieViewModel
-import com.squareup.picasso.Picasso
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -48,7 +48,7 @@ class MoviePreviewFragment : Fragment() {
 
     private fun bindView(movieDetail: MovieDetail) {
         (activity as AppCompatActivity?)?.supportActionBar?.title = movieDetail.title
-        Picasso.get().load(movieDetail.image).into(binding.mainImage)
+        binding.mainImage.uri = movieDetail.image?.toUri()
         binding.descriptionText.text = movieDetail.plotLocal
         binding.companyText.text = movieDetail.companies
         binding.genreText.text = movieDetail.genres

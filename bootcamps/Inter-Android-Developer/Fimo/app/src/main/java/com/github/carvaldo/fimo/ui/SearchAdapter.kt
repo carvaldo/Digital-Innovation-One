@@ -2,11 +2,11 @@ package com.github.carvaldo.fimo.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
-import com.github.carvaldo.fimo.R
 import com.github.carvaldo.fimo.databinding.ListItemBinding
 import com.github.carvaldo.fimo.datasource.local.entity.ResultMovie
-import com.squareup.picasso.Picasso
+
 // TODO: Utiliizar DiffUtil
 class SearchAdapter(items: List<ResultMovie>? = null): RecyclerView.Adapter<SearchAdapter.ViewHolder>() {
     var items: List<ResultMovie>? = null
@@ -38,7 +38,7 @@ class SearchAdapter(items: List<ResultMovie>? = null): RecyclerView.Adapter<Sear
         fun toBind(movie: ResultMovie) {
             binding.titleText.text = movie.title
             binding.descriptionText.text = movie.description
-            Picasso.get().load(movie.image).resizeDimen(R.dimen.thumb_width, R.dimen.thumb_height).centerInside().into(binding.imageView)
+            binding.imageView.uri = movie.image?.toUri()
             binding.root.setOnClickListener { onItemClickListener?.invoke(adapterPosition, movie) }
         }
     }

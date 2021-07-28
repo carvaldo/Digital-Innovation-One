@@ -1,2 +1,3 @@
 rootProject.name = "Fimo"
 include ':app'
+include ':DOak-ImageView'

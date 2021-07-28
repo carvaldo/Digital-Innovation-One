@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
@@ -15,8 +15,6 @@ import com.github.carvaldo.fimo.databinding.ListItemCastMovieBinding
 import com.github.carvaldo.fimo.datasource.remote.response.CastMoviesItem
 import com.github.carvaldo.fimo.datasource.remote.response.PersonData
 import com.github.carvaldo.fimo.viewModel.PersonViewModel
-import com.squareup.picasso.Picasso
-import kotlinx.coroutines.launch
 
 private val TAG = PersonPreviewFragment::class.simpleName
 
@@ -54,13 +52,7 @@ class PersonPreviewFragment : Fragment() {
         binding.nameText.text = person.name
         bindRecyclerView(person.castMovies)
         binding.castListView.adapter = adapter
-        bindPhoto(person.image)
-    }
-
-    private fun bindPhoto(url: String?) {
-        lifecycleScope.launch {
-            Picasso.get().load(url).into(binding.mainImage)
-        }
+        binding.mainImage.uri = person.image?.toUri()
     }
 
     private fun bindRecyclerView(items: List<CastMoviesItem>?) {
