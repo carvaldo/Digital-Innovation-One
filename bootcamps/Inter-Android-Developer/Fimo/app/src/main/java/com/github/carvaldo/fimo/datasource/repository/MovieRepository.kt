@@ -5,7 +5,9 @@ import com.github.carvaldo.fimo.datasource.ResultType
 import com.github.carvaldo.fimo.datasource.local.DatabaseApp
 import com.github.carvaldo.fimo.datasource.local.entity.*
 import com.github.carvaldo.fimo.datasource.remote.service.MovieService
-import com.github.carvaldo.fimo.datasource.remote.util.ServiceGenerator
+import javax.inject.Inject
+
+// TODO Remover dependências internas de repositories
 
 /**
  * Movie repository
@@ -14,12 +16,14 @@ import com.github.carvaldo.fimo.datasource.remote.util.ServiceGenerator
  * @property movieDao
  * @property searchedRepository
  */
-class MovieRepository(private val database: DatabaseApp) {
-    private val service by lazy { ServiceGenerator.create<MovieService>() }
+class MovieRepository @Inject constructor(
+    private val database: DatabaseApp,
+    private val searchedRepository: SearchedRepository,
+    private val directorRepository: DirectorRepository,
+    private val starRepository: StarRepository,
+private val service: MovieService
+) {
     private val movieDao by lazy { database.getMovieDao() }
-    private val searchedRepository by lazy { SearchedRepository(database.getSearchedDao(), database.getSearchedMoviedDao()) }
-    private val directorRepository by lazy { DirectorRepository(database) }
-    private val starRepository by lazy { StarRepository(database) }
     private val starMovieDao by lazy { database.getStarMovieDao() }
     private val directorMovieDao by lazy { database.getDirectorMovieDa() }
 

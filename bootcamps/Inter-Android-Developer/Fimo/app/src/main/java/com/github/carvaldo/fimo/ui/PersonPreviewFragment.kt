@@ -15,18 +15,19 @@ import com.github.carvaldo.fimo.databinding.ListItemCastMovieBinding
 import com.github.carvaldo.fimo.datasource.remote.response.CastMoviesItem
 import com.github.carvaldo.fimo.datasource.remote.response.PersonData
 import com.github.carvaldo.fimo.viewModel.PersonViewModel
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 private val TAG = PersonPreviewFragment::class.simpleName
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-// TODO Criar arquivo de configuração. (Utilizar para definir padrão de data.)
+@AndroidEntryPoint
 class PersonPreviewFragment : Fragment() {
     private lateinit var binding: FragmentPreviewPersonBinding
-
-    private val adapter by lazy { Adapter() }
-    private val viewModel by viewModels<PersonViewModel>()
+    @Inject lateinit var adapter: Adapter
+    private val viewModel: PersonViewModel by viewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
@@ -63,7 +64,7 @@ class PersonPreviewFragment : Fragment() {
         }
     }
 
-    private inner class Adapter: RecyclerView.Adapter<Adapter.ViewHolder>() {
+    class Adapter @Inject constructor(): RecyclerView.Adapter<Adapter.ViewHolder>() {
         var items: List<CastMoviesItem>? = null
             set(value) {
                 field = value
@@ -76,7 +77,7 @@ class PersonPreviewFragment : Fragment() {
         }
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
-            ViewHolder(ListItemCastMovieBinding.inflate(layoutInflater, parent, false))
+            ViewHolder(ListItemCastMovieBinding.inflate(LayoutInflater.from(parent.context), parent, false))
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
             holder.toBind(items!![holder.adapterPosition])
@@ -84,7 +85,7 @@ class PersonPreviewFragment : Fragment() {
 
         override fun getItemCount() = items?.size ?: 0
 
-        private inner class ViewHolder(val binding: ListItemCastMovieBinding)
+        inner class ViewHolder(val binding: ListItemCastMovieBinding)
             : RecyclerView.ViewHolder(binding.root) {
             fun toBind(item: CastMoviesItem) {
                 binding.descriptionText.text = item.description

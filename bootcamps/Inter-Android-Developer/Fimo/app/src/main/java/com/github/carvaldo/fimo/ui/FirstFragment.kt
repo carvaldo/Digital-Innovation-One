@@ -12,17 +12,19 @@ import com.github.carvaldo.fimo.R
 import com.github.carvaldo.fimo.databinding.FragmentFirstBinding
 import com.github.carvaldo.fimo.datasource.local.entity.ResultMovie
 import com.github.carvaldo.fimo.viewModel.SearchViewModel
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 private val TAG = FirstFragment::class.simpleName
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
+@AndroidEntryPoint
 class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
-
     private lateinit var binding: FragmentFirstBinding
-    private val adapter by lazy { SearchAdapter() }
-    private val viewModel by viewModels<SearchViewModel>()
+    @Inject lateinit var adapter: SearchAdapter
+    private val viewModel: SearchViewModel by viewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {

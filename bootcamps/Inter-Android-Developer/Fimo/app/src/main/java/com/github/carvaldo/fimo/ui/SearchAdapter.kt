@@ -6,9 +6,10 @@ import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import com.github.carvaldo.fimo.databinding.ListItemBinding
 import com.github.carvaldo.fimo.datasource.local.entity.ResultMovie
+import javax.inject.Inject
 
 // TODO: Utiliizar DiffUtil
-class SearchAdapter(items: List<ResultMovie>? = null): RecyclerView.Adapter<SearchAdapter.ViewHolder>() {
+class SearchAdapter @Inject constructor(): RecyclerView.Adapter<SearchAdapter.ViewHolder>() {
     var items: List<ResultMovie>? = null
         set(value) {
             field = value

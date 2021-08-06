@@ -15,18 +15,21 @@ import com.github.carvaldo.fimo.datasource.local.entity.Director
 import com.github.carvaldo.fimo.datasource.local.entity.MovieDetail
 import com.github.carvaldo.fimo.datasource.local.entity.Star
 import com.github.carvaldo.fimo.viewModel.MovieViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import java.text.SimpleDateFormat
 import java.util.*
+import javax.inject.Inject
 
 private val TAG = MoviePreviewFragment::class.simpleName
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
+@AndroidEntryPoint
 class MoviePreviewFragment : Fragment() {
     private lateinit var binding: FragmentPreviewMovieBinding
-    private val dateFormat by lazy { SimpleDateFormat("MM/yyyy", Locale("pt", "BR")) }
-    private val viewModel by viewModels<MovieViewModel>()
+    @Inject lateinit var dateFormat: SimpleDateFormat
+    private val viewModel: MovieViewModel by viewModels()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
