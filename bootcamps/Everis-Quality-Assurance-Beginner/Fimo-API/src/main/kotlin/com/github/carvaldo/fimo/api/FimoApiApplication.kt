@@ -1,11 +1,11 @@
-package com.github.carvaldo.citiesapi
+package com.github.carvaldo.fimo.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CitiesApiApplication
+class FimoApiApplication
 
 fun main(args: Array<String>) {
-    runApplication<CitiesApiApplication>(*args)
+    runApplication<FimoApiApplication>(*args)
 }
