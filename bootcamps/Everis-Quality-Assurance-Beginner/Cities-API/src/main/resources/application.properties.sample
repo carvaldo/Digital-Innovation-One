@@ -1,0 +1,10 @@
+debug=true
+spring.main.log-startup-info=true
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=localhost:5432/cities_api
+spring.datasource.name="cities-api"
+spring.datasource.username=postgres
+spring.datasource.password=
+spring.datasource.generate-unique-name=false
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect
