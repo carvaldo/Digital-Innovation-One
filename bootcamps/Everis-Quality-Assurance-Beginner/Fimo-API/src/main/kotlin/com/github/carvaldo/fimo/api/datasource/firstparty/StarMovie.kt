@@ -4,6 +4,7 @@ import javax.persistence.Entity
 import javax.persistence.Id
 import javax.persistence.Table
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "star_movie")
 data class StarMovie(

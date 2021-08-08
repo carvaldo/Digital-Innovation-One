@@ -7,6 +7,7 @@ import javax.persistence.Table
 /**
  * Searched Search historic
  */
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "searched")
 data class Searched(

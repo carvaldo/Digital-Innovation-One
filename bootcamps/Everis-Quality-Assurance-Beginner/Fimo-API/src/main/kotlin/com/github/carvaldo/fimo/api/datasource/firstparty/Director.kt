@@ -8,6 +8,7 @@ import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.Director as Direct
 
 //TODO: Criar relacionamentos entre diretores, estrelas e filmes.
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "director", indexes= [Index(columnList = "apiId", unique = true)])
 data class Director(

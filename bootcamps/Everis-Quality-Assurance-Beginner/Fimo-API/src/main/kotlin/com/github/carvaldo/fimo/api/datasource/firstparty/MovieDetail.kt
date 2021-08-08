@@ -8,6 +8,7 @@ import javax.persistence.Table
 import javax.persistence.Transient
 import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.MovieDetail as MovieDetailApi
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "movie_detail", indexes = [Index(columnList = "apiId", unique = true)])
 data class MovieDetail(

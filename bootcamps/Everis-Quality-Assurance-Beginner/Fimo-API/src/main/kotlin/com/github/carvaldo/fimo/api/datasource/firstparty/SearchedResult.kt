@@ -8,6 +8,7 @@ import javax.persistence.Table
 /**
  * Searched result in historic.
  */
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "searched_result", indexes = [Index(columnList = "resultId", unique = false)])
 data class SearchedResult(

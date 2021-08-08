@@ -6,6 +6,7 @@ import javax.persistence.Index
 import javax.persistence.Table
 import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.Star as StarApi
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "star", indexes = [Index(columnList = "apiId", unique = true)])
 data class Star(

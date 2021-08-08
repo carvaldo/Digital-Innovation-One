@@ -6,6 +6,7 @@ import javax.persistence.Entity
 import javax.persistence.Id
 import javax.persistence.Table
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "result")
 data class ResultMovie(

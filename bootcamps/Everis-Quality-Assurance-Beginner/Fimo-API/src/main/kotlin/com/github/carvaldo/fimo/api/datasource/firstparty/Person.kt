@@ -8,6 +8,7 @@ import javax.persistence.Index
 import javax.persistence.Table
 import javax.persistence.Transient
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "person", indexes = [Index(columnList = "apiId", unique = true)])
 data class Person (
