@@ -1,5 +1,6 @@
 package com.github.carvaldo.fimo.api.controller
 
+import com.github.carvaldo.fimo.api.datasource.Data
 import com.github.carvaldo.fimo.api.datasource.repository.MovieRepository
 import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.ResultMovie
 import com.github.carvaldo.fimo.api.exception.LimitReachedException
@@ -15,15 +16,15 @@ import org.springframework.web.bind.annotation.RestController
 class MovieController constructor(private val movieRepository: MovieRepository) {
 
     @GetMapping("/search/{query}")
-    fun search(@PathVariable("query") query: String): ResponseEntity<List<ResultMovie>> {
+    fun search(@PathVariable("query") query: String): ResponseEntity<Data<List<ResultMovie>>> {
         return try {
-            ResponseEntity.ok(movieRepository.searchByName(query))
+            ResponseEntity.ok(Data(movieRepository.searchByName(query)))
         } catch (e: LimitReachedException) {
             e.printStackTrace()
-            ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build()
+            ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body(Data(null, e.message))
         } catch (e: Exception) {
             e.printStackTrace()
-            ResponseEntity.badRequest().build()
+            ResponseEntity.badRequest().body(Data(null, "Erro interno."))
         }
     }
 }
