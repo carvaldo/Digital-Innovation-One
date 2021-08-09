@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.api.datasource.thirdpaty
+package com.github.carvaldo.fimo.api.datasource.repository.thirdpaty
 
 import com.google.gson.*
 import okhttp3.OkHttpClient
@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit
 class ServiceGenerator {
     companion object {
         const val API_KEY = "k_bljoq3nq"
+        const val PRINCING_URL_IMDB_API = "https://imdb-api.com/pricing"
 
         private var client = OkHttpClient.Builder()
             .also {

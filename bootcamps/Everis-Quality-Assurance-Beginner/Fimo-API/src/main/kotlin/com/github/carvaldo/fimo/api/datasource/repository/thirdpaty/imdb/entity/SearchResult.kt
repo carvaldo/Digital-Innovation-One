@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb
+package com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity
 
 data class SearchResult (
     val searchType: String,

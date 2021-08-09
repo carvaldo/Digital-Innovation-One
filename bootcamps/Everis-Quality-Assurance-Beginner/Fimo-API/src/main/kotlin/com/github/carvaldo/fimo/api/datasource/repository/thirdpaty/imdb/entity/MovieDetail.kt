@@ -1,6 +1,5 @@
-package com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb
+package com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity
 
-import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.Director
 import java.util.Date
 
 data class MovieDetail(
@@ -96,14 +95,14 @@ data class ActorListItem(
 )
 
 data class Posters(
-	val imDbId: String? = null,
-	val fullTitle: String? = null,
-	val year: String? = null,
-	val backdrops: List<BackdropsItem?>? = null,
-	val posters: List<PostersItem?>? = null,
-	val errorMessage: String? = null,
-	val title: String? = null,
-	val type: String? = null
+    val imDbId: String? = null,
+    val fullTitle: String? = null,
+    val year: String? = null,
+    val backdrops: List<BackdropsItem?>? = null,
+    val posters: List<PostersItem?>? = null,
+    val errorMessage: String? = null,
+    val title: String? = null,
+    val type: String? = null
 )
 
 data class GenreListItem(
@@ -170,15 +169,15 @@ data class DirectorListItem(
 )
 
 data class Wikipedia(
-	val imDbId: String? = null,
-	val titleInLanguage: Any? = null,
-	val fullTitle: Any? = null,
-	val plotFull: PlotFull? = null,
-	val year: Any? = null,
-	val errorMessage: String? = null,
-	val language: Any? = null,
-	val title: Any? = null,
-	val type: Any? = null,
-	val plotShort: PlotShort? = null,
-	val url: Any? = null
+    val imDbId: String? = null,
+    val titleInLanguage: Any? = null,
+    val fullTitle: Any? = null,
+    val plotFull: PlotFull? = null,
+    val year: Any? = null,
+    val errorMessage: String? = null,
+    val language: Any? = null,
+    val title: Any? = null,
+    val type: Any? = null,
+    val plotShort: PlotShort? = null,
+    val url: Any? = null
 )

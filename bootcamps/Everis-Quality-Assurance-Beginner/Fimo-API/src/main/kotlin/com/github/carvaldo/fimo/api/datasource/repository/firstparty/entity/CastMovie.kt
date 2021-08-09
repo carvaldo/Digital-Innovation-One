@@ -1,12 +1,14 @@
-package com.github.carvaldo.fimo.api.datasource.firstparty
+package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
 
 import java.util.Date
 import javax.persistence.Entity
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity(name = "cast_movie")
 data class CastMovie(
-    @Id var id: Long? = null,
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE) var id: Long? = null,
     var role: String? = null,
     var year: Date? = null,
     var description: String? = null,

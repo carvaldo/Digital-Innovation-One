@@ -1,10 +1,12 @@
-package com.github.carvaldo.fimo.api.datasource.firstparty
+package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
 
 import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Index
 import javax.persistence.Table
-import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.Director as DirectorApi
+import javax.persistence.Index
+import javax.persistence.Id
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
+import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.Director as DirectorApi
 
 //TODO: Criar relacionamentos entre diretores, estrelas e filmes.
 
@@ -12,7 +14,7 @@ import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.Director as Direct
 @Entity
 @Table(name = "director", indexes= [Index(columnList = "apiId", unique = true)])
 data class Director(
-    @Id var id: Long? = null,
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE) var id: Long? = null,
     var apiId: String,
     var name: String
 )

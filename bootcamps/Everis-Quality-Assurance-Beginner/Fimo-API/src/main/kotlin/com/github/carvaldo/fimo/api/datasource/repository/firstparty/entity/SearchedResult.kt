@@ -1,9 +1,11 @@
-package com.github.carvaldo.fimo.api.datasource.firstparty
+package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
 
 import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Index
 import javax.persistence.Table
+import javax.persistence.Index
+import javax.persistence.Id
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
 
 /**
  * Searched result in historic.
@@ -12,6 +14,6 @@ import javax.persistence.Table
 @Entity
 @Table(name = "searched_result", indexes = [Index(columnList = "resultId", unique = false)])
 data class SearchedResult(
-    @Id var id: Long? = null,
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE) var id: Long? = null,
     var searchId: Long,
     var resultId: Long)

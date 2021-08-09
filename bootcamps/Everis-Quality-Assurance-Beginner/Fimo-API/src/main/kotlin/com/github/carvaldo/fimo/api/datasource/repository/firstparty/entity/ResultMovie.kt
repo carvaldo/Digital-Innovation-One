@@ -1,16 +1,18 @@
-package com.github.carvaldo.fimo.api.datasource.firstparty
+package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
 
 import com.github.carvaldo.fimo.api.datasource.ResultType
-import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.Movie
+import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.Movie
 import javax.persistence.Entity
-import javax.persistence.Id
 import javax.persistence.Table
+import javax.persistence.Id
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
 
 @Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "result")
 data class ResultMovie(
-    @Id var id: Long? = null,
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE) var id: Long? = null,
     var remoteId: String? = null,
     var resultType: ResultType? = null,
     var image: String? = null, // TODO: Mapear para Uri?

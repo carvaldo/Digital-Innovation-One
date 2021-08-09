@@ -1,18 +1,19 @@
-package com.github.carvaldo.fimo.api.datasource.firstparty
+package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
 
-import java.util.*
+import java.util.Date
 import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Index
 import javax.persistence.Table
-import javax.persistence.Transient
-import com.github.carvaldo.fimo.api.datasource.thirdpaty.imdb.MovieDetail as MovieDetailApi
+import javax.persistence.Index
+import javax.persistence.Id
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
+import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.MovieDetail as MovieDetailApi
 
 @Suppress("JpaDataSourceORMInspection")
 @Entity
 @Table(name = "movie_detail", indexes = [Index(columnList = "apiId", unique = true)])
 data class MovieDetail(
-	@Id var id: Long? = null,
+	@Id @GeneratedValue(strategy = GenerationType.SEQUENCE) var id: Long? = null,
 	var apiId: String,
 	var title: String? = null,
 	//val type: String? = null,
