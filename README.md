@@ -8,3 +8,5 @@ Todo conteúdo desenvolvido na plataforma [Digital Innovation One](https://web.d
   - Inter Android Developer
     - [Cartão de Visitas](https://github.com/carvaldo/Digital-Innovation-One/tree/master/bootcamps/Inter-Android-Developer/CartoVisitas)
     - [Fimo - Busca de filmes](https://github.com/carvaldo/Digital-Innovation-One/tree/master/bootcamps/Inter-Android-Developer/Fimo)
+  - everis Quality Assurance Beginner #2  
+    - [Fimo - Busca de filmes API](https://github.com/carvaldo/Digital-Innovation-One/tree/master/bootcamps/Everis-Quality-Assurance-Beginner/Fimo-API)
