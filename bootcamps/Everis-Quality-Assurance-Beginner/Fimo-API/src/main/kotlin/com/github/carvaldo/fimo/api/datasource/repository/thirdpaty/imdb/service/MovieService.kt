@@ -11,5 +11,5 @@ interface MovieService {
     fun search(@Path("key") key: String, @Path("name") name: String): Call<SearchResult>
 
     @GET("Title/{key}/{id}")
-    fun detail(@Path("key") key: String, @Path("id") id: String): Call<MovieDetail>
+    fun getDetail(@Path("key") key: String, @Path("id") id: String): Call<MovieDetail>
 }

@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository
 
 @Repository
 interface MovieDao: CrudRepository<MovieDetail, Long> {
+    fun getMovieDetailByApiId(apiId: String): MovieDetail?
 }
