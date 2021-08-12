@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration
 // TODO: 09/08/2021 Melhorar scrapping para atualizar base de dados.
 
 @Configuration
-class ConfigApplication {
+class BeanConfig {
     @Bean
     fun movieService(): MovieService = ServiceGenerator.create()
 
