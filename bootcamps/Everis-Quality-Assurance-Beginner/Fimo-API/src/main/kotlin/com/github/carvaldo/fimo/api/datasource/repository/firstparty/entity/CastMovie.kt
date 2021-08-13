@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
 import javax.persistence.Id
 
+@Suppress("JpaDataSourceORMInspection")
 @Entity(name = "cast_movie")
 data class CastMovie(
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE) var id: Long? = null,

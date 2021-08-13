@@ -1,5 +1,6 @@
 package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
 
+import org.hibernate.Hibernate
 import java.util.Date
 import javax.persistence.Entity
 import javax.persistence.Table
@@ -28,10 +29,20 @@ data class MovieDetail(
 	var releaseDate: Date? = null,
 	//val posters: Posters? = null
 ) {
-	@Transient
-	var directors: List<Director>? = null
-	@Transient
-	var stars: List<Star>? = null
+	override fun equals(other: Any?): Boolean {
+		if (this === other) return true
+		if (other == null || Hibernate.getClass(this) != Hibernate.getClass(other)) return false
+		other as MovieDetail
+
+		return id != null && id == other.id
+	}
+
+	override fun hashCode(): Int = 389651496
+
+	@Override
+	override fun toString(): String {
+		return this::class.simpleName + "(id = $id , apiId = $apiId , title = $title , imDbRating = $imDbRating , trailer = $trailer , plotLocal = $plotLocal , companies = $companies , plot = $plot , genres = $genres , image = $image , fullTitle = $fullTitle , releaseDate = $releaseDate )"
+	}
 }
 
 fun MovieDetailApi.transform() = MovieDetail(
@@ -46,11 +57,7 @@ fun MovieDetailApi.transform() = MovieDetail(
 	plotLocal = this.plotLocal,
 	releaseDate = this.releaseDate,
 	trailer = this.trailer
-).also {
-	it.directors = this.directorList?.map { item -> item.transform() }
-	it.stars = this.starList?.map { item -> item.transform() }
-}
-
+)
 //data class Posters(
 //	val imDbId: String? = null,
 //	val fullTitle: String? = null,
