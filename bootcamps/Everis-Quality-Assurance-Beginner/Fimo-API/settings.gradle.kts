@@ -1,1 +1,1 @@
-rootProject.name = "cities-api"
+rootProject.name = "fimo-api"

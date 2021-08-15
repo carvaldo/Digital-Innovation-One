@@ -10,7 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.github.carvaldo.fimo.R
 import com.github.carvaldo.fimo.databinding.FragmentFirstBinding
-import com.github.carvaldo.fimo.datasource.local.entity.ResultMovie
+import com.github.carvaldo.fimo.datasource.local.entity.SearchResultMovie
 import com.github.carvaldo.fimo.viewModel.SearchViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -29,8 +29,8 @@ class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
         binding = FragmentFirstBinding.inflate(inflater, container, false)
-        adapter.onItemClickListener = { _: Int, movie: ResultMovie ->
-            findNavController().navigate(FirstFragmentDirections.actionFirstFragmentToSecondFragment(movie.remoteId!!))
+        adapter.onItemClickListener = { _: Int, movie: SearchResultMovie ->
+            findNavController().navigate(FirstFragmentDirections.actionFirstFragmentToSecondFragment(movie.apiId!!))
         }
         binding.recyclerView.adapter = adapter
         setHasOptionsMenu(true)

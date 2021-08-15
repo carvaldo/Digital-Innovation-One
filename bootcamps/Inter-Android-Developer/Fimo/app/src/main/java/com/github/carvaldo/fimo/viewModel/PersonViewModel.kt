@@ -3,11 +3,9 @@ package com.github.carvaldo.fimo.viewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.github.carvaldo.fimo.App
 import com.github.carvaldo.fimo.datasource.Data
 import com.github.carvaldo.fimo.datasource.remote.response.PersonData
 import com.github.carvaldo.fimo.datasource.remote.service.PersonService
-import com.github.carvaldo.fimo.datasource.remote.util.ServiceGenerator
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -23,7 +21,7 @@ class PersonViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             val response = requestPerson(apiId)
             if (response.isSuccessful) {
-                this@apply.postValue(Data(requestPerson(apiId).body(), null))
+                this@apply.postValue(Data(requestPerson(apiId).body()!!.data, null))
             } else {
                 this@apply.postValue(Data(null, response.errorBody()?.string()))
             }

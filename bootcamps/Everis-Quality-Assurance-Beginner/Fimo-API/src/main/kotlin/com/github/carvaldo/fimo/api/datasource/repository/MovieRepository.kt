@@ -50,6 +50,7 @@ class MovieRepository constructor(
             if (response.isSuccessful) {
                 val body = response.body()
                 if (body == null || !body.errorMessage.isNullOrEmpty()) { // Limite gratuito atingido
+                    logger.error(body?.errorMessage ?: "HTTP STATUS: ${response.code()}")
                     throw LimitReachedException(ServiceGenerator.PRINCING_URL_IMDB_API)
                 } else {
                     movie = body.transform().let { movieDao.save(it) }

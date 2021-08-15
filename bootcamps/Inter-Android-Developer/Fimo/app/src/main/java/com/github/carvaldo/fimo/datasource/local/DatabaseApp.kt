@@ -11,7 +11,7 @@ import com.github.carvaldo.fimo.datasource.local.util.Converters
 
 @Database(version = 3, exportSchema = true,
     entities = [
-        ResultMovie::class, Searched::class, SearchedResult::class, Star::class, Person::class,
+        SearchResultMovie::class, Searched::class, SearchedResult::class, Star::class, Person::class,
         Director::class, MovieDetail::class, StarMovie::class, DirectorMovie::class, CastMovie::class
     ]
 )

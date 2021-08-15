@@ -2,7 +2,7 @@ package com.github.carvaldo.fimo.di
 
 import com.github.carvaldo.fimo.datasource.remote.service.MovieService
 import com.github.carvaldo.fimo.datasource.remote.service.PersonService
-import com.github.carvaldo.fimo.datasource.remote.util.ServiceGenerator
+import com.github.carvaldo.fimo.datasource.remote.ServiceGenerator
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -9,8 +9,8 @@ import com.github.carvaldo.fimo.datasource.remote.response.MovieDetail as MovieD
 
 @Entity(tableName = "movie_detail", indices = [Index("apiId", unique = true)])
 data class MovieDetail(
-	@PrimaryKey(autoGenerate = true)
-	val id: Long? = null,
+	@PrimaryKey(autoGenerate = false)
+	val id: Long,
 	val apiId: String,
 	val title: String? = null,
 	//val type: String? = null,
@@ -32,7 +32,8 @@ data class MovieDetail(
 }
 
 fun MovieDetailApi.transform() = MovieDetail(
-	apiId = this.id!!,
+	id = this.id,
+	apiId = this.apiId,
 	image = this.image,
 	title = this.title,
 	companies = this.companies,
@@ -43,10 +44,10 @@ fun MovieDetailApi.transform() = MovieDetail(
 	plotLocal = this.plotLocal,
 	releaseDate = this.releaseDate,
 	trailer = this.trailer
-).also {
-	it.directors = this.directorList?.map { item -> item.transform() }
-	it.stars = this.starList?.map { item -> item.transform() }
-}
+)//.also {
+//	it.directors = this.directorList?.map { item -> item.transform() }
+//	it.stars = this.starList?.map { item -> item.transform() }
+//}
 
 //data class Posters(
 //	val imDbId: String? = null,

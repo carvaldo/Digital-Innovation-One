@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.datasource.remote.util
+package com.github.carvaldo.fimo.datasource.remote
 
 import com.github.carvaldo.fimo.BuildConfig
 import com.google.gson.*
@@ -29,7 +29,7 @@ class ServiceGenerator {
                 it.readTimeout(60, TimeUnit.SECONDS)
             }.build()
         var retrofit: Retrofit = Retrofit.Builder().also {
-            it.baseUrl("https://imdb-api.com/pt-BR/API/")
+            it.baseUrl(BuildConfig.API_URL)
             it.client(client)
             it.addConverterFactory(
                 GsonConverterFactory.create(GsonBuilder()

@@ -1,3 +1,3 @@
 package com.github.carvaldo.fimo.datasource.remote.response
 
-data class Star(val id: String, val name: String)
+data class ResponseApi<T>(val data: T, val error: String?)

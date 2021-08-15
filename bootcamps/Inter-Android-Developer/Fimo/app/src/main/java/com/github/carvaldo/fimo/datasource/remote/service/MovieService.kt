@@ -1,8 +1,8 @@
 package com.github.carvaldo.fimo.datasource.remote.service
 
 import com.github.carvaldo.fimo.datasource.remote.response.MovieDetail
-import com.github.carvaldo.fimo.datasource.remote.response.SearchResult
-import com.github.carvaldo.fimo.datasource.remote.util.ServiceGenerator
+import com.github.carvaldo.fimo.datasource.remote.response.ResponseApi
+import com.github.carvaldo.fimo.datasource.remote.response.SearchResultMovie
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -14,20 +14,13 @@ import retrofit2.http.Path
 interface MovieService {
     /**
      * Search movie by name.
-     *
-     * @param query [String]
-     * @return [Call]<[SearchResult]>
      */
-    @GET("SearchMovie/"+ ServiceGenerator.API_KEY +"/{query}")
-    fun search(@Path("query") query: String): Call<SearchResult>
-
+    @GET("movies/search/{query}")
+    fun search(@Path("query") query: String): Call<ResponseApi<List<SearchResultMovie>>>
 
     /**
      * Detail for movie by id.
-     *
-     * @param id [String]
-     * @return [Call]<[MovieDetail]>
      */
-    @GET("Title/"+ ServiceGenerator.API_KEY +"/{id}")
-    fun detail(@Path("id") id: String): Call<MovieDetail>
+    @GET("movies/detail/{id}")
+    fun detail(@Path("id") id: String): Call<ResponseApi<MovieDetail>>
 }

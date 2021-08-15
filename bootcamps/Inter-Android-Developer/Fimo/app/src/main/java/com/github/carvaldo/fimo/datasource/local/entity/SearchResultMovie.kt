@@ -3,7 +3,7 @@ package com.github.carvaldo.fimo.datasource.local.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.github.carvaldo.fimo.datasource.ResultType
-import com.github.carvaldo.fimo.datasource.remote.response.Movie
+import com.github.carvaldo.fimo.datasource.remote.response.SearchResultMovie as SearchMovieResultApi
 
 /**
  * Result movie POJO
@@ -15,19 +15,19 @@ import com.github.carvaldo.fimo.datasource.remote.response.Movie
  * @property title
  * @property description
  */
-@Entity(tableName = "result")
-data class ResultMovie(
+@Entity(tableName = "search_result_movie")
+data class SearchResultMovie(
     @PrimaryKey(autoGenerate = true)
     val id: Long? = null,
-    val remoteId: String? = null,
+    val apiId: String? = null,
     val resultType: ResultType? = null,
-    val image: String? = null, // TODO: Mapear para Uri?
+    val image: String? = null, // TODO: Mapear para Uri
     val title: String? = null,
     val description: String? = null
 )
 
-fun Movie.transform() = ResultMovie(
-    remoteId = this.id,
+fun SearchMovieResultApi.convertToLocalData() = SearchResultMovie(
+    apiId = this.remoteId,
     resultType = ResultType.TITLE,
     image = this.image,
     title = this.title,

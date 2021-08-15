@@ -6,6 +6,7 @@ import com.github.carvaldo.fimo.datasource.local.entity.Searched
 import com.github.carvaldo.fimo.datasource.local.entity.SearchedResult
 import com.github.carvaldo.fimo.datasource.local.dao.SearchedDao
 import com.github.carvaldo.fimo.datasource.local.dao.SearchedMoviedDao
+import com.github.carvaldo.fimo.datasource.local.entity.SearchResultMovie
 import javax.inject.Inject
 
 class SearchedRepository @Inject constructor(
@@ -22,7 +23,8 @@ class SearchedRepository @Inject constructor(
         }
     }
 
-    fun findHistoryFromMovie(searchId: Long) = searchedMoviedDao.findBySearchBefore(searchId)
+    // TODO: Revisar
+    fun findHistoryFromMovie(searchId: Long): List<SearchResultMovie>? = null //searchedMoviedDao.findBySearchBefore(searchId)
 
     fun findSearch(query: String, type: ResultType): Searched? = searchedDao.isSearched(query, type)
 }

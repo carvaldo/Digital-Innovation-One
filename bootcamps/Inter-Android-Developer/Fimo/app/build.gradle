@@ -36,9 +36,11 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debugKS
+            buildConfigField "String", "API_URL", '"http://10.0.0.102:8080/"'
         }
         debug {
             debuggable true
+            buildConfigField "String", "API_URL", '"http://10.0.0.102:8080/"'
         }
     }
     compileOptions {
