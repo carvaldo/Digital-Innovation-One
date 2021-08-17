@@ -1,7 +1,7 @@
-package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
+package com.github.carvaldo.fimo.api.datasource.repository.local.entity
 
 import com.github.carvaldo.fimo.api.datasource.ResultType
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.Movie
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity.Movie
 import org.hibernate.Hibernate
 import javax.persistence.Entity
 import javax.persistence.Table

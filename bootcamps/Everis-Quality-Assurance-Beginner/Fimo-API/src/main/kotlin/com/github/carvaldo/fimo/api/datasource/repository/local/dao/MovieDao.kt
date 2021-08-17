@@ -1,6 +1,6 @@
-package com.github.carvaldo.fimo.api.datasource.repository.firstparty.dao
+package com.github.carvaldo.fimo.api.datasource.repository.local.dao
 
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.MovieDetail
+import com.github.carvaldo.fimo.api.datasource.repository.local.entity.MovieDetail
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 

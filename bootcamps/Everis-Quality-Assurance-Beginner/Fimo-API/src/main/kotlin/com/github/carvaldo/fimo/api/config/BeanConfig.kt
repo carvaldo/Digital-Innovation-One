@@ -1,8 +1,8 @@
 package com.github.carvaldo.fimo.api.config
 
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.ServiceGenerator
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.service.MovieService
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.service.PersonService
+import com.github.carvaldo.fimo.api.datasource.repository.service.ServiceGenerator
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.service.MovieService
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.service.PersonService
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import org.springframework.context.annotation.Bean

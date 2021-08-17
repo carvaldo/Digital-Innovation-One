@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity
+package com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity
 
 import java.util.Date
 

@@ -1,7 +1,7 @@
-package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
+package com.github.carvaldo.fimo.api.datasource.repository.local.entity
 
 import org.hibernate.Hibernate
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.Person as PersonImdb
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity.Person as PersonImdb
 import java.util.Date
 import javax.persistence.*
 

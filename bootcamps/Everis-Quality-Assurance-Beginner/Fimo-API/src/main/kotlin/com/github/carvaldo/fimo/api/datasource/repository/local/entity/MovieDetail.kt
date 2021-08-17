@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
+package com.github.carvaldo.fimo.api.datasource.repository.local.entity
 
 import org.hibernate.Hibernate
 import java.util.Date
@@ -8,7 +8,7 @@ import javax.persistence.Index
 import javax.persistence.Id
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.MovieDetail as MovieDetailApi
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity.MovieDetail as MovieDetailApi
 
 @Suppress("JpaDataSourceORMInspection")
 @Entity

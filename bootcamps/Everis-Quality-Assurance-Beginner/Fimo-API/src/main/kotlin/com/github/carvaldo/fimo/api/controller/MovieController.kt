@@ -2,8 +2,8 @@ package com.github.carvaldo.fimo.api.controller
 
 import com.github.carvaldo.fimo.api.datasource.Data
 import com.github.carvaldo.fimo.api.datasource.repository.MovieRepository
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.MovieDetail
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.ResultMovie
+import com.github.carvaldo.fimo.api.datasource.repository.local.entity.MovieDetail
+import com.github.carvaldo.fimo.api.datasource.repository.local.entity.ResultMovie
 import com.github.carvaldo.fimo.api.exception.LimitReachedException
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

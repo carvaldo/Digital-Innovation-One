@@ -1,6 +1,6 @@
-package com.github.carvaldo.fimo.api.datasource.repository.firstparty.dao
+package com.github.carvaldo.fimo.api.datasource.repository.local.dao
 
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.ResultMovie
+import com.github.carvaldo.fimo.api.datasource.repository.local.entity.ResultMovie
 import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.CrudRepository
 import org.springframework.data.repository.query.Param

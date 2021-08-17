@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.api.datasource.repository.thirdpaty
+package com.github.carvaldo.fimo.api.datasource.repository.service
 
 import com.google.gson.*
 import okhttp3.OkHttpClient

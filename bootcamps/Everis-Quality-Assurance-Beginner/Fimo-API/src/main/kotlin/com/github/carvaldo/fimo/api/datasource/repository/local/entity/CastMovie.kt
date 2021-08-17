@@ -1,4 +1,4 @@
-package com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity
+package com.github.carvaldo.fimo.api.datasource.repository.local.entity
 
 import java.util.Date
 import javax.persistence.Entity

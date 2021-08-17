@@ -1,11 +1,12 @@
 package com.github.carvaldo.fimo.api.datasource.repository
 
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.dao.PersonDao
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.Person
-import com.github.carvaldo.fimo.api.datasource.repository.firstparty.entity.transform
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.ServiceGenerator
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.Person as PersonImdb
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.service.PersonService
+import com.github.carvaldo.fimo.api.datasource.repository.local.dao.PersonDao
+import com.github.carvaldo.fimo.api.datasource.repository.local.entity.Person
+import com.github.carvaldo.fimo.api.datasource.repository.local.entity.transform
+import com.github.carvaldo.fimo.api.datasource.repository.service.ServiceGenerator
+import com.github.carvaldo.fimo.api.datasource.repository.service.case.PersonUseCase
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity.Person as PersonImdb
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.service.PersonService
 import com.github.carvaldo.fimo.api.exception.LimitReachedException
 import org.apache.logging.log4j.Logger
 import org.springframework.beans.factory.annotation.Autowired
@@ -14,34 +15,14 @@ import retrofit2.Response
 import javax.servlet.UnavailableException
 
 @Service
-class PersonRepository constructor(
+class PersonRepository (
     private val personDao: PersonDao,
-    private val personService: PersonService
+    private val useCase: PersonUseCase
 ){
     @Autowired
     private lateinit var logger: Logger
 
-    fun getProfile(apiId: String): Person? {
-        var person: Person? = personDao.findPersonByApiId(apiId)
-        if (person == null) {
-            val response = getPersonFromImdbAPI(apiId)
-            if (response.isSuccessful) { // TODO: Unificar validação da resposta.
-                val body = response.body()
-                if (body == null || !body.errorMessage.isNullOrEmpty()) { // Limite gratuito atingido
-                    throw LimitReachedException(ServiceGenerator.PRINCING_URL_IMDB_API)
-                } else {
-                    person = body.transform().let { personDao.save(it) }
-                }
-            } else {
-                throw UnavailableException("Serviço indisponível.")
-            }
-        }
-        return person
-    }
-
-    // TODO: Implementar e persistir relacionamentos.
-    // TODO: Criar e padronizar método intermediário chamado searchExternalData(String), que consumirá dados de diferentes fontes.
-    private fun getPersonFromImdbAPI(apiId: String): Response<PersonImdb> {
-        return personService.getProfile(ServiceGenerator.API_KEY, apiId).execute()
-    }
+    // TODO: Definir validade dos dados para atualização.
+    fun getProfile(apiId: String): Person? = personDao.findPersonByApiId(apiId)
+        ?: useCase.getPersonFromImdb(apiId).transform()
 }

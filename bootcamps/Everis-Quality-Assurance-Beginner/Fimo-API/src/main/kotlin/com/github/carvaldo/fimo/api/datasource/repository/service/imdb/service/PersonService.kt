@@ -1,6 +1,6 @@
-package com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.service
+package com.github.carvaldo.fimo.api.datasource.repository.service.imdb.service
 
-import com.github.carvaldo.fimo.api.datasource.repository.thirdpaty.imdb.entity.Person
+import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity.Person
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
