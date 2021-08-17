@@ -16,13 +16,13 @@ import javax.servlet.UnavailableException
 
 @Service
 class PersonRepository (
-    private val personDao: PersonDao,
+    private val dao: PersonDao,
     private val useCase: PersonUseCase
 ){
     @Autowired
     private lateinit var logger: Logger
 
     // TODO: Definir validade dos dados para atualização.
-    fun getProfile(apiId: String): Person? = personDao.findPersonByApiId(apiId)
-        ?: useCase.getPersonFromImdb(apiId).transform()
+    fun getProfile(apiId: String): Person? = dao.findPersonByApiId(apiId)
+        ?: useCase.getPersonFromImdb(apiId).transform().let { dao.save(it) }
 }
