@@ -13,12 +13,15 @@ import javax.servlet.UnavailableException
 class PersonUseCase(private val service: PersonService) {
     @Throws(UnavailableException::class, LimitReachedException::class)
     fun getPersonFromImdb(apiId: String): Person {
-        val response = service.getProfile(ServiceGenerator.API_KEY, apiId).execute()
-        return when(response.isSuccessful) { // TODO: Unificar validação da resposta.
-            true -> if (response.body() == null || !response.body()!!.errorMessage.isNullOrEmpty()) { // Limite gratuito atingido
-                    throw LimitReachedException(ServiceGenerator.PRINCING_URL_IMDB_API)
-                } else response.body()!!
-            else -> throw UnavailableException("Serviço indisponível.")
-        }
+        return service.getProfile(ServiceGenerator.API_KEY, apiId)
+            .execute()
+            .let { response ->
+                when(response.isSuccessful) { // TODO: Unificar validação da resposta.
+                    true -> if (response.body() == null || !response.body()!!.errorMessage.isNullOrEmpty()) { // Limite gratuito supostamente atingido // TODO Melhorar validação.
+                        throw LimitReachedException(ServiceGenerator.PRINCING_URL_IMDB_API)
+                    } else response.body()!!
+                    else -> throw UnavailableException("Serviço indisponível.")
+                }
+            }
     }
 }

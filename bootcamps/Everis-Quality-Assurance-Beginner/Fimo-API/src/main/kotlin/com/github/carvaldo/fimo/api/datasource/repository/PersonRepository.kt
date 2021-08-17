@@ -14,6 +14,10 @@ import org.springframework.stereotype.Service
 import retrofit2.Response
 import javax.servlet.UnavailableException
 
+/**
+ * Busca dados prioritamente na base local. Em caso de dados inexistentes, a busca é efetuada em outras fontes.
+ */
+
 @Service
 class PersonRepository (
     private val dao: PersonDao,

@@ -18,7 +18,7 @@ class MovieUseCase(
     @Autowired
     private lateinit var logger: Logger
 
-    @Throws(UnavailableException::class)
+    @Throws(UnavailableException::class, LimitReachedException::class)
     fun searchFromImdb(name: String): List<MovieImdb> {
         // TODO: Remover constante ServiceGenerator.API_KEY.
         return movieService.search(ServiceGenerator.API_KEY, name)
@@ -36,6 +36,7 @@ class MovieUseCase(
             }
     }
 
+    @Throws(UnavailableException::class, LimitReachedException::class)
     fun getDetailFromImdb(apiId: String): MovieDetailImdb {
         return movieService.getDetail(ServiceGenerator.API_KEY, apiId)
             .execute()

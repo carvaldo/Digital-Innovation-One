@@ -11,12 +11,15 @@ import org.apache.logging.log4j.Logger
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
+/**
+ * Busca dados prioritamente na base local. Em caso de dados inexistentes, a busca é efetuada em outras fontes.
+ */
+
 @Service
 class MovieRepository constructor(
     private val movieUseCase: MovieUseCase,
     private val resultDao: MovieResultDao,
     private val movieDao: MovieDao,
-    private val movieService: MovieService
 ){
     @Autowired
     private lateinit var logger: Logger
