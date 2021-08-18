@@ -92,7 +92,7 @@ class MovieRepository @Inject constructor(
                 // Solicitação recusada / problemas técnicos: -500
                 !response.body()?.error.isNullOrBlank() -> Data(null, response.body()?.error)
                 response.isSuccessful -> Data(saveInDatabase(response.body()!!.data), null)
-                else -> Data(null, "Houve uma falhar na resposta esperada. Por favor, verifique se há uma atualização disponível e tente novamente.")
+                else -> Data(null, "Houve uma falha na solicitação. Por favor, verifique se há atualizações disponíveis e tente novamente.")
             }
         }
     }
