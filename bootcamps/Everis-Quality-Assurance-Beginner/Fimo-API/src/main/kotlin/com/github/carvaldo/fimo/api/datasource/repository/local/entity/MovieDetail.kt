@@ -2,12 +2,7 @@ package com.github.carvaldo.fimo.api.datasource.repository.local.entity
 
 import org.hibernate.Hibernate
 import java.util.Date
-import javax.persistence.Entity
-import javax.persistence.Table
-import javax.persistence.Index
-import javax.persistence.Id
-import javax.persistence.GeneratedValue
-import javax.persistence.GenerationType
+import javax.persistence.*
 import com.github.carvaldo.fimo.api.datasource.repository.service.imdb.entity.MovieDetail as MovieDetailApi
 
 @Suppress("JpaDataSourceORMInspection")
@@ -20,11 +15,15 @@ data class MovieDetail(
 	//val type: String? = null,
 	var imDbRating: String? = null,
 	var trailer: String? = null,
+	@Column(columnDefinition = "TEXT")
 	var plotLocal: String? = null,
+	@Column(columnDefinition = "TEXT")
 	var companies: String? = null,
 	var plot: String? = null,
+	@Column(columnDefinition = "TEXT")
 	var genres: String? = null,
 	var image: String? = null,
+	@Column(columnDefinition = "TEXT")
 	var fullTitle: String? = null,
 	var releaseDate: Date? = null,
 	//val posters: Posters? = null
